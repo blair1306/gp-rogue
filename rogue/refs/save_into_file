@@ -1,0 +1,4 @@
+<use f='codebrowser/init.c' l='234' u='c' c='error_save'/>
+<use f='codebrowser/object.c' l='624' u='c' c='alloc_object'/>
+<use f='codebrowser/save.c' l='93' u='c' c='save_game'/>
+<def f='codebrowser/save.c' l='96' ll='163' type='int save_into_file(char * sfile)'/>

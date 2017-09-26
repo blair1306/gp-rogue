@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='808' type='int wattr_on(WINDOW * , attr_t , void * )'/>
+<doc f='include/curses.h' l='808'>/* implemented */</doc>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/rogue.h' l='402'/>
+<use f='codebrowser/hit.c' l='388' u='c'/>
+<use f='codebrowser/level.c' l='322' u='c'/>
+<use f='codebrowser/level.c' l='326' u='c'/>
+<use f='codebrowser/level.c' l='328' u='c'/>
+<use f='codebrowser/level.c' l='384' u='c'/>
+<use f='codebrowser/level.c' l='543' u='c'/>
+<use f='codebrowser/level.c' l='600' u='c'/>
+<use f='codebrowser/level.c' l='635' u='c'/>
+<use f='codebrowser/level.c' l='662' u='c'/>
+<use f='codebrowser/move.c' l='346' u='c'/>
+<use f='codebrowser/room.c' l='489' u='c'/>
+<use f='codebrowser/spec_hit.c' l='517' u='c'/>

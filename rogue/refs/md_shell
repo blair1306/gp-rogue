@@ -1,0 +1,10 @@
+<def f='codebrowser/machdep.c' l='556' ll='569' type='int md_shell(char * shell)'/>
+<doc f='codebrowser/machdep.c' l='547'>/* md_shell():
+ *
+ * This function spawns a shell for the user to use.  When this shell is
+ * terminated, the game continues.  Since this program may often be run
+ * setuid to gain access to privileged files, care is taken that the shell
+ * is run with the user&apos;s REAL user id, and not the effective user id.
+ * The effective user id is restored after the shell completes.
+ */</doc>
+<use f='codebrowser/room.c' l='645' u='c' c='do_shell'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/monster.c' l='285' ll='297' type='int gmc(object * monster)'/>
+<use f='codebrowser/monster.c' l='485' u='c' c='move_mon_to'/>
+<use f='codebrowser/monster.c' l='702' u='c' c='create_monster'/>
+<use f='codebrowser/zap.c' l='223' u='c' c='tele_away'/>

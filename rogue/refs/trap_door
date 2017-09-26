@@ -1,0 +1,5 @@
+<dec f='codebrowser/play.c' l='60' type='char'/>
+<use f='codebrowser/play.c' l='73' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='74' u='w' c='play_level'/>
+<def f='codebrowser/trap.c' l='56' macro='1' type='char'/>
+<use f='codebrowser/trap.c' l='109' u='w' c='trap_player'/>

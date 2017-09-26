@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='1645' type='int has_key(int )'/>
+<doc f='include/curses.h' l='1645'>/* do we have given key? */</doc>

@@ -1,0 +1,6 @@
+<use f='codebrowser/monster.c' l='687' u='c' c='create_monster'/>
+<use f='codebrowser/monster.c' l='772' u='c' c='move_confused'/>
+<use f='codebrowser/monster.c' l='799' u='c' c='flit'/>
+<dec f='codebrowser/throw.c' l='59' type='int rand_around(short i, short * r, short * c)'/>
+<use f='codebrowser/throw.c' l='219' u='c' c='flop_weapon'/>
+<def f='codebrowser/throw.c' l='266' ll='326' type='int rand_around(short i, short * r, short * c)'/>

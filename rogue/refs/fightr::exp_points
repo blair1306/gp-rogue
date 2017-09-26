@@ -1,0 +1,12 @@
+<dec f='codebrowser/rogue.h' l='267' type='long'/>
+<offset>1024</offset>
+<use f='codebrowser/level.c' l='806' u='w' c='add_exp'/>
+<use f='codebrowser/level.c' l='808' u='r' c='add_exp'/>
+<use f='codebrowser/level.c' l='809' u='r' c='add_exp'/>
+<use f='codebrowser/level.c' l='810' u='r' c='add_exp'/>
+<use f='codebrowser/level.c' l='811' u='w' c='add_exp'/>
+<use f='codebrowser/message.c' l='290' u='r' c='print_stats'/>
+<use f='codebrowser/message.c' l='291' u='w' c='print_stats'/>
+<use f='codebrowser/message.c' l='296' u='r' c='print_stats'/>
+<use f='codebrowser/spec_hit.c' l='417' u='w' c='drop_level'/>
+<use f='codebrowser/use.c' l='127' u='w' c='quaff'/>

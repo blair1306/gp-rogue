@@ -1,0 +1,4 @@
+<dec f='include/time.h' l='138' type='int'/>
+<use f='codebrowser/machdep.c' l='317' u='r' c='md_gct'/>
+<use f='codebrowser/machdep.c' l='353' u='r' c='md_gfmt'/>
+<offset>96</offset>

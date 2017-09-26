@@ -1,0 +1,7 @@
+<def f='codebrowser/level.c' l='88' type='short [9]'/>
+<use f='codebrowser/level.c' l='158' u='r' c='make_level'/>
+<use f='codebrowser/level.c' l='501' u='r' c='fill_out_level'/>
+<use f='codebrowser/level.c' l='879' u='r' c='mix_random_rooms'/>
+<use f='codebrowser/level.c' l='879' u='w' c='mix_random_rooms'/>
+<use f='codebrowser/level.c' l='879' u='r' c='mix_random_rooms'/>
+<use f='codebrowser/level.c' l='879' u='w' c='mix_random_rooms'/>

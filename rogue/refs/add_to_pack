@@ -1,0 +1,12 @@
+<dec f='codebrowser/rogue.h' l='448' type='object * add_to_pack()'/>
+<use f='codebrowser/init.c' l='135' u='c' c='player_init'/>
+<use f='codebrowser/init.c' l='143' u='c' c='player_init'/>
+<use f='codebrowser/init.c' l='152' u='c' c='player_init'/>
+<use f='codebrowser/init.c' l='162' u='c' c='player_init'/>
+<use f='codebrowser/init.c' l='172' u='c' c='player_init'/>
+<use f='codebrowser/monster.c' l='719' u='c' c='put_m_at'/>
+<use f='codebrowser/object.c' l='227' u='c' c='plant_gold'/>
+<use f='codebrowser/object.c' l='236' u='c' c='place_at'/>
+<use f='codebrowser/object.c' l='783' u='c' c='c_object_for_wizard'/>
+<def f='codebrowser/pack.c' l='60' ll='86' type='object * add_to_pack(object * obj, object * pack, int condense)'/>
+<use f='codebrowser/pack.c' l='143' u='c' c='pick_up'/>

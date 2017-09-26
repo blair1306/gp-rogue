@@ -1,0 +1,7 @@
+<use f='codebrowser/pack.c' l='188' u='c' c='drop'/>
+<use f='codebrowser/ring.c' l='185' u='c' c='remove_ring'/>
+<def f='codebrowser/ring.c' l='194' ll='205' type='int un_put_on(object * ring)'/>
+<use f='codebrowser/score.c' l='136' u='c' c='win'/>
+<use f='codebrowser/score.c' l='137' u='c' c='win'/>
+<use f='codebrowser/throw.c' l='103' u='c' c='throw'/>
+<use f='codebrowser/use.c' l='312' u='c' c='vanish'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/rogue.h' l='52'/>
+<use f='codebrowser/level.c' l='363' u='c'/>
+<use f='codebrowser/throw.c' l='177' u='c'/>
+<use f='codebrowser/trap.c' l='177' u='c'/>
+<use f='codebrowser/zap.c' l='129' u='c'/>
+<use f='codebrowser/zap.c' l='310' u='c'/>
+<use f='codebrowser/zap.c' l='324' u='c'/>
+<use f='codebrowser/zap.c' l='400' u='c'/>

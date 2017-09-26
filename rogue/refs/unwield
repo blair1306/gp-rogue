@@ -1,0 +1,6 @@
+<use f='codebrowser/pack.c' l='174' u='c' c='drop'/>
+<use f='codebrowser/pack.c' l='408' u='c' c='wield'/>
+<def f='codebrowser/pack.c' l='424' ll='431' type='int unwield(object * obj)'/>
+<use f='codebrowser/score.c' l='134' u='c' c='win'/>
+<use f='codebrowser/throw.c' l='97' u='c' c='throw'/>
+<use f='codebrowser/use.c' l='308' u='c' c='vanish'/>

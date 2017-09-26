@@ -1,0 +1,2 @@
+<use f='codebrowser/play.c' l='193' u='c' c='play_level'/>
+<def f='codebrowser/room.c' l='503' ll='599' type='int edit_opts()'/>

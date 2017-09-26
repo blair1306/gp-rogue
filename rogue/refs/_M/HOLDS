@@ -1,0 +1,8 @@
+<dec f='codebrowser/rogue.h' l='368'/>
+<use f='codebrowser/hit.c' l='316' u='c'/>
+<use f='codebrowser/monster.c' l='93' u='c'/>
+<use f='codebrowser/spec_hit.c' l='73' u='c'/>
+<use f='codebrowser/zap.c' l='174' u='c'/>
+<use f='codebrowser/zap.c' l='192' u='c'/>
+<use f='codebrowser/zap.c' l='199' u='c'/>
+<use f='codebrowser/zap.c' l='212' u='c'/>

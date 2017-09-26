@@ -1,0 +1,5 @@
+<def f='codebrowser/rogue.h' l='332' ll='335'/>
+<size>6</size>
+<mbr r='tr::trap_type' o='0' t='short'/>
+<mbr r='tr::trap_row' o='16' t='short'/>
+<mbr r='tr::trap_col' o='32' t='short'/>

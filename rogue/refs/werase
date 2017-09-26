@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='823' type='int werase(WINDOW * )'/>
+<doc f='include/curses.h' l='823'>/* implemented */</doc>

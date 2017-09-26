@@ -1,0 +1,2 @@
+<use f='codebrowser/init.c' l='117' u='c' c='init'/>
+<def f='codebrowser/inventory.c' l='610' ll='636' type='int get_wand_and_ring_materials()'/>

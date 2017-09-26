@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='661' type='int keypad(WINDOW * , _Bool )'/>
+<doc f='include/curses.h' l='661'>/* implemented */</doc>

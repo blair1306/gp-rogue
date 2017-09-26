@@ -1,0 +1,3 @@
+<use f='codebrowser/level.c' l='567' u='c' c='fill_it'/>
+<def f='codebrowser/level.c' l='573' ll='606' type='int recursive_deadend(short rn, short * offsets, short srow, short scol)'/>
+<use f='codebrowser/level.c' l='604' u='c' c='recursive_deadend'/>

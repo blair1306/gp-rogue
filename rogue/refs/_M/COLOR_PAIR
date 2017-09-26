@@ -1,0 +1,4 @@
+<dec f='include/curses.h' l='1195'/>
+<doc f='include/curses.h' l='1192'>/*
+ * These apply to the first 256 color pairs.
+ */</doc>

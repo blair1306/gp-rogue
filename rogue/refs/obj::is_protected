@@ -1,0 +1,13 @@
+<dec f='codebrowser/rogue.h' l='227' type='short'/>
+<offset>176</offset>
+<doc f='codebrowser/rogue.h' l='227'>/* level starts */</doc>
+<use f='codebrowser/init.c' l='141' u='w' c='player_init'/>
+<use f='codebrowser/inventory.c' l='233' u='r' c='inventory'/>
+<use f='codebrowser/inventory.c' l='655' u='r' c='single_inv'/>
+<use f='codebrowser/monster.c' l='163' macro='1' u='r'/>
+<use f='codebrowser/monster.c' l='237' macro='1' u='w'/>
+<use f='codebrowser/monster.c' l='262' macro='1' u='w'/>
+<use f='codebrowser/object.c' l='562' u='w' c='gr_armor'/>
+<use f='codebrowser/score.c' l='447' u='r' c='get_value'/>
+<use f='codebrowser/spec_hit.c' l='102' u='r' c='rust'/>
+<use f='codebrowser/use.c' l='261' u='w' c='read_scroll'/>

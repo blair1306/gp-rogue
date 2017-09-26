@@ -1,0 +1,7 @@
+<def f='codebrowser/message.c' l='58' type='short'/>
+<use f='codebrowser/message.c' l='88' u='w' c='message'/>
+<use f='codebrowser/message.c' l='88' u='r' c='message'/>
+<use f='codebrowser/message.c' l='89' u='r' c='message'/>
+<use f='codebrowser/message.c' l='108' u='r' c='remessage'/>
+<use f='codebrowser/message.c' l='111' u='r' c='remessage'/>
+<use f='codebrowser/message.c' l='114' u='r' c='remessage'/>

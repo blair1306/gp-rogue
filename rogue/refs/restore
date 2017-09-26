@@ -1,0 +1,2 @@
+<use f='codebrowser/init.c' l='113' u='c' c='init'/>
+<def f='codebrowser/save.c' l='165' ll='243' type='int restore(char * fname)'/>

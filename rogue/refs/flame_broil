@@ -1,0 +1,2 @@
+<use f='codebrowser/monster.c' l='342' u='c' c='mv_1_monster'/>
+<def f='codebrowser/spec_hit.c' l='479' ll='503' type='int flame_broil(object * monster)'/>

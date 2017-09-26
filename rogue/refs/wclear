@@ -1,0 +1,9 @@
+<dec f='include/curses.h' l='815' type='int wclear(WINDOW * )'/>
+<doc f='include/curses.h' l='815'>/* implemented */</doc>
+<use f='codebrowser/level.c' l='370' macro='1' u='c'/>
+<use f='codebrowser/save.c' l='227' macro='1' u='c'/>
+<use f='codebrowser/save.c' l='234' macro='1' u='c'/>
+<use f='codebrowser/score.c' l='106' macro='1' u='c'/>
+<use f='codebrowser/score.c' l='139' macro='1' u='c'/>
+<use f='codebrowser/score.c' l='281' macro='1' u='c'/>
+<use f='codebrowser/score.c' l='402' macro='1' u='c'/>

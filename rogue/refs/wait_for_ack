@@ -1,0 +1,5 @@
+<use f='codebrowser/inventory.c' l='261' u='c' c='inventory'/>
+<use f='codebrowser/inventory.c' l='318' u='c' c='id_com'/>
+<use f='codebrowser/message.c' l='84' u='c' c='message'/>
+<def f='codebrowser/pack.c' l='266' ll='269' type='int wait_for_ack()'/>
+<use f='codebrowser/room.c' l='535' u='c' c='edit_opts'/>

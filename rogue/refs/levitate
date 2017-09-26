@@ -1,0 +1,19 @@
+<dec f='codebrowser/level.c' l='92' type='short'/>
+<use f='codebrowser/level.c' l='766' u='r' c='drop_check'/>
+<dec f='codebrowser/move.c' l='60' type='short'/>
+<use f='codebrowser/move.c' l='135' u='r' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='138' u='r' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='168' u='r' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='480' u='r' c='reg_move'/>
+<use f='codebrowser/move.c' l='481' u='w' c='reg_move'/>
+<dec f='codebrowser/pack.c' l='58' type='short'/>
+<use f='codebrowser/pack.c' l='109' u='r' c='pick_up'/>
+<dec f='codebrowser/save.c' l='73' type='short'/>
+<use f='codebrowser/save.c' l='146' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='146' c='save_into_file'/>
+<use f='codebrowser/save.c' l='217' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='217' c='restore'/>
+<dec f='codebrowser/spec_hit.c' l='58' type='short'/>
+<use f='codebrowser/spec_hit.c' l='73' u='r' c='special_hit'/>
+<def f='codebrowser/use.c' l='58' type='short'/>
+<use f='codebrowser/use.c' l='160' u='w' c='quaff'/>

@@ -1,0 +1,3 @@
+<dec f='include/unistd.h' l='631' type='__pid_t getpid()'/>
+<use f='codebrowser/machdep.c' l='499' u='c' c='md_gseed'/>
+<doc f='include/unistd.h' l='630'>/* Get the process ID of the calling process.  */</doc>

@@ -1,0 +1,2 @@
+<use f='codebrowser/spec_hit.c' l='499' u='c' c='flame_broil'/>
+<def f='codebrowser/spec_hit.c' l='505' ll='534' type='int get_dir(short srow, short scol, short drow, short dcol)'/>

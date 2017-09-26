@@ -1,0 +1,14 @@
+<dec f='codebrowser/monster.c' l='130' type='short'/>
+<use f='codebrowser/monster.c' l='185' u='r' c='mv_mons'/>
+<dec f='codebrowser/move.c' l='62' type='short'/>
+<use f='codebrowser/move.c' l='488' u='r' c='reg_move'/>
+<use f='codebrowser/move.c' l='489' u='w' c='reg_move'/>
+<dec f='codebrowser/save.c' l='74' type='short'/>
+<use f='codebrowser/save.c' l='147' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='147' c='save_into_file'/>
+<use f='codebrowser/save.c' l='218' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='218' c='restore'/>
+<def f='codebrowser/use.c' l='59' type='short'/>
+<use f='codebrowser/use.c' l='165' u='w' c='quaff'/>
+<use f='codebrowser/use.c' l='166' u='r' c='quaff'/>
+<use f='codebrowser/use.c' l='167' u='w' c='quaff'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/level.c' l='776' ll='796' type='int check_up()'/>
+<use f='codebrowser/play.c' l='169' u='c' c='play_level'/>

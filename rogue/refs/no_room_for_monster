@@ -1,0 +1,2 @@
+<use f='codebrowser/monster.c' l='240' u='c' c='party_monsters'/>
+<def f='codebrowser/monster.c' l='820' ll='833' type='int no_room_for_monster(int rn)'/>

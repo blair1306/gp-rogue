@@ -1,0 +1,12 @@
+<dec f='codebrowser/rogue.h' l='57'/>
+<use f='codebrowser/level.c' l='286' u='c'/>
+<use f='codebrowser/level.c' l='397' u='c'/>
+<use f='codebrowser/room.c' l='185' u='c'/>
+<use f='codebrowser/room.c' l='192' u='c'/>
+<use f='codebrowser/room.c' l='364' u='c'/>
+<use f='codebrowser/room.c' l='378' u='c'/>
+<use f='codebrowser/throw.c' l='178' u='c'/>
+<use f='codebrowser/zap.c' l='128' u='c'/>
+<use f='codebrowser/zap.c' l='312' u='c'/>
+<use f='codebrowser/zap.c' l='326' u='c'/>
+<use f='codebrowser/zap.c' l='401' u='c'/>

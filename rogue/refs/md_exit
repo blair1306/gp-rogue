@@ -1,0 +1,8 @@
+<use f='codebrowser/init.c' l='186' u='c' c='clean_up'/>
+<def f='codebrowser/machdep.c' l='509' ll='513' type='int md_exit(int status)'/>
+<doc f='codebrowser/machdep.c' l='502'>/* md_exit():
+ *
+ * This function causes the program to discontinue execution and exit.
+ * This function must be implemented or the program will continue to
+ * hang when it should quit.
+ */</doc>

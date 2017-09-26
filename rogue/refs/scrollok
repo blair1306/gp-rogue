@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='755' type='int scrollok(WINDOW * , _Bool )'/>
+<doc f='include/curses.h' l='755'>/* implemented */</doc>

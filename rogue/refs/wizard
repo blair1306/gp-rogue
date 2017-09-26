@@ -1,0 +1,32 @@
+<dec f='codebrowser/hit.c' l='61' type='char'/>
+<use f='codebrowser/hit.c' l='80' u='r' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='113' u='r' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='136' u='r' c='rogue_hit'/>
+<use f='codebrowser/hit.c' l='146' u='r' c='rogue_hit'/>
+<dec f='codebrowser/inventory.c' l='211' type='char'/>
+<use f='codebrowser/inventory.c' l='487' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='555' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='569' u='r' c='get_desc'/>
+<dec f='codebrowser/level.c' l='90' type='char'/>
+<use f='codebrowser/level.c' l='762' u='r' c='drop_check'/>
+<use f='codebrowser/level.c' l='778' u='r' c='check_up'/>
+<use f='codebrowser/level.c' l='846' u='r' c='hp_raise'/>
+<dec f='codebrowser/play.c' l='60' type='char'/>
+<use f='codebrowser/play.c' l='246' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='253' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='260' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='267' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='277' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='284' u='r' c='play_level'/>
+<dec f='codebrowser/ring.c' l='70' type='char'/>
+<use f='codebrowser/ring.c' l='264' u='r' c='inv_rings'/>
+<dec f='codebrowser/save.c' l='77' type='char'/>
+<use f='codebrowser/save.c' l='150' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='150' c='save_into_file'/>
+<use f='codebrowser/save.c' l='221' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='221' c='restore'/>
+<use f='codebrowser/save.c' l='237' u='r' c='restore'/>
+<def f='codebrowser/zap.c' l='56' macro='1' type='char'/>
+<use f='codebrowser/zap.c' l='231' u='r' c='wizardize'/>
+<use f='codebrowser/zap.c' l='232' u='w' c='wizardize'/>
+<use f='codebrowser/zap.c' l='239' u='w' c='wizardize'/>

@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='820' type='int wdelch(WINDOW * )'/>
+<doc f='include/curses.h' l='820'>/* implemented */</doc>

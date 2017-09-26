@@ -1,0 +1,5 @@
+<use f='codebrowser/monster.c' l='149' u='c' c='put_mons'/>
+<use f='codebrowser/monster.c' l='258' u='c' c='party_monsters'/>
+<use f='codebrowser/monster.c' l='645' u='c' c='wanderer'/>
+<use f='codebrowser/monster.c' l='701' u='c' c='create_monster'/>
+<def f='codebrowser/monster.c' l='711' ll='721' type='int put_m_at(short row, short col, object * monster)'/>

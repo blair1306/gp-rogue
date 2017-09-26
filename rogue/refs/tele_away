@@ -1,0 +1,2 @@
+<use f='codebrowser/zap.c' l='168' u='c' c='zap_monster'/>
+<def f='codebrowser/zap.c' l='207' ll='225' type='int tele_away(object * monster)'/>

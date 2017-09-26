@@ -1,0 +1,7 @@
+<def f='codebrowser/level.c' l='60' type='char *'/>
+<use f='codebrowser/level.c' l='753' u='r' c='put_player'/>
+<use f='codebrowser/level.c' l='754' u='r' c='put_player'/>
+<use f='codebrowser/level.c' l='755' u='w' c='put_player'/>
+<use f='codebrowser/level.c' l='788' u='w' c='check_up'/>
+<dec f='codebrowser/trap.c' l='75' type='char *'/>
+<use f='codebrowser/trap.c' l='110' u='w' c='trap_player'/>

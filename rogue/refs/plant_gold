@@ -1,0 +1,2 @@
+<use f='codebrowser/object.c' l='204' u='c' c='put_gold'/>
+<def f='codebrowser/object.c' l='212' ll='228' type='int plant_gold(short row, short col, char is_maze)'/>

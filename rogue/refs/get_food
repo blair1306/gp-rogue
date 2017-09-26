@@ -1,0 +1,4 @@
+<use f='codebrowser/init.c' l='134' u='c' c='player_init'/>
+<use f='codebrowser/object.c' l='372' u='c' c='gr_object'/>
+<def f='codebrowser/object.c' l='584' ll='595' type='int get_food(object * obj, char force_ration)'/>
+<use f='codebrowser/object.c' l='744' u='c' c='c_object_for_wizard'/>

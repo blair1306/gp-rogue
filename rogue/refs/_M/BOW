@@ -1,0 +1,4 @@
+<dec f='codebrowser/rogue.h' l='84'/>
+<use f='codebrowser/init.c' l='157' u='c'/>
+<use f='codebrowser/object.c' l='525' u='c'/>
+<use f='codebrowser/throw.c' l='134' u='c'/>

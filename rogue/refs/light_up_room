@@ -1,0 +1,4 @@
+<use f='codebrowser/level.c' l='747' u='c' c='put_player'/>
+<use f='codebrowser/move.c' l='112' u='c' c='one_move_rogue'/>
+<def f='codebrowser/room.c' l='101' ll='126' type='int light_up_room(int rn)'/>
+<use f='codebrowser/use.c' l='535' u='c' c='relight'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/init.c' l='68' type='char *'/>
+<use f='codebrowser/init.c' l='234' u='r' c='error_save'/>
+<dec f='codebrowser/object.c' l='158' type='char *'/>
+<use f='codebrowser/object.c' l='624' u='r' c='alloc_object'/>

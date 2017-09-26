@@ -1,0 +1,6 @@
+<dec f='codebrowser/move.c' l='65' type='char'/>
+<use f='codebrowser/move.c' l='98' u='r' c='one_move_rogue'/>
+<def f='codebrowser/ring.c' l='64' macro='1' type='char'/>
+<use f='codebrowser/ring.c' l='266' u='r' c='inv_rings'/>
+<use f='codebrowser/ring.c' l='282' u='w' c='ring_stats'/>
+<use f='codebrowser/ring.c' l='302' u='w' c='ring_stats'/>

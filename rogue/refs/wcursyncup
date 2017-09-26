@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='819' type='void wcursyncup(WINDOW * )'/>
+<doc f='include/curses.h' l='819'>/* implemented */</doc>

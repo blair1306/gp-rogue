@@ -1,0 +1,4 @@
+<def f='codebrowser/inventory.c' l='214' ll='269' type='int inventory(object * pack, unsigned short mask)'/>
+<use f='codebrowser/pack.c' l='298' u='c' c='pack_letter'/>
+<use f='codebrowser/play.c' l='93' u='c' c='play_level'/>
+<use f='codebrowser/play.c' l='247' u='c' c='play_level'/>

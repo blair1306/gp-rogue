@@ -1,0 +1,12 @@
+<use f='codebrowser/monster.c' l='361' u='c' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='370' u='c' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='373' u='c' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='386' u='c' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='391' u='c' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='396' u='c' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='401' u='c' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='406' u='c' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='411' u='c' c='mv_1_monster'/>
+<def f='codebrowser/monster.c' l='441' ll='450' type='int mtry(object * monster, short row, short col)'/>
+<use f='codebrowser/monster.c' l='776' u='c' c='move_confused'/>
+<use f='codebrowser/monster.c' l='803' u='c' c='flit'/>

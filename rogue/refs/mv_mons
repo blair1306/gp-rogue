@@ -1,0 +1,6 @@
+<def f='codebrowser/monster.c' l='180' ll='224' type='int mv_mons()'/>
+<use f='codebrowser/move.c' l='406' u='c' c='check_hunger'/>
+<use f='codebrowser/move.c' l='454' u='c' c='reg_move'/>
+<use f='codebrowser/spec_hit.c' l='134' u='c' c='freeze'/>
+<use f='codebrowser/spec_hit.c' l='138' u='c' c='freeze'/>
+<use f='codebrowser/use.c' l='548' u='c' c='take_a_nap'/>

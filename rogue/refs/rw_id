@@ -1,0 +1,9 @@
+<use f='codebrowser/save.c' l='133' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='134' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='135' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='136' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='204' u='c' c='restore'/>
+<use f='codebrowser/save.c' l='205' u='c' c='restore'/>
+<use f='codebrowser/save.c' l='206' u='c' c='restore'/>
+<use f='codebrowser/save.c' l='207' u='c' c='restore'/>
+<def f='codebrowser/save.c' l='312' ll='333' type='int rw_id(struct id * id_table, FILE * fp, int n, char wr)'/>

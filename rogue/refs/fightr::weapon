@@ -1,0 +1,24 @@
+<dec f='codebrowser/rogue.h' l='258' type='object *'/>
+<use f='codebrowser/hit.c' l='134' u='r' c='rogue_hit'/>
+<use f='codebrowser/hit.c' l='145' u='r' c='rogue_hit'/>
+<offset>64</offset>
+<use f='codebrowser/inventory.c' l='687' u='r' c='inv_armor_weapon'/>
+<use f='codebrowser/inventory.c' l='688' u='r' c='inv_armor_weapon'/>
+<use f='codebrowser/pack.c' l='174' u='r' c='drop'/>
+<use f='codebrowser/pack.c' l='386' u='r' c='wield'/>
+<use f='codebrowser/pack.c' l='386' u='r' c='wield'/>
+<use f='codebrowser/pack.c' l='408' u='r' c='wield'/>
+<use f='codebrowser/pack.c' l='420' u='w' c='do_wield'/>
+<use f='codebrowser/pack.c' l='430' u='w' c='unwield'/>
+<use f='codebrowser/score.c' l='134' u='r' c='win'/>
+<use f='codebrowser/throw.c' l='97' u='r' c='throw'/>
+<use f='codebrowser/throw.c' l='134' u='r' c='throw_at_monster'/>
+<use f='codebrowser/throw.c' l='134' u='r' c='throw_at_monster'/>
+<use f='codebrowser/throw.c' l='135' u='r' c='throw_at_monster'/>
+<use f='codebrowser/use.c' l='215' u='r' c='read_scroll'/>
+<use f='codebrowser/use.c' l='216' u='r' c='read_scroll'/>
+<use f='codebrowser/use.c' l='218' u='r' c='read_scroll'/>
+<use f='codebrowser/use.c' l='219' u='r' c='read_scroll'/>
+<use f='codebrowser/use.c' l='223' u='r' c='read_scroll'/>
+<use f='codebrowser/use.c' l='225' u='r' c='read_scroll'/>
+<use f='codebrowser/use.c' l='228' u='r' c='read_scroll'/>

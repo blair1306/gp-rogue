@@ -1,0 +1,8 @@
+<dec f='codebrowser/rogue.h' l='239' type='short'/>
+<offset>432</offset>
+<doc f='codebrowser/rogue.h' l='239'>/* sleep from wand of sleep */</doc>
+<use f='codebrowser/monster.c' l='308' macro='1' u='w'/>
+<use f='codebrowser/object.c' l='628' u='w' c='alloc_object'/>
+<use f='codebrowser/pack.c' l='120' u='r' c='pick_up'/>
+<use f='codebrowser/pack.c' l='144' u='w' c='pick_up'/>
+<use f='codebrowser/zap.c' l='361' macro='1' u='w'/>

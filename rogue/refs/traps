@@ -1,0 +1,12 @@
+<dec f='codebrowser/rogue.h' l='341' type='trap []'/>
+<use f='codebrowser/level.c' l='359' u='m' c='clear_level'/>
+<use f='codebrowser/save.c' l='137' c='save_into_file'/>
+<use f='codebrowser/save.c' l='208' c='restore'/>
+<def f='codebrowser/trap.c' l='55' type='trap [10]'/>
+<use f='codebrowser/trap.c' l='86' u='m' c='trap_at'/>
+<use f='codebrowser/trap.c' l='87' u='m' c='trap_at'/>
+<use f='codebrowser/trap.c' l='87' u='m' c='trap_at'/>
+<use f='codebrowser/trap.c' l='88' u='m' c='trap_at'/>
+<use f='codebrowser/trap.c' l='167' u='m' c='add_traps'/>
+<use f='codebrowser/trap.c' l='184' u='m' c='add_traps'/>
+<use f='codebrowser/trap.c' l='185' u='m' c='add_traps'/>

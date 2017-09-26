@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/stat.h' l='53' type='__ino_t'/>
+<use f='codebrowser/machdep.c' l='271' u='r' c='md_get_file_id'/>
+<offset>64</offset>
+<doc f='include/x86_64-linux-gnu/bits/stat.h' l='53'>/* File serial number.	*/</doc>

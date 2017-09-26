@@ -1,0 +1,6 @@
+<use f='codebrowser/pack.c' l='181' u='c' c='drop'/>
+<use f='codebrowser/pack.c' l='319' u='c' c='take_off'/>
+<def f='codebrowser/pack.c' l='363' ll='370' type='int unwear(object * obj)'/>
+<use f='codebrowser/score.c' l='135' u='c' c='win'/>
+<use f='codebrowser/throw.c' l='100' u='c' c='throw'/>
+<use f='codebrowser/use.c' l='310' u='c' c='vanish'/>

@@ -1,0 +1,3 @@
+<use f='codebrowser/score.c' l='123' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='124' u='c' c='killed_by'/>
+<def f='codebrowser/score.c' l='568' ll='576' type='int center(short row, char * buf)'/>

@@ -1,0 +1,15 @@
+<def f='codebrowser/machdep.c' l='306' ll='321' type='int md_gct(struct rogue_time * rt_buf)'/>
+<doc f='codebrowser/machdep.c' l='292'>/* md_gct(): (Get Current Time)
+ *
+ * This function returns the current year, month(1-12), day(1-31), hour(0-23),
+ * minute(0-59), and second(0-59).  This is used for identifying the time
+ * at which a game is saved.
+ *
+ * This function is not strictly necessary.  It can be stubbed by returning
+ * zeros instead of the correct year, month, etc.  If your operating
+ * system doesn&apos;t provide all of the time units requested here, then you
+ * can provide only those that it does, and return zeros for the others.
+ * If you cannot provide good time values, then users may be able to copy
+ * saved-game files and play them.
+ */</doc>
+<use f='codebrowser/save.c' l='153' u='c' c='save_into_file'/>

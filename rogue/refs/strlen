@@ -1,0 +1,27 @@
+<dec f='include/string.h' l='394' type='unsigned long strlen(const char * __s)'/>
+<use f='codebrowser/hit.c' l='90' u='c' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='97' u='c' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='310' u='c' c='mon_damage'/>
+<doc f='include/string.h' l='393'>/* Return the length of S.  */</doc>
+<use f='codebrowser/init.c' l='84' u='c' c='init'/>
+<use f='codebrowser/inventory.c' l='237' u='c' c='inventory'/>
+<use f='codebrowser/inventory.c' l='440' u='c' c='make_scroll_titles'/>
+<use f='codebrowser/inventory.c' l='582' u='c' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='593' u='c' c='get_desc'/>
+<use f='codebrowser/message.c' l='95' u='c' c='message'/>
+<use f='codebrowser/message.c' l='142' u='c' c='get_input_line'/>
+<use f='codebrowser/message.c' l='147' u='c' c='get_input_line'/>
+<use f='codebrowser/message.c' l='313' u='c' c='pad'/>
+<use f='codebrowser/message.c' l='367' u='c' c='r_index'/>
+<use f='codebrowser/move.c' l='157' u='c' c='one_move_rogue'/>
+<use f='codebrowser/pack.c' l='560' u='c' c='kick_into_pack'/>
+<use f='codebrowser/room.c' l='574' u='c' c='edit_opts'/>
+<use f='codebrowser/room.c' l='576' u='c' c='edit_opts'/>
+<use f='codebrowser/room.c' l='629' u='c' c='opt_go'/>
+<use f='codebrowser/save.c' l='341' u='c' c='write_string'/>
+<use f='codebrowser/score.c' l='104' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='372' u='c' c='insert_score'/>
+<use f='codebrowser/score.c' l='376' u='c' c='insert_score'/>
+<use f='codebrowser/score.c' l='558' u='c' c='nickize'/>
+<use f='codebrowser/score.c' l='574' u='c' c='center'/>
+<use f='codebrowser/zap.c' l='237' u='c' c='wizardize'/>

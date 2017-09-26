@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/stat.h' l='61' type='__nlink_t'/>
+<use f='codebrowser/machdep.c' l='289' u='r' c='md_link_count'/>
+<offset>128</offset>
+<doc f='include/x86_64-linux-gnu/bits/stat.h' l='61'>/* Link count.  */</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/rogue.h' l='444' type='char check_hunger()'/>
+<def f='codebrowser/move.c' l='374' ll='441' macro='1' type='char check_hunger(char msg_only)'/>
+<use f='codebrowser/move.c' l='431' u='c' c='check_hunger'/>
+<use f='codebrowser/move.c' l='436' u='c' c='check_hunger'/>
+<use f='codebrowser/move.c' l='449' u='c' c='reg_move'/>

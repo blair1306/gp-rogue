@@ -1,0 +1,2 @@
+<use f='codebrowser/main.c' l='74' u='c' c='main'/>
+<def f='codebrowser/object.c' l='161' ll='181' type='int put_objects()'/>

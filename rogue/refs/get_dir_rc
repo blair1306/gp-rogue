@@ -1,0 +1,9 @@
+<use f='codebrowser/hit.c' l='347' u='c' c='fight'/>
+<def f='codebrowser/hit.c' l='377' ll='428' type='int get_dir_rc(short dir, short * row, short * col, short allow_off_screen)'/>
+<use f='codebrowser/move.c' l='82' u='c' c='one_move_rogue'/>
+<use f='codebrowser/throw.c' l='175' u='c' c='get_thrown_at_monster'/>
+<use f='codebrowser/trap.c' l='207' u='c' c='id_trap'/>
+<use f='codebrowser/zap.c' l='126' u='c' c='get_zapped_monster'/>
+<use f='codebrowser/zap.c' l='307' u='c' c='bounce'/>
+<use f='codebrowser/zap.c' l='321' u='c' c='bounce'/>
+<use f='codebrowser/zap.c' l='398' u='c' c='bounce'/>

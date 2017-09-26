@@ -1,0 +1,26 @@
+<dec f='codebrowser/rogue.h' l='286' type='short'/>
+<offset>0</offset>
+<use f='codebrowser/level.c' l='295' u='w' c='make_room'/>
+<use f='codebrowser/level.c' l='320' u='r' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='325' u='r' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='385' u='r' c='put_door'/>
+<use f='codebrowser/level.c' l='396' u='r' c='put_door'/>
+<use f='codebrowser/level.c' l='479' u='r' c='add_mazes'/>
+<use f='codebrowser/level.c' l='481' u='r' c='add_mazes'/>
+<use f='codebrowser/level.c' l='484' u='r' c='add_mazes'/>
+<use f='codebrowser/level.c' l='551' u='r' c='fill_it'/>
+<use f='codebrowser/level.c' l='593' u='r' c='recursive_deadend'/>
+<use f='codebrowser/level.c' l='616' u='r' c='mask_room'/>
+<use f='codebrowser/monster.c' l='245' u='r' c='party_monsters'/>
+<use f='codebrowser/monster.c' l='825' u='r' c='no_room_for_monster'/>
+<use f='codebrowser/object.c' l='199' u='r' c='put_gold'/>
+<use f='codebrowser/room.c' l='108' u='r' c='light_up_room'/>
+<use f='codebrowser/room.c' l='152' u='r' c='darken_room'/>
+<use f='codebrowser/room.c' l='285' u='r' c='party_objects'/>
+<use f='codebrowser/room.c' l='294' u='r' c='party_objects'/>
+<use f='codebrowser/room.c' l='316' u='r' c='get_room_number'/>
+<use f='codebrowser/room.c' l='445' u='r' c='dr_course'/>
+<use f='codebrowser/room.c' l='488' u='r' c='get_oth_room'/>
+<use f='codebrowser/spec_hit.c' l='309' u='r' c='seek_gold'/>
+<use f='codebrowser/trap.c' l='172' u='r' c='add_traps'/>
+<use f='codebrowser/use.c' l='575' u='r' c='go_blind'/>

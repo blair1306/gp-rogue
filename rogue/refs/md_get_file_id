@@ -1,0 +1,11 @@
+<def f='codebrowser/machdep.c' l='262' ll='272' type='int md_get_file_id(char * fname)'/>
+<doc f='codebrowser/machdep.c' l='253'>/* md_get_file_id():
+ *
+ * This function returns an integer that uniquely identifies the specified
+ * file.  It need not check for the file&apos;s existence.  In UNIX, the inode
+ * number is used.
+ *
+ * This function is used to identify saved-game files.
+ */</doc>
+<use f='codebrowser/save.c' l='113' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='174' u='c' c='restore'/>

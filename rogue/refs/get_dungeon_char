@@ -1,0 +1,14 @@
+<use f='codebrowser/hit.c' l='305' u='c' c='mon_damage'/>
+<use f='codebrowser/move.c' l='126' u='c' c='one_move_rogue'/>
+<use f='codebrowser/room.c' l='117' u='c' c='light_up_room'/>
+<use f='codebrowser/room.c' l='121' u='c' c='light_up_room'/>
+<use f='codebrowser/room.c' l='141' u='c' c='light_passage'/>
+<def f='codebrowser/room.c' l='171' ll='217' type='int get_dungeon_char(int row, int col)'/>
+<use f='codebrowser/spec_hit.c' l='231' u='c' c='disappear'/>
+<use f='codebrowser/spec_hit.c' l='294' u='c' c='try_to_cough'/>
+<use f='codebrowser/spec_hit.c' l='362' u='c' c='check_imitator'/>
+<use f='codebrowser/throw.c' l='110' u='c' c='throw'/>
+<use f='codebrowser/throw.c' l='185' u='c' c='get_thrown_at_monster'/>
+<use f='codebrowser/throw.c' l='240' u='c' c='flop_weapon'/>
+<use f='codebrowser/trap.c' l='265' u='c' c='search'/>
+<use f='codebrowser/use.c' l='469' u='c' c='tele'/>

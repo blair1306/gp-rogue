@@ -1,0 +1,10 @@
+<def f='codebrowser/pack.c' l='56' type='char *'/>
+<use f='codebrowser/pack.c' l='171' u='r' c='drop'/>
+<use f='codebrowser/pack.c' l='177' u='r' c='drop'/>
+<use f='codebrowser/pack.c' l='185' u='r' c='drop'/>
+<use f='codebrowser/pack.c' l='315' u='r' c='take_off'/>
+<use f='codebrowser/pack.c' l='387' u='r' c='wield'/>
+<dec f='codebrowser/ring.c' l='69' type='char *'/>
+<use f='codebrowser/ring.c' l='183' u='r' c='remove_ring'/>
+<dec f='codebrowser/throw.c' l='56' type='char *'/>
+<use f='codebrowser/throw.c' l='90' u='r' c='throw'/>

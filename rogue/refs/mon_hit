@@ -1,0 +1,2 @@
+<def f='codebrowser/hit.c' l='63' ll='122' type='int mon_hit(object * monster)'/>
+<use f='codebrowser/monster.c' l='339' u='c' c='mv_1_monster'/>

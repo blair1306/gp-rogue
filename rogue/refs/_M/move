@@ -1,0 +1,17 @@
+<dec f='include/curses.h' l='1237'/>
+<use f='codebrowser/init.c' l='180' u='c'/>
+<use f='codebrowser/inventory.c' l='263' u='c'/>
+<use f='codebrowser/inventory.c' l='302' u='c'/>
+<use f='codebrowser/inventory.c' l='326' u='c'/>
+<use f='codebrowser/message.c' l='116' u='c'/>
+<use f='codebrowser/message.c' l='126' u='c'/>
+<use f='codebrowser/message.c' l='148' u='c'/>
+<use f='codebrowser/message.c' l='164' u='c'/>
+<use f='codebrowser/play.c' l='77' u='c'/>
+<use f='codebrowser/play.c' l='231' u='c'/>
+<use f='codebrowser/room.c' l='574' u='c'/>
+<use f='codebrowser/room.c' l='576' u='c'/>
+<use f='codebrowser/room.c' l='594' u='c'/>
+<use f='codebrowser/room.c' l='629' u='c'/>
+<use f='codebrowser/room.c' l='641' u='c'/>
+<use f='codebrowser/score.c' l='184' u='c'/>

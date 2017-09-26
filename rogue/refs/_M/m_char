@@ -1,0 +1,11 @@
+<dec f='codebrowser/rogue.h' l='208'/>
+<use f='codebrowser/monster.c' l='279' u='c'/>
+<use f='codebrowser/monster.c' l='296' u='c'/>
+<use f='codebrowser/monster.c' l='609' u='c'/>
+<use f='codebrowser/monster.c' l='667' u='c'/>
+<use f='codebrowser/monster.c' l='847' u='c'/>
+<use f='codebrowser/monster.c' l='880' u='c'/>
+<use f='codebrowser/score.c' l='96' u='c'/>
+<use f='codebrowser/score.c' l='101' u='c'/>
+<use f='codebrowser/score.c' l='365' u='c'/>
+<use f='codebrowser/score.c' l='370' u='c'/>

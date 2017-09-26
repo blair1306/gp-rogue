@@ -1,0 +1,2 @@
+<def f='codebrowser/hit.c' l='207' ll='224' type='int get_w_damage(object * obj)'/>
+<use f='codebrowser/hit.c' l='446' u='c' c='get_weapon_damage'/>

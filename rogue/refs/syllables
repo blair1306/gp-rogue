@@ -1,0 +1,2 @@
+<def f='codebrowser/inventory.c' l='110' ll='151' type='char *[40]'/>
+<use f='codebrowser/inventory.c' l='438' u='r' c='make_scroll_titles'/>

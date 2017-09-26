@@ -1,0 +1,6 @@
+<dec f='codebrowser/rogue.h' l='298'/>
+<use f='codebrowser/level.c' l='742' u='c'/>
+<use f='codebrowser/level.c' l='746' u='c'/>
+<use f='codebrowser/move.c' l='110' u='c'/>
+<use f='codebrowser/move.c' l='122' u='c'/>
+<use f='codebrowser/use.c' l='532' u='c'/>

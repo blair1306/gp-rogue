@@ -1,0 +1,6 @@
+<def f='codebrowser/monster.c' l='56' macro='1' type='char'/>
+<use f='codebrowser/monster.c' l='193' u='w' c='mv_mons'/>
+<use f='codebrowser/monster.c' l='196' u='r' c='mv_mons'/>
+<use f='codebrowser/monster.c' l='214' u='r' c='mv_mons'/>
+<dec f='codebrowser/spec_hit.c' l='60' type='char'/>
+<use f='codebrowser/spec_hit.c' l='235' u='w' c='disappear'/>

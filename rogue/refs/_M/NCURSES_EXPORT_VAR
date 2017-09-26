@@ -1,0 +1,12 @@
+<dec f='include/ncurses_dll.h' l='99'/>
+<use f='include/curses.h' l='281' u='c'/>
+<use f='include/curses.h' l='1400' u='c'/>
+<use f='include/curses.h' l='1401' u='c'/>
+<use f='include/curses.h' l='1402' u='c'/>
+<use f='include/curses.h' l='1403' u='c'/>
+<use f='include/curses.h' l='1404' u='c'/>
+<use f='include/curses.h' l='1405' u='c'/>
+<use f='include/curses.h' l='1406' u='c'/>
+<use f='include/curses.h' l='1407' u='c'/>
+<use f='include/curses.h' l='1408' u='c'/>
+<use f='include/curses.h' l='1409' u='c'/>

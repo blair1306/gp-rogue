@@ -1,0 +1,7 @@
+<dec f='codebrowser/hit.c' l='61' type='char'/>
+<use f='codebrowser/hit.c' l='149' u='r' c='rogue_hit'/>
+<use f='codebrowser/hit.c' l='455' u='r' c='s_con_mon'/>
+<use f='codebrowser/hit.c' l='459' u='w' c='s_con_mon'/>
+<def f='codebrowser/use.c' l='63' macro='1' type='char'/>
+<use f='codebrowser/use.c' l='284' u='w' c='read_scroll'/>
+<use f='codebrowser/use.c' l='590' u='r' c='get_ench_color'/>

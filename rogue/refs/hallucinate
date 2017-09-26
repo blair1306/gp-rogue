@@ -1,0 +1,3 @@
+<use f='codebrowser/move.c' l='464' u='c' c='reg_move'/>
+<def f='codebrowser/use.c' l='479' ll='508' type='int hallucinate()'/>
+<use f='codebrowser/use.c' l='523' u='c' c='unblind'/>

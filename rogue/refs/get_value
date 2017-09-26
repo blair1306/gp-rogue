@@ -1,0 +1,2 @@
+<use f='codebrowser/score.c' l='408' u='c' c='sell_pack'/>
+<def f='codebrowser/score.c' l='426' ll='471' type='int get_value(object * obj)'/>

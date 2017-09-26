@@ -1,0 +1,5 @@
+<dec f='include/curses.h' l='243'/>
+<doc f='include/curses.h' l='239'>/*
+ * X/Open attributes.  In the ncurses implementation, they are identical to the
+ * A_ attributes.
+ */</doc>

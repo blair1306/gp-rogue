@@ -1,0 +1,4 @@
+<use f='codebrowser/init.c' l='301' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='302' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='303' u='c' c='do_opts'/>
+<def f='codebrowser/init.c' l='332' ll='339' type='int init_str(char ** str, char * dflt)'/>

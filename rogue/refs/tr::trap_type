@@ -1,0 +1,6 @@
+<dec f='codebrowser/rogue.h' l='333' type='short'/>
+<offset>0</offset>
+<use f='codebrowser/level.c' l='359' u='w' c='clear_level'/>
+<use f='codebrowser/trap.c' l='86' u='r' c='trap_at'/>
+<use f='codebrowser/trap.c' l='88' u='r' c='trap_at'/>
+<use f='codebrowser/trap.c' l='167' u='w' c='add_traps'/>

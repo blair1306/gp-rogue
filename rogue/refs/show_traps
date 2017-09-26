@@ -1,0 +1,2 @@
+<use f='codebrowser/play.c' l='261' u='c' c='play_level'/>
+<def f='codebrowser/trap.c' l='217' ll='228' type='int show_traps()'/>

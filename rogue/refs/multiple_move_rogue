@@ -1,0 +1,3 @@
+<def f='codebrowser/move.c' l='181' ll='226' type='int multiple_move_rogue(short dirch)'/>
+<use f='codebrowser/move.c' l='647' u='c' c='turn_passage'/>
+<use f='codebrowser/play.c' l='127' u='c' c='play_level'/>

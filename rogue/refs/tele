@@ -1,0 +1,4 @@
+<use f='codebrowser/move.c' l='100' u='c' c='one_move_rogue'/>
+<use f='codebrowser/trap.c' l='118' u='c' c='trap_player'/>
+<use f='codebrowser/use.c' l='252' u='c' c='read_scroll'/>
+<def f='codebrowser/use.c' l='467' ll='477' type='int tele()'/>

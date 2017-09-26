@@ -1,0 +1,509 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>rogue.h source code [codebrowser/rogue.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="dr,fightr,id,obj,rm,rogue_time,tr "/>
+<link rel="stylesheet" href="../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/rogue.h'; var root_path = '..'; var data_path = '../../data';</script>
+<script src='../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='./'>codebrowser</a>/<a href='rogue.h.html'>rogue.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 1988, 1993</i></td></tr>
+<tr><th id="3">3</th><td><i> *	The Regents of the University of California.  All rights reserved.</i></td></tr>
+<tr><th id="4">4</th><td><i> *</i></td></tr>
+<tr><th id="5">5</th><td><i> * This code is derived from software contributed to Berkeley by</i></td></tr>
+<tr><th id="6">6</th><td><i> * Timoth C. Stoehr.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i> * modification, are permitted provided that the following conditions</i></td></tr>
+<tr><th id="10">10</th><td><i> * are met:</i></td></tr>
+<tr><th id="11">11</th><td><i> * 1. Redistributions of source code must retain the above copyright</i></td></tr>
+<tr><th id="12">12</th><td><i> *    notice, this list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i> * 2. Redistributions in binary form must reproduce the above copyright</i></td></tr>
+<tr><th id="14">14</th><td><i> *    notice, this list of conditions and the following disclaimer in the</i></td></tr>
+<tr><th id="15">15</th><td><i> *    documentation and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i> * 3. All advertising materials mentioning features or use of this software</i></td></tr>
+<tr><th id="17">17</th><td><i> *    must display the following acknowledgement:</i></td></tr>
+<tr><th id="18">18</th><td><i> *	This product includes software developed by the University of</i></td></tr>
+<tr><th id="19">19</th><td><i> *	California, Berkeley and its contributors.</i></td></tr>
+<tr><th id="20">20</th><td><i> * 4. Neither the name of the University nor the names of its contributors</i></td></tr>
+<tr><th id="21">21</th><td><i> *    may be used to endorse or promote products derived from this software</i></td></tr>
+<tr><th id="22">22</th><td><i> *    without specific prior written permission.</i></td></tr>
+<tr><th id="23">23</th><td><i> *</i></td></tr>
+<tr><th id="24">24</th><td><i> * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND</i></td></tr>
+<tr><th id="25">25</th><td><i> * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="26">26</th><td><i> * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="27">27</th><td><i> * ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE</i></td></tr>
+<tr><th id="28">28</th><td><i> * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL</i></td></tr>
+<tr><th id="29">29</th><td><i> * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS</i></td></tr>
+<tr><th id="30">30</th><td><i> * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)</i></td></tr>
+<tr><th id="31">31</th><td><i> * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT</i></td></tr>
+<tr><th id="32">32</th><td><i> * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY</i></td></tr>
+<tr><th id="33">33</th><td><i> * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF</i></td></tr>
+<tr><th id="34">34</th><td><i> * SUCH DAMAGE.</i></td></tr>
+<tr><th id="35">35</th><td><i> *</i></td></tr>
+<tr><th id="36">36</th><td><i> *	@(#)rogue.h	8.1 (Berkeley) 5/31/93</i></td></tr>
+<tr><th id="37">37</th><td><i> */</i></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><i>/*</i></td></tr>
+<tr><th id="40">40</th><td><i> * rogue.h</i></td></tr>
+<tr><th id="41">41</th><td><i> *</i></td></tr>
+<tr><th id="42">42</th><td><i> * This source herein may be modified and/or distributed by anybody who</i></td></tr>
+<tr><th id="43">43</th><td><i> * so desires, with the following restrictions:</i></td></tr>
+<tr><th id="44">44</th><td><i> *    1.)  This notice shall not be removed.</i></td></tr>
+<tr><th id="45">45</th><td><i> *    2.)  Credit shall not be taken for the creation of this source.</i></td></tr>
+<tr><th id="46">46</th><td><i> *    3.)  This code is not to be traded, sold, or used for personal</i></td></tr>
+<tr><th id="47">47</th><td><i> *         gain or profit.</i></td></tr>
+<tr><th id="48">48</th><td><i> */</i></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/boolean" data-ref="_M/boolean">boolean</dfn> char</u></td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/NOTHING" data-ref="_M/NOTHING">NOTHING</dfn>		((unsigned short)     0)</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/OBJECT" data-ref="_M/OBJECT">OBJECT</dfn>		((unsigned short)    01)</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/MONSTER" data-ref="_M/MONSTER">MONSTER</dfn>		((unsigned short)    02)</u></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/STAIRS" data-ref="_M/STAIRS">STAIRS</dfn>		((unsigned short)    04)</u></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/HORWALL" data-ref="_M/HORWALL">HORWALL</dfn>		((unsigned short)   010)</u></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/VERTWALL" data-ref="_M/VERTWALL">VERTWALL</dfn>	((unsigned short)   020)</u></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/DOOR" data-ref="_M/DOOR">DOOR</dfn>		((unsigned short)   040)</u></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/FLOOR" data-ref="_M/FLOOR">FLOOR</dfn>		((unsigned short)  0100)</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/TUNNEL" data-ref="_M/TUNNEL">TUNNEL</dfn>		((unsigned short)  0200)</u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/TRAP" data-ref="_M/TRAP">TRAP</dfn>		((unsigned short)  0400)</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/HIDDEN" data-ref="_M/HIDDEN">HIDDEN</dfn>		((unsigned short) 01000)</u></td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/ARMOR" data-ref="_M/ARMOR">ARMOR</dfn>		((unsigned short)   01)</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/WEAPON" data-ref="_M/WEAPON">WEAPON</dfn>		((unsigned short)   02)</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/SCROL" data-ref="_M/SCROL">SCROL</dfn>		((unsigned short)   04)</u></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/POTION" data-ref="_M/POTION">POTION</dfn>		((unsigned short)  010)</u></td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/GOLD" data-ref="_M/GOLD">GOLD</dfn>		((unsigned short)  020)</u></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/FOOD" data-ref="_M/FOOD">FOOD</dfn>		((unsigned short)  040)</u></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/WAND" data-ref="_M/WAND">WAND</dfn>		((unsigned short) 0100)</u></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/RING" data-ref="_M/RING">RING</dfn>		((unsigned short) 0200)</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/AMULET" data-ref="_M/AMULET">AMULET</dfn>		((unsigned short) 0400)</u></td></tr>
+<tr><th id="73">73</th><td><u>#define <dfn class="macro" id="_M/ALL_OBJECTS" data-ref="_M/ALL_OBJECTS">ALL_OBJECTS</dfn>	((unsigned short) 0777)</u></td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/LEATHER" data-ref="_M/LEATHER">LEATHER</dfn> 0</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/RINGMAIL" data-ref="_M/RINGMAIL">RINGMAIL</dfn> 1</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/SCALE" data-ref="_M/SCALE">SCALE</dfn> 2</u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/CHAIN" data-ref="_M/CHAIN">CHAIN</dfn> 3</u></td></tr>
+<tr><th id="79">79</th><td><u>#define <dfn class="macro" id="_M/BANDED" data-ref="_M/BANDED">BANDED</dfn> 4</u></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/SPLINT" data-ref="_M/SPLINT">SPLINT</dfn> 5</u></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/PLATE" data-ref="_M/PLATE">PLATE</dfn> 6</u></td></tr>
+<tr><th id="82">82</th><td><u>#define <dfn class="macro" id="_M/ARMORS" data-ref="_M/ARMORS">ARMORS</dfn> 7</u></td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><u>#define <dfn class="macro" id="_M/BOW" data-ref="_M/BOW">BOW</dfn> 0</u></td></tr>
+<tr><th id="85">85</th><td><u>#define <dfn class="macro" id="_M/DART" data-ref="_M/DART">DART</dfn> 1</u></td></tr>
+<tr><th id="86">86</th><td><u>#define <dfn class="macro" id="_M/ARROW" data-ref="_M/ARROW">ARROW</dfn> 2</u></td></tr>
+<tr><th id="87">87</th><td><u>#define <dfn class="macro" id="_M/DAGGER" data-ref="_M/DAGGER">DAGGER</dfn> 3</u></td></tr>
+<tr><th id="88">88</th><td><u>#define <dfn class="macro" id="_M/SHURIKEN" data-ref="_M/SHURIKEN">SHURIKEN</dfn> 4</u></td></tr>
+<tr><th id="89">89</th><td><u>#define <dfn class="macro" id="_M/MACE" data-ref="_M/MACE">MACE</dfn> 5</u></td></tr>
+<tr><th id="90">90</th><td><u>#define <dfn class="macro" id="_M/LONG_SWORD" data-ref="_M/LONG_SWORD">LONG_SWORD</dfn> 6</u></td></tr>
+<tr><th id="91">91</th><td><u>#define <dfn class="macro" id="_M/TWO_HANDED_SWORD" data-ref="_M/TWO_HANDED_SWORD">TWO_HANDED_SWORD</dfn> 7</u></td></tr>
+<tr><th id="92">92</th><td><u>#define <dfn class="macro" id="_M/WEAPONS" data-ref="_M/WEAPONS">WEAPONS</dfn> 8</u></td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><u>#define <dfn class="macro" id="_M/MAX_PACK_COUNT" data-ref="_M/MAX_PACK_COUNT">MAX_PACK_COUNT</dfn> 24</u></td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><u>#define <dfn class="macro" id="_M/PROTECT_ARMOR" data-ref="_M/PROTECT_ARMOR">PROTECT_ARMOR</dfn> 0</u></td></tr>
+<tr><th id="97">97</th><td><u>#define <dfn class="macro" id="_M/HOLD_MONSTER" data-ref="_M/HOLD_MONSTER">HOLD_MONSTER</dfn> 1</u></td></tr>
+<tr><th id="98">98</th><td><u>#define <dfn class="macro" id="_M/ENCH_WEAPON" data-ref="_M/ENCH_WEAPON">ENCH_WEAPON</dfn> 2</u></td></tr>
+<tr><th id="99">99</th><td><u>#define <dfn class="macro" id="_M/ENCH_ARMOR" data-ref="_M/ENCH_ARMOR">ENCH_ARMOR</dfn> 3</u></td></tr>
+<tr><th id="100">100</th><td><u>#define <dfn class="macro" id="_M/IDENTIFY" data-ref="_M/IDENTIFY">IDENTIFY</dfn> 4</u></td></tr>
+<tr><th id="101">101</th><td><u>#define <dfn class="macro" id="_M/TELEPORT" data-ref="_M/TELEPORT">TELEPORT</dfn> 5</u></td></tr>
+<tr><th id="102">102</th><td><u>#define <dfn class="macro" id="_M/SLEEP" data-ref="_M/SLEEP">SLEEP</dfn> 6</u></td></tr>
+<tr><th id="103">103</th><td><u>#define <dfn class="macro" id="_M/SCARE_MONSTER" data-ref="_M/SCARE_MONSTER">SCARE_MONSTER</dfn> 7</u></td></tr>
+<tr><th id="104">104</th><td><u>#define <dfn class="macro" id="_M/REMOVE_CURSE" data-ref="_M/REMOVE_CURSE">REMOVE_CURSE</dfn> 8</u></td></tr>
+<tr><th id="105">105</th><td><u>#define <dfn class="macro" id="_M/CREATE_MONSTER" data-ref="_M/CREATE_MONSTER">CREATE_MONSTER</dfn> 9</u></td></tr>
+<tr><th id="106">106</th><td><u>#define <dfn class="macro" id="_M/AGGRAVATE_MONSTER" data-ref="_M/AGGRAVATE_MONSTER">AGGRAVATE_MONSTER</dfn> 10</u></td></tr>
+<tr><th id="107">107</th><td><u>#define <dfn class="macro" id="_M/MAGIC_MAPPING" data-ref="_M/MAGIC_MAPPING">MAGIC_MAPPING</dfn> 11</u></td></tr>
+<tr><th id="108">108</th><td><u>#define <dfn class="macro" id="_M/CON_MON" data-ref="_M/CON_MON">CON_MON</dfn> 12</u></td></tr>
+<tr><th id="109">109</th><td><u>#define <dfn class="macro" id="_M/SCROLS" data-ref="_M/SCROLS">SCROLS</dfn> 13</u></td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td><u>#define <dfn class="macro" id="_M/INCREASE_STRENGTH" data-ref="_M/INCREASE_STRENGTH">INCREASE_STRENGTH</dfn> 0</u></td></tr>
+<tr><th id="112">112</th><td><u>#define <dfn class="macro" id="_M/RESTORE_STRENGTH" data-ref="_M/RESTORE_STRENGTH">RESTORE_STRENGTH</dfn> 1</u></td></tr>
+<tr><th id="113">113</th><td><u>#define <dfn class="macro" id="_M/HEALING" data-ref="_M/HEALING">HEALING</dfn> 2</u></td></tr>
+<tr><th id="114">114</th><td><u>#define <dfn class="macro" id="_M/EXTRA_HEALING" data-ref="_M/EXTRA_HEALING">EXTRA_HEALING</dfn> 3</u></td></tr>
+<tr><th id="115">115</th><td><u>#define <dfn class="macro" id="_M/POISON" data-ref="_M/POISON">POISON</dfn> 4</u></td></tr>
+<tr><th id="116">116</th><td><u>#define <dfn class="macro" id="_M/RAISE_LEVEL" data-ref="_M/RAISE_LEVEL">RAISE_LEVEL</dfn> 5</u></td></tr>
+<tr><th id="117">117</th><td><u>#define <dfn class="macro" id="_M/BLINDNESS" data-ref="_M/BLINDNESS">BLINDNESS</dfn> 6</u></td></tr>
+<tr><th id="118">118</th><td><u>#define <dfn class="macro" id="_M/HALLUCINATION" data-ref="_M/HALLUCINATION">HALLUCINATION</dfn> 7</u></td></tr>
+<tr><th id="119">119</th><td><u>#define <dfn class="macro" id="_M/DETECT_MONSTER" data-ref="_M/DETECT_MONSTER">DETECT_MONSTER</dfn> 8</u></td></tr>
+<tr><th id="120">120</th><td><u>#define <dfn class="macro" id="_M/DETECT_OBJECTS" data-ref="_M/DETECT_OBJECTS">DETECT_OBJECTS</dfn> 9</u></td></tr>
+<tr><th id="121">121</th><td><u>#define <dfn class="macro" id="_M/CONFUSION" data-ref="_M/CONFUSION">CONFUSION</dfn> 10</u></td></tr>
+<tr><th id="122">122</th><td><u>#define <dfn class="macro" id="_M/LEVITATION" data-ref="_M/LEVITATION">LEVITATION</dfn> 11</u></td></tr>
+<tr><th id="123">123</th><td><u>#define <dfn class="macro" id="_M/HASTE_SELF" data-ref="_M/HASTE_SELF">HASTE_SELF</dfn> 12</u></td></tr>
+<tr><th id="124">124</th><td><u>#define <dfn class="macro" id="_M/SEE_INVISIBLE" data-ref="_M/SEE_INVISIBLE">SEE_INVISIBLE</dfn> 13</u></td></tr>
+<tr><th id="125">125</th><td><u>#define <dfn class="macro" id="_M/POTIONS" data-ref="_M/POTIONS">POTIONS</dfn> 14</u></td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td><u>#define <dfn class="macro" id="_M/TELE_AWAY" data-ref="_M/TELE_AWAY">TELE_AWAY</dfn> 0</u></td></tr>
+<tr><th id="128">128</th><td><u>#define <dfn class="macro" id="_M/SLOW_MONSTER" data-ref="_M/SLOW_MONSTER">SLOW_MONSTER</dfn> 1</u></td></tr>
+<tr><th id="129">129</th><td><u>#define <dfn class="macro" id="_M/INVISIBILITY" data-ref="_M/INVISIBILITY">INVISIBILITY</dfn> 2</u></td></tr>
+<tr><th id="130">130</th><td><u>#define <dfn class="macro" id="_M/POLYMORPH" data-ref="_M/POLYMORPH">POLYMORPH</dfn> 3</u></td></tr>
+<tr><th id="131">131</th><td><u>#define <dfn class="macro" id="_M/HASTE_MONSTER" data-ref="_M/HASTE_MONSTER">HASTE_MONSTER</dfn> 4</u></td></tr>
+<tr><th id="132">132</th><td><u>#define <dfn class="macro" id="_M/MAGIC_MISSILE" data-ref="_M/MAGIC_MISSILE">MAGIC_MISSILE</dfn> 5</u></td></tr>
+<tr><th id="133">133</th><td><u>#define <dfn class="macro" id="_M/CANCELLATION" data-ref="_M/CANCELLATION">CANCELLATION</dfn> 6</u></td></tr>
+<tr><th id="134">134</th><td><u>#define <dfn class="macro" id="_M/DO_NOTHING" data-ref="_M/DO_NOTHING">DO_NOTHING</dfn> 7</u></td></tr>
+<tr><th id="135">135</th><td><u>#define <dfn class="macro" id="_M/DRAIN_LIFE" data-ref="_M/DRAIN_LIFE">DRAIN_LIFE</dfn> 8</u></td></tr>
+<tr><th id="136">136</th><td><u>#define <dfn class="macro" id="_M/COLD" data-ref="_M/COLD">COLD</dfn> 9</u></td></tr>
+<tr><th id="137">137</th><td><u>#define <dfn class="macro" id="_M/FIRE" data-ref="_M/FIRE">FIRE</dfn> 10</u></td></tr>
+<tr><th id="138">138</th><td><u>#define <dfn class="macro" id="_M/WANDS" data-ref="_M/WANDS">WANDS</dfn> 11</u></td></tr>
+<tr><th id="139">139</th><td></td></tr>
+<tr><th id="140">140</th><td><u>#define <dfn class="macro" id="_M/STEALTH" data-ref="_M/STEALTH">STEALTH</dfn> 0</u></td></tr>
+<tr><th id="141">141</th><td><u>#define <dfn class="macro" id="_M/R_TELEPORT" data-ref="_M/R_TELEPORT">R_TELEPORT</dfn> 1</u></td></tr>
+<tr><th id="142">142</th><td><u>#define <dfn class="macro" id="_M/REGENERATION" data-ref="_M/REGENERATION">REGENERATION</dfn> 2</u></td></tr>
+<tr><th id="143">143</th><td><u>#define <dfn class="macro" id="_M/SLOW_DIGEST" data-ref="_M/SLOW_DIGEST">SLOW_DIGEST</dfn> 3</u></td></tr>
+<tr><th id="144">144</th><td><u>#define <dfn class="macro" id="_M/ADD_STRENGTH" data-ref="_M/ADD_STRENGTH">ADD_STRENGTH</dfn> 4</u></td></tr>
+<tr><th id="145">145</th><td><u>#define <dfn class="macro" id="_M/SUSTAIN_STRENGTH" data-ref="_M/SUSTAIN_STRENGTH">SUSTAIN_STRENGTH</dfn> 5</u></td></tr>
+<tr><th id="146">146</th><td><u>#define <dfn class="macro" id="_M/DEXTERITY" data-ref="_M/DEXTERITY">DEXTERITY</dfn> 6</u></td></tr>
+<tr><th id="147">147</th><td><u>#define <dfn class="macro" id="_M/ADORNMENT" data-ref="_M/ADORNMENT">ADORNMENT</dfn> 7</u></td></tr>
+<tr><th id="148">148</th><td><u>#define <dfn class="macro" id="_M/R_SEE_INVISIBLE" data-ref="_M/R_SEE_INVISIBLE">R_SEE_INVISIBLE</dfn> 8</u></td></tr>
+<tr><th id="149">149</th><td><u>#define <dfn class="macro" id="_M/MAINTAIN_ARMOR" data-ref="_M/MAINTAIN_ARMOR">MAINTAIN_ARMOR</dfn> 9</u></td></tr>
+<tr><th id="150">150</th><td><u>#define <dfn class="macro" id="_M/SEARCHING" data-ref="_M/SEARCHING">SEARCHING</dfn> 10</u></td></tr>
+<tr><th id="151">151</th><td><u>#define <dfn class="macro" id="_M/RINGS" data-ref="_M/RINGS">RINGS</dfn> 11</u></td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td><u>#define <dfn class="macro" id="_M/RATION" data-ref="_M/RATION">RATION</dfn> 0</u></td></tr>
+<tr><th id="154">154</th><td><u>#define <dfn class="macro" id="_M/FRUIT" data-ref="_M/FRUIT">FRUIT</dfn> 1</u></td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td><u>#define <dfn class="macro" id="_M/NOT_USED" data-ref="_M/NOT_USED">NOT_USED</dfn>		((unsigned short)   0)</u></td></tr>
+<tr><th id="157">157</th><td><u>#define <dfn class="macro" id="_M/BEING_WIELDED" data-ref="_M/BEING_WIELDED">BEING_WIELDED</dfn>	((unsigned short)  01)</u></td></tr>
+<tr><th id="158">158</th><td><u>#define <dfn class="macro" id="_M/BEING_WORN" data-ref="_M/BEING_WORN">BEING_WORN</dfn>		((unsigned short)  02)</u></td></tr>
+<tr><th id="159">159</th><td><u>#define <dfn class="macro" id="_M/ON_LEFT_HAND" data-ref="_M/ON_LEFT_HAND">ON_LEFT_HAND</dfn>	((unsigned short)  04)</u></td></tr>
+<tr><th id="160">160</th><td><u>#define <dfn class="macro" id="_M/ON_RIGHT_HAND" data-ref="_M/ON_RIGHT_HAND">ON_RIGHT_HAND</dfn>	((unsigned short) 010)</u></td></tr>
+<tr><th id="161">161</th><td><u>#define <dfn class="macro" id="_M/ON_EITHER_HAND" data-ref="_M/ON_EITHER_HAND">ON_EITHER_HAND</dfn>	((unsigned short) 014)</u></td></tr>
+<tr><th id="162">162</th><td><u>#define <dfn class="macro" id="_M/BEING_USED" data-ref="_M/BEING_USED">BEING_USED</dfn>		((unsigned short) 017)</u></td></tr>
+<tr><th id="163">163</th><td></td></tr>
+<tr><th id="164">164</th><td><u>#define <dfn class="macro" id="_M/NO_TRAP" data-ref="_M/NO_TRAP">NO_TRAP</dfn> -1</u></td></tr>
+<tr><th id="165">165</th><td><u>#define <dfn class="macro" id="_M/TRAP_DOOR" data-ref="_M/TRAP_DOOR">TRAP_DOOR</dfn> 0</u></td></tr>
+<tr><th id="166">166</th><td><u>#define <dfn class="macro" id="_M/BEAR_TRAP" data-ref="_M/BEAR_TRAP">BEAR_TRAP</dfn> 1</u></td></tr>
+<tr><th id="167">167</th><td><u>#define <dfn class="macro" id="_M/TELE_TRAP" data-ref="_M/TELE_TRAP">TELE_TRAP</dfn> 2</u></td></tr>
+<tr><th id="168">168</th><td><u>#define <dfn class="macro" id="_M/DART_TRAP" data-ref="_M/DART_TRAP">DART_TRAP</dfn> 3</u></td></tr>
+<tr><th id="169">169</th><td><u>#define <dfn class="macro" id="_M/SLEEPING_GAS_TRAP" data-ref="_M/SLEEPING_GAS_TRAP">SLEEPING_GAS_TRAP</dfn> 4</u></td></tr>
+<tr><th id="170">170</th><td><u>#define <dfn class="macro" id="_M/RUST_TRAP" data-ref="_M/RUST_TRAP">RUST_TRAP</dfn> 5</u></td></tr>
+<tr><th id="171">171</th><td><u>#define <dfn class="macro" id="_M/TRAPS" data-ref="_M/TRAPS">TRAPS</dfn> 6</u></td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td><u>#define <dfn class="macro" id="_M/STEALTH_FACTOR" data-ref="_M/STEALTH_FACTOR">STEALTH_FACTOR</dfn> 3</u></td></tr>
+<tr><th id="174">174</th><td><u>#define <dfn class="macro" id="_M/R_TELE_PERCENT" data-ref="_M/R_TELE_PERCENT">R_TELE_PERCENT</dfn> 8</u></td></tr>
+<tr><th id="175">175</th><td></td></tr>
+<tr><th id="176">176</th><td><u>#define <dfn class="macro" id="_M/UNIDENTIFIED" data-ref="_M/UNIDENTIFIED">UNIDENTIFIED</dfn> ((unsigned short) 00)	/* MUST BE ZERO! */</u></td></tr>
+<tr><th id="177">177</th><td><u>#define <dfn class="macro" id="_M/IDENTIFIED" data-ref="_M/IDENTIFIED">IDENTIFIED</dfn> ((unsigned short) 01)</u></td></tr>
+<tr><th id="178">178</th><td><u>#define <dfn class="macro" id="_M/CALLED" data-ref="_M/CALLED">CALLED</dfn> ((unsigned short) 02)</u></td></tr>
+<tr><th id="179">179</th><td></td></tr>
+<tr><th id="180">180</th><td><u>#define <dfn class="macro" id="_M/DROWS" data-ref="_M/DROWS">DROWS</dfn> 24</u></td></tr>
+<tr><th id="181">181</th><td><u>#define <dfn class="macro" id="_M/DCOLS" data-ref="_M/DCOLS">DCOLS</dfn> 80</u></td></tr>
+<tr><th id="182">182</th><td><u>#define <dfn class="macro" id="_M/NMESSAGES" data-ref="_M/NMESSAGES">NMESSAGES</dfn> 5</u></td></tr>
+<tr><th id="183">183</th><td><u>#define <dfn class="macro" id="_M/MAX_TITLE_LENGTH" data-ref="_M/MAX_TITLE_LENGTH">MAX_TITLE_LENGTH</dfn> 30</u></td></tr>
+<tr><th id="184">184</th><td><u>#define <dfn class="macro" id="_M/MAXSYLLABLES" data-ref="_M/MAXSYLLABLES">MAXSYLLABLES</dfn> 40</u></td></tr>
+<tr><th id="185">185</th><td><u>#define <dfn class="macro" id="_M/MAX_METAL" data-ref="_M/MAX_METAL">MAX_METAL</dfn> 14</u></td></tr>
+<tr><th id="186">186</th><td><u>#define <dfn class="macro" id="_M/WAND_MATERIALS" data-ref="_M/WAND_MATERIALS">WAND_MATERIALS</dfn> 30</u></td></tr>
+<tr><th id="187">187</th><td><u>#define <dfn class="macro" id="_M/GEMS" data-ref="_M/GEMS">GEMS</dfn> 14</u></td></tr>
+<tr><th id="188">188</th><td></td></tr>
+<tr><th id="189">189</th><td><u>#define <dfn class="macro" id="_M/GOLD_PERCENT" data-ref="_M/GOLD_PERCENT">GOLD_PERCENT</dfn> 46</u></td></tr>
+<tr><th id="190">190</th><td></td></tr>
+<tr><th id="191">191</th><td><u>#define <dfn class="macro" id="_M/MAX_OPT_LEN" data-ref="_M/MAX_OPT_LEN">MAX_OPT_LEN</dfn> 40</u></td></tr>
+<tr><th id="192">192</th><td></td></tr>
+<tr><th id="193">193</th><td><b>struct</b> <dfn class="type def" id="id" title='id' data-ref="id">id</dfn> {</td></tr>
+<tr><th id="194">194</th><td>    <em>short</em> <dfn class="decl" id="id::value" title='id::value' data-ref="id::value">value</dfn>;</td></tr>
+<tr><th id="195">195</th><td>    <em>char</em> <dfn class="decl" id="id::title" title='id::title' data-ref="id::title">title</dfn>[<var>40</var>];</td></tr>
+<tr><th id="196">196</th><td>    <em>char</em> <dfn class="decl" id="id::real" title='id::real' data-ref="id::real">real</dfn>[<var>40</var>];</td></tr>
+<tr><th id="197">197</th><td>    <em>unsigned</em> <em>short</em> <dfn class="decl" id="id::id_status" title='id::id_status' data-ref="id::id_status">id_status</dfn>;</td></tr>
+<tr><th id="198">198</th><td>};</td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td><i>/* The following #defines provide more meaningful names for some of the</i></td></tr>
+<tr><th id="201">201</th><td><i> * struct object fields that are used for monsters.  This, since each monster</i></td></tr>
+<tr><th id="202">202</th><td><i> * and object (scrolls, potions, etc) are represented by a struct object.</i></td></tr>
+<tr><th id="203">203</th><td><i> * Ideally, this should be handled by some kind of union structure.</i></td></tr>
+<tr><th id="204">204</th><td><i> */</i></td></tr>
+<tr><th id="205">205</th><td></td></tr>
+<tr><th id="206">206</th><td><u>#define <dfn class="macro" id="_M/m_damage" data-ref="_M/m_damage">m_damage</dfn> damage</u></td></tr>
+<tr><th id="207">207</th><td><u>#define <dfn class="macro" id="_M/hp_to_kill" data-ref="_M/hp_to_kill">hp_to_kill</dfn> quantity</u></td></tr>
+<tr><th id="208">208</th><td><u>#define <dfn class="macro" id="_M/m_char" data-ref="_M/m_char">m_char</dfn> ichar</u></td></tr>
+<tr><th id="209">209</th><td><u>#define <dfn class="macro" id="_M/first_level" data-ref="_M/first_level">first_level</dfn> is_protected</u></td></tr>
+<tr><th id="210">210</th><td><u>#define <dfn class="macro" id="_M/last_level" data-ref="_M/last_level">last_level</dfn> is_cursed</u></td></tr>
+<tr><th id="211">211</th><td><u>#define <dfn class="macro" id="_M/m_hit_chance" data-ref="_M/m_hit_chance">m_hit_chance</dfn> class</u></td></tr>
+<tr><th id="212">212</th><td><u>#define <dfn class="macro" id="_M/stationary_damage" data-ref="_M/stationary_damage">stationary_damage</dfn> identified</u></td></tr>
+<tr><th id="213">213</th><td><u>#define <dfn class="macro" id="_M/drop_percent" data-ref="_M/drop_percent">drop_percent</dfn> which_kind</u></td></tr>
+<tr><th id="214">214</th><td><u>#define <dfn class="macro" id="_M/trail_char" data-ref="_M/trail_char">trail_char</dfn> d_enchant</u></td></tr>
+<tr><th id="215">215</th><td><u>#define <dfn class="macro" id="_M/slowed_toggle" data-ref="_M/slowed_toggle">slowed_toggle</dfn> quiver</u></td></tr>
+<tr><th id="216">216</th><td><u>#define <dfn class="macro" id="_M/moves_confused" data-ref="_M/moves_confused">moves_confused</dfn> hit_enchant</u></td></tr>
+<tr><th id="217">217</th><td><u>#define <dfn class="macro" id="_M/nap_length" data-ref="_M/nap_length">nap_length</dfn> picked_up</u></td></tr>
+<tr><th id="218">218</th><td><u>#define <dfn class="macro" id="_M/disguise" data-ref="_M/disguise">disguise</dfn> what_is</u></td></tr>
+<tr><th id="219">219</th><td><u>#define <dfn class="macro" id="_M/next_monster" data-ref="_M/next_monster">next_monster</dfn> next_object</u></td></tr>
+<tr><th id="220">220</th><td></td></tr>
+<tr><th id="221">221</th><td><b>struct</b> <dfn class="type def" id="obj" title='obj' data-ref="obj">obj</dfn> {				<i>/* comment is monster meaning */</i></td></tr>
+<tr><th id="222">222</th><td>    <em>unsigned</em> <em>long</em> <dfn class="decl" id="obj::m_flags" title='obj::m_flags' data-ref="obj::m_flags">m_flags</dfn>;	<i>/* monster flags */</i></td></tr>
+<tr><th id="223">223</th><td>    <em>char</em> *<dfn class="decl" id="obj::damage" title='obj::damage' data-ref="obj::damage">damage</dfn>;			<i>/* damage it does */</i></td></tr>
+<tr><th id="224">224</th><td>    <em>short</em> <dfn class="decl" id="obj::quantity" title='obj::quantity' data-ref="obj::quantity">quantity</dfn>;			<i>/* hit points to kill */</i></td></tr>
+<tr><th id="225">225</th><td>    <em>short</em> <dfn class="decl" id="obj::ichar" title='obj::ichar' data-ref="obj::ichar">ichar</dfn>;			<i>/* 'A' is for aquatar */</i></td></tr>
+<tr><th id="226">226</th><td>    <em>short</em> <dfn class="decl" id="obj::kill_exp" title='obj::kill_exp' data-ref="obj::kill_exp">kill_exp</dfn>;			<i>/* exp for killing it */</i></td></tr>
+<tr><th id="227">227</th><td>    <em>short</em> <dfn class="decl" id="obj::is_protected" title='obj::is_protected' data-ref="obj::is_protected">is_protected</dfn>;		<i>/* level starts */</i></td></tr>
+<tr><th id="228">228</th><td>    <em>short</em> <dfn class="decl" id="obj::is_cursed" title='obj::is_cursed' data-ref="obj::is_cursed">is_cursed</dfn>;		<i>/* level ends */</i></td></tr>
+<tr><th id="229">229</th><td>    <em>short</em> <dfn class="decl" id="obj::class" title='obj::class' data-ref="obj::class">class</dfn>;			<i>/* chance of hitting you */</i></td></tr>
+<tr><th id="230">230</th><td>    <em>short</em> <dfn class="decl" id="obj::identified" title='obj::identified' data-ref="obj::identified">identified</dfn>;		<i>/* 'F' damage, 1,2,3... */</i></td></tr>
+<tr><th id="231">231</th><td>    <em>unsigned</em> <em>short</em> <dfn class="decl" id="obj::which_kind" title='obj::which_kind' data-ref="obj::which_kind">which_kind</dfn>; <i>/* item carry/drop % */</i></td></tr>
+<tr><th id="232">232</th><td>    <em>short</em> <dfn class="decl" id="obj::o_row" title='obj::o_row' data-ref="obj::o_row">o_row</dfn>, <dfn class="decl" id="obj::o_col" title='obj::o_col' data-ref="obj::o_col">o_col</dfn>, <dfn class="decl" id="obj::o" title='obj::o' data-ref="obj::o">o</dfn>;	<i>/* o is how many times stuck at o_row, o_col */</i></td></tr>
+<tr><th id="233">233</th><td>    <em>short</em> <dfn class="decl" id="obj::row" title='obj::row' data-ref="obj::row">row</dfn>, <dfn class="decl" id="obj::col" title='obj::col' data-ref="obj::col">col</dfn>;			<i>/* current row, col */</i></td></tr>
+<tr><th id="234">234</th><td>    <em>short</em> <dfn class="decl" id="obj::d_enchant" title='obj::d_enchant' data-ref="obj::d_enchant">d_enchant</dfn>;		<i>/* room char when detect_monster */</i></td></tr>
+<tr><th id="235">235</th><td>    <em>short</em> <dfn class="decl" id="obj::quiver" title='obj::quiver' data-ref="obj::quiver">quiver</dfn>;			<i>/* monster slowed toggle */</i></td></tr>
+<tr><th id="236">236</th><td>    <em>short</em> <dfn class="decl" id="obj::trow" title='obj::trow' data-ref="obj::trow">trow</dfn>, <dfn class="decl" id="obj::tcol" title='obj::tcol' data-ref="obj::tcol">tcol</dfn>;		<i>/* target row, col */</i></td></tr>
+<tr><th id="237">237</th><td>    <em>short</em> <dfn class="decl" id="obj::hit_enchant" title='obj::hit_enchant' data-ref="obj::hit_enchant">hit_enchant</dfn>;		<i>/* how many moves is confused */</i></td></tr>
+<tr><th id="238">238</th><td>    <em>unsigned</em> <em>short</em> <dfn class="decl" id="obj::what_is" title='obj::what_is' data-ref="obj::what_is">what_is</dfn>;	<i>/* imitator's charactor (?!%: */</i></td></tr>
+<tr><th id="239">239</th><td>    <em>short</em> <dfn class="decl" id="obj::picked_up" title='obj::picked_up' data-ref="obj::picked_up">picked_up</dfn>;		<i>/* sleep from wand of sleep */</i></td></tr>
+<tr><th id="240">240</th><td>    <em>unsigned</em> <em>short</em> <dfn class="decl" id="obj::in_use_flags" title='obj::in_use_flags' data-ref="obj::in_use_flags">in_use_flags</dfn>;</td></tr>
+<tr><th id="241">241</th><td>    <b>struct</b> <a class="type" href="#obj" title='obj' data-ref="obj">obj</a> *<dfn class="decl" id="obj::next_object" title='obj::next_object' data-ref="obj::next_object">next_object</dfn>;	<i>/* next monster */</i></td></tr>
+<tr><th id="242">242</th><td>};</td></tr>
+<tr><th id="243">243</th><td></td></tr>
+<tr><th id="244">244</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#obj" title='obj' data-ref="obj">obj</a> <dfn class="typedef" id="object" title='object' data-type='struct obj' data-ref="object">object</dfn>;</td></tr>
+<tr><th id="245">245</th><td></td></tr>
+<tr><th id="246">246</th><td><u>#define <dfn class="macro" id="_M/INIT_AW" data-ref="_M/INIT_AW">INIT_AW</dfn> (object*)0,(object*)0</u></td></tr>
+<tr><th id="247">247</th><td><u>#define <dfn class="macro" id="_M/INIT_RINGS" data-ref="_M/INIT_RINGS">INIT_RINGS</dfn> (object*)0,(object*)0</u></td></tr>
+<tr><th id="248">248</th><td><u>#define <dfn class="macro" id="_M/INIT_HP" data-ref="_M/INIT_HP">INIT_HP</dfn> 12,12</u></td></tr>
+<tr><th id="249">249</th><td><u>#define <dfn class="macro" id="_M/INIT_STR" data-ref="_M/INIT_STR">INIT_STR</dfn> 16,16</u></td></tr>
+<tr><th id="250">250</th><td><u>#define <dfn class="macro" id="_M/INIT_EXP" data-ref="_M/INIT_EXP">INIT_EXP</dfn> 1,0</u></td></tr>
+<tr><th id="251">251</th><td><u>#define <dfn class="macro" id="_M/INIT_PACK" data-ref="_M/INIT_PACK">INIT_PACK</dfn> {0}</u></td></tr>
+<tr><th id="252">252</th><td><u>#define <dfn class="macro" id="_M/INIT_GOLD" data-ref="_M/INIT_GOLD">INIT_GOLD</dfn> 0</u></td></tr>
+<tr><th id="253">253</th><td><u>#define <dfn class="macro" id="_M/INIT_CHAR" data-ref="_M/INIT_CHAR">INIT_CHAR</dfn> '@'</u></td></tr>
+<tr><th id="254">254</th><td><u>#define <dfn class="macro" id="_M/INIT_MOVES" data-ref="_M/INIT_MOVES">INIT_MOVES</dfn> 1250</u></td></tr>
+<tr><th id="255">255</th><td></td></tr>
+<tr><th id="256">256</th><td><b>struct</b> <dfn class="type def" id="fightr" title='fightr' data-ref="fightr">fightr</dfn> {</td></tr>
+<tr><th id="257">257</th><td>    <a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="fightr::armor" title='fightr::armor' data-ref="fightr::armor">armor</dfn>;</td></tr>
+<tr><th id="258">258</th><td>    <a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="fightr::weapon" title='fightr::weapon' data-ref="fightr::weapon">weapon</dfn>;</td></tr>
+<tr><th id="259">259</th><td>    <a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="fightr::left_ring" title='fightr::left_ring' data-ref="fightr::left_ring">left_ring</dfn>, *<dfn class="decl" id="fightr::right_ring" title='fightr::right_ring' data-ref="fightr::right_ring">right_ring</dfn>;</td></tr>
+<tr><th id="260">260</th><td>    <em>short</em> <dfn class="decl" id="fightr::hp_current" title='fightr::hp_current' data-ref="fightr::hp_current">hp_current</dfn>;</td></tr>
+<tr><th id="261">261</th><td>    <em>short</em> <dfn class="decl" id="fightr::hp_max" title='fightr::hp_max' data-ref="fightr::hp_max">hp_max</dfn>;</td></tr>
+<tr><th id="262">262</th><td>    <em>short</em> <dfn class="decl" id="fightr::str_current" title='fightr::str_current' data-ref="fightr::str_current">str_current</dfn>;</td></tr>
+<tr><th id="263">263</th><td>    <em>short</em> <dfn class="decl" id="fightr::str_max" title='fightr::str_max' data-ref="fightr::str_max">str_max</dfn>;</td></tr>
+<tr><th id="264">264</th><td>    <a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> <dfn class="decl" id="fightr::pack" title='fightr::pack' data-ref="fightr::pack">pack</dfn>;</td></tr>
+<tr><th id="265">265</th><td>    <em>long</em> <dfn class="decl" id="fightr::gold" title='fightr::gold' data-ref="fightr::gold">gold</dfn>;</td></tr>
+<tr><th id="266">266</th><td>    <em>short</em> <dfn class="decl" id="fightr::exp" title='fightr::exp' data-ref="fightr::exp">exp</dfn>;</td></tr>
+<tr><th id="267">267</th><td>    <em>long</em> <dfn class="decl" id="fightr::exp_points" title='fightr::exp_points' data-ref="fightr::exp_points">exp_points</dfn>;</td></tr>
+<tr><th id="268">268</th><td>    <em>short</em> <dfn class="decl" id="fightr::row" title='fightr::row' data-ref="fightr::row">row</dfn>, <dfn class="decl" id="fightr::col" title='fightr::col' data-ref="fightr::col">col</dfn>;</td></tr>
+<tr><th id="269">269</th><td>    <em>short</em> <dfn class="decl" id="fightr::fchar" title='fightr::fchar' data-ref="fightr::fchar">fchar</dfn>;</td></tr>
+<tr><th id="270">270</th><td>    <em>short</em> <dfn class="decl" id="fightr::moves_left" title='fightr::moves_left' data-ref="fightr::moves_left">moves_left</dfn>;</td></tr>
+<tr><th id="271">271</th><td>};</td></tr>
+<tr><th id="272">272</th><td></td></tr>
+<tr><th id="273">273</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#fightr" title='fightr' data-ref="fightr">fightr</a> <dfn class="typedef" id="fighter" title='fighter' data-type='struct fightr' data-ref="fighter">fighter</dfn>;</td></tr>
+<tr><th id="274">274</th><td></td></tr>
+<tr><th id="275">275</th><td><b>struct</b> <dfn class="type def" id="dr" title='dr' data-ref="dr">dr</dfn> {</td></tr>
+<tr><th id="276">276</th><td>    <em>short</em> <dfn class="decl" id="dr::oth_room" title='dr::oth_room' data-ref="dr::oth_room">oth_room</dfn>;</td></tr>
+<tr><th id="277">277</th><td>    <em>short</em> <dfn class="decl" id="dr::oth_row" title='dr::oth_row' data-ref="dr::oth_row">oth_row</dfn>,</td></tr>
+<tr><th id="278">278</th><td>          <dfn class="decl" id="dr::oth_col" title='dr::oth_col' data-ref="dr::oth_col">oth_col</dfn>;</td></tr>
+<tr><th id="279">279</th><td>    <em>short</em> <dfn class="decl" id="dr::door_row" title='dr::door_row' data-ref="dr::door_row">door_row</dfn>,</td></tr>
+<tr><th id="280">280</th><td>          <dfn class="decl" id="dr::door_col" title='dr::door_col' data-ref="dr::door_col">door_col</dfn>;</td></tr>
+<tr><th id="281">281</th><td>};</td></tr>
+<tr><th id="282">282</th><td></td></tr>
+<tr><th id="283">283</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#dr" title='dr' data-ref="dr">dr</a> <dfn class="typedef" id="door" title='door' data-type='struct dr' data-ref="door">door</dfn>;</td></tr>
+<tr><th id="284">284</th><td></td></tr>
+<tr><th id="285">285</th><td><b>struct</b> <dfn class="type def" id="rm" title='rm' data-ref="rm">rm</dfn> {</td></tr>
+<tr><th id="286">286</th><td>    <em>short</em> <dfn class="decl" id="rm::bottom_row" title='rm::bottom_row' data-ref="rm::bottom_row">bottom_row</dfn>, <dfn class="decl" id="rm::right_col" title='rm::right_col' data-ref="rm::right_col">right_col</dfn>, <dfn class="decl" id="rm::left_col" title='rm::left_col' data-ref="rm::left_col">left_col</dfn>, <dfn class="decl" id="rm::top_row" title='rm::top_row' data-ref="rm::top_row">top_row</dfn>;</td></tr>
+<tr><th id="287">287</th><td>    <a class="typedef" href="#door" title='door' data-type='struct dr' data-ref="door">door</a> <dfn class="decl" id="rm::doors" title='rm::doors' data-ref="rm::doors">doors</dfn>[<var>4</var>];</td></tr>
+<tr><th id="288">288</th><td>    <em>unsigned</em> <em>short</em> <dfn class="decl" id="rm::is_room" title='rm::is_room' data-ref="rm::is_room">is_room</dfn>;</td></tr>
+<tr><th id="289">289</th><td>};</td></tr>
+<tr><th id="290">290</th><td></td></tr>
+<tr><th id="291">291</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#rm" title='rm' data-ref="rm">rm</a> <dfn class="typedef" id="room" title='room' data-type='struct rm' data-ref="room">room</dfn>;</td></tr>
+<tr><th id="292">292</th><td></td></tr>
+<tr><th id="293">293</th><td><u>#define <dfn class="macro" id="_M/MAXROOMS" data-ref="_M/MAXROOMS">MAXROOMS</dfn> 9</u></td></tr>
+<tr><th id="294">294</th><td><u>#define <dfn class="macro" id="_M/BIG_ROOM" data-ref="_M/BIG_ROOM">BIG_ROOM</dfn> 10</u></td></tr>
+<tr><th id="295">295</th><td></td></tr>
+<tr><th id="296">296</th><td><u>#define <dfn class="macro" id="_M/NO_ROOM" data-ref="_M/NO_ROOM">NO_ROOM</dfn> -1</u></td></tr>
+<tr><th id="297">297</th><td></td></tr>
+<tr><th id="298">298</th><td><u>#define <dfn class="macro" id="_M/PASSAGE" data-ref="_M/PASSAGE">PASSAGE</dfn> -3		/* cur_room value */</u></td></tr>
+<tr><th id="299">299</th><td></td></tr>
+<tr><th id="300">300</th><td><u>#define <dfn class="macro" id="_M/AMULET_LEVEL" data-ref="_M/AMULET_LEVEL">AMULET_LEVEL</dfn> 26</u></td></tr>
+<tr><th id="301">301</th><td></td></tr>
+<tr><th id="302">302</th><td><u>#define <dfn class="macro" id="_M/R_NOTHING" data-ref="_M/R_NOTHING">R_NOTHING</dfn>	((unsigned short) 01)</u></td></tr>
+<tr><th id="303">303</th><td><u>#define <dfn class="macro" id="_M/R_ROOM" data-ref="_M/R_ROOM">R_ROOM</dfn>		((unsigned short) 02)</u></td></tr>
+<tr><th id="304">304</th><td><u>#define <dfn class="macro" id="_M/R_MAZE" data-ref="_M/R_MAZE">R_MAZE</dfn>		((unsigned short) 04)</u></td></tr>
+<tr><th id="305">305</th><td><u>#define <dfn class="macro" id="_M/R_DEADEND" data-ref="_M/R_DEADEND">R_DEADEND</dfn>	((unsigned short) 010)</u></td></tr>
+<tr><th id="306">306</th><td><u>#define <dfn class="macro" id="_M/R_CROSS" data-ref="_M/R_CROSS">R_CROSS</dfn>		((unsigned short) 020)</u></td></tr>
+<tr><th id="307">307</th><td></td></tr>
+<tr><th id="308">308</th><td><u>#define <dfn class="macro" id="_M/MAX_EXP_LEVEL" data-ref="_M/MAX_EXP_LEVEL">MAX_EXP_LEVEL</dfn> 21</u></td></tr>
+<tr><th id="309">309</th><td><u>#define <dfn class="macro" id="_M/MAX_EXP" data-ref="_M/MAX_EXP">MAX_EXP</dfn> 10000001L</u></td></tr>
+<tr><th id="310">310</th><td><u>#define <dfn class="macro" id="_M/MAX_GOLD" data-ref="_M/MAX_GOLD">MAX_GOLD</dfn> 999999</u></td></tr>
+<tr><th id="311">311</th><td><u>#define <dfn class="macro" id="_M/MAX_ARMOR" data-ref="_M/MAX_ARMOR">MAX_ARMOR</dfn> 99</u></td></tr>
+<tr><th id="312">312</th><td><u>#define <dfn class="macro" id="_M/MAX_HP" data-ref="_M/MAX_HP">MAX_HP</dfn> 999</u></td></tr>
+<tr><th id="313">313</th><td><u>#define <dfn class="macro" id="_M/MAX_STRENGTH" data-ref="_M/MAX_STRENGTH">MAX_STRENGTH</dfn> 99</u></td></tr>
+<tr><th id="314">314</th><td><u>#define <dfn class="macro" id="_M/LAST_DUNGEON" data-ref="_M/LAST_DUNGEON">LAST_DUNGEON</dfn> 99</u></td></tr>
+<tr><th id="315">315</th><td></td></tr>
+<tr><th id="316">316</th><td><u>#define <dfn class="macro" id="_M/STAT_LEVEL" data-ref="_M/STAT_LEVEL">STAT_LEVEL</dfn> 01</u></td></tr>
+<tr><th id="317">317</th><td><u>#define <dfn class="macro" id="_M/STAT_GOLD" data-ref="_M/STAT_GOLD">STAT_GOLD</dfn> 02</u></td></tr>
+<tr><th id="318">318</th><td><u>#define <dfn class="macro" id="_M/STAT_HP" data-ref="_M/STAT_HP">STAT_HP</dfn> 04</u></td></tr>
+<tr><th id="319">319</th><td><u>#define <dfn class="macro" id="_M/STAT_STRENGTH" data-ref="_M/STAT_STRENGTH">STAT_STRENGTH</dfn> 010</u></td></tr>
+<tr><th id="320">320</th><td><u>#define <dfn class="macro" id="_M/STAT_ARMOR" data-ref="_M/STAT_ARMOR">STAT_ARMOR</dfn> 020</u></td></tr>
+<tr><th id="321">321</th><td><u>#define <dfn class="macro" id="_M/STAT_EXP" data-ref="_M/STAT_EXP">STAT_EXP</dfn> 040</u></td></tr>
+<tr><th id="322">322</th><td><u>#define <dfn class="macro" id="_M/STAT_HUNGER" data-ref="_M/STAT_HUNGER">STAT_HUNGER</dfn> 0100</u></td></tr>
+<tr><th id="323">323</th><td><u>#define <dfn class="macro" id="_M/STAT_LABEL" data-ref="_M/STAT_LABEL">STAT_LABEL</dfn> 0200</u></td></tr>
+<tr><th id="324">324</th><td><u>#define <dfn class="macro" id="_M/STAT_ALL" data-ref="_M/STAT_ALL">STAT_ALL</dfn> 0377</u></td></tr>
+<tr><th id="325">325</th><td></td></tr>
+<tr><th id="326">326</th><td><u>#define <dfn class="macro" id="_M/PARTY_TIME" data-ref="_M/PARTY_TIME">PARTY_TIME</dfn> 10	/* one party somewhere in each 10 level span */</u></td></tr>
+<tr><th id="327">327</th><td></td></tr>
+<tr><th id="328">328</th><td><u>#define <dfn class="macro" id="_M/MAX_TRAPS" data-ref="_M/MAX_TRAPS">MAX_TRAPS</dfn> 10	/* maximum traps per level */</u></td></tr>
+<tr><th id="329">329</th><td></td></tr>
+<tr><th id="330">330</th><td><u>#define <dfn class="macro" id="_M/HIDE_PERCENT" data-ref="_M/HIDE_PERCENT">HIDE_PERCENT</dfn> 12</u></td></tr>
+<tr><th id="331">331</th><td></td></tr>
+<tr><th id="332">332</th><td><b>struct</b> <dfn class="type def" id="tr" title='tr' data-ref="tr">tr</dfn> {</td></tr>
+<tr><th id="333">333</th><td>    <em>short</em> <dfn class="decl" id="tr::trap_type" title='tr::trap_type' data-ref="tr::trap_type">trap_type</dfn>;</td></tr>
+<tr><th id="334">334</th><td>    <em>short</em> <dfn class="decl" id="tr::trap_row" title='tr::trap_row' data-ref="tr::trap_row">trap_row</dfn>, <dfn class="decl" id="tr::trap_col" title='tr::trap_col' data-ref="tr::trap_col">trap_col</dfn>;</td></tr>
+<tr><th id="335">335</th><td>};</td></tr>
+<tr><th id="336">336</th><td></td></tr>
+<tr><th id="337">337</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#tr" title='tr' data-ref="tr">tr</a> <dfn class="typedef" id="trap" title='trap' data-type='struct tr' data-ref="trap">trap</dfn>;</td></tr>
+<tr><th id="338">338</th><td></td></tr>
+<tr><th id="339">339</th><td><b>extern</b> <a class="typedef" href="#fighter" title='fighter' data-type='struct fightr' data-ref="fighter">fighter</a> <dfn class="decl" id="rogue" title='rogue' data-ref="rogue">rogue</dfn>;</td></tr>
+<tr><th id="340">340</th><td><b>extern</b> <a class="typedef" href="#room" title='room' data-type='struct rm' data-ref="room">room</a> <dfn class="decl" id="rooms" title='rooms' data-ref="rooms">rooms</dfn>[];</td></tr>
+<tr><th id="341">341</th><td><b>extern</b> <a class="typedef" href="#trap" title='trap' data-type='struct tr' data-ref="trap">trap</a> <dfn class="decl" id="traps" title='traps' data-ref="traps">traps</dfn>[];</td></tr>
+<tr><th id="342">342</th><td><b>extern</b> <em>unsigned</em> <em>short</em> <dfn class="decl" id="dungeon" title='dungeon' data-ref="dungeon">dungeon</dfn>[<a class="macro" href="#180" title="24" data-ref="_M/DROWS">DROWS</a>][<a class="macro" href="#181" title="80" data-ref="_M/DCOLS">DCOLS</a>];</td></tr>
+<tr><th id="343">343</th><td><b>extern</b> <a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> <dfn class="decl" id="level_objects" title='level_objects' data-ref="level_objects">level_objects</dfn>;</td></tr>
+<tr><th id="344">344</th><td></td></tr>
+<tr><th id="345">345</th><td><b>extern</b> <b>struct</b> <a class="type" href="#id" title='id' data-ref="id">id</a> <dfn class="decl" id="id_scrolls" title='id_scrolls' data-ref="id_scrolls">id_scrolls</dfn>[];</td></tr>
+<tr><th id="346">346</th><td><b>extern</b> <b>struct</b> <a class="type" href="#id" title='id' data-ref="id">id</a> <dfn class="decl" id="id_potions" title='id_potions' data-ref="id_potions">id_potions</dfn>[];</td></tr>
+<tr><th id="347">347</th><td><b>extern</b> <b>struct</b> <a class="type" href="#id" title='id' data-ref="id">id</a> <dfn class="decl" id="id_wands" title='id_wands' data-ref="id_wands">id_wands</dfn>[];</td></tr>
+<tr><th id="348">348</th><td><b>extern</b> <b>struct</b> <a class="type" href="#id" title='id' data-ref="id">id</a> <dfn class="decl" id="id_rings" title='id_rings' data-ref="id_rings">id_rings</dfn>[];</td></tr>
+<tr><th id="349">349</th><td><b>extern</b> <b>struct</b> <a class="type" href="#id" title='id' data-ref="id">id</a> <dfn class="decl" id="id_weapons" title='id_weapons' data-ref="id_weapons">id_weapons</dfn>[];</td></tr>
+<tr><th id="350">350</th><td><b>extern</b> <b>struct</b> <a class="type" href="#id" title='id' data-ref="id">id</a> <dfn class="decl" id="id_armors" title='id_armors' data-ref="id_armors">id_armors</dfn>[];</td></tr>
+<tr><th id="351">351</th><td></td></tr>
+<tr><th id="352">352</th><td><b>extern</b> <a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> <dfn class="decl" id="mon_tab" title='mon_tab' data-ref="mon_tab">mon_tab</dfn>[];</td></tr>
+<tr><th id="353">353</th><td><b>extern</b> <a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> <dfn class="decl" id="level_monsters" title='level_monsters' data-ref="level_monsters">level_monsters</dfn>;</td></tr>
+<tr><th id="354">354</th><td></td></tr>
+<tr><th id="355">355</th><td><u>#define <dfn class="macro" id="_M/MONSTERS" data-ref="_M/MONSTERS">MONSTERS</dfn> 26</u></td></tr>
+<tr><th id="356">356</th><td></td></tr>
+<tr><th id="357">357</th><td><u>#define <dfn class="macro" id="_M/HASTED" data-ref="_M/HASTED">HASTED</dfn>					01L</u></td></tr>
+<tr><th id="358">358</th><td><u>#define <dfn class="macro" id="_M/SLOWED" data-ref="_M/SLOWED">SLOWED</dfn>					02L</u></td></tr>
+<tr><th id="359">359</th><td><u>#define <dfn class="macro" id="_M/INVISIBLE" data-ref="_M/INVISIBLE">INVISIBLE</dfn>				04L</u></td></tr>
+<tr><th id="360">360</th><td><u>#define <dfn class="macro" id="_M/ASLEEP" data-ref="_M/ASLEEP">ASLEEP</dfn>				   010L</u></td></tr>
+<tr><th id="361">361</th><td><u>#define <dfn class="macro" id="_M/WAKENS" data-ref="_M/WAKENS">WAKENS</dfn>				   020L</u></td></tr>
+<tr><th id="362">362</th><td><u>#define <dfn class="macro" id="_M/WANDERS" data-ref="_M/WANDERS">WANDERS</dfn>				   040L</u></td></tr>
+<tr><th id="363">363</th><td><u>#define <dfn class="macro" id="_M/FLIES" data-ref="_M/FLIES">FLIES</dfn>				  0100L</u></td></tr>
+<tr><th id="364">364</th><td><u>#define <dfn class="macro" id="_M/FLITS" data-ref="_M/FLITS">FLITS</dfn>				  0200L</u></td></tr>
+<tr><th id="365">365</th><td><u>#define <dfn class="macro" id="_M/CAN_FLIT" data-ref="_M/CAN_FLIT">CAN_FLIT</dfn>			  0400L		/* can, but usually doesn't, flit */</u></td></tr>
+<tr><th id="366">366</th><td><u>#define <dfn class="macro" id="_M/CONFUSED" data-ref="_M/CONFUSED">CONFUSED</dfn>	 		 01000L</u></td></tr>
+<tr><th id="367">367</th><td><u>#define <dfn class="macro" id="_M/RUSTS" data-ref="_M/RUSTS">RUSTS</dfn>				 02000L</u></td></tr>
+<tr><th id="368">368</th><td><u>#define <dfn class="macro" id="_M/HOLDS" data-ref="_M/HOLDS">HOLDS</dfn>				 04000L</u></td></tr>
+<tr><th id="369">369</th><td><u>#define <dfn class="macro" id="_M/FREEZES" data-ref="_M/FREEZES">FREEZES</dfn>				010000L</u></td></tr>
+<tr><th id="370">370</th><td><u>#define <dfn class="macro" id="_M/STEALS_GOLD" data-ref="_M/STEALS_GOLD">STEALS_GOLD</dfn>			020000L</u></td></tr>
+<tr><th id="371">371</th><td><u>#define <dfn class="macro" id="_M/STEALS_ITEM" data-ref="_M/STEALS_ITEM">STEALS_ITEM</dfn>			040000L</u></td></tr>
+<tr><th id="372">372</th><td><u>#define <dfn class="macro" id="_M/STINGS" data-ref="_M/STINGS">STINGS</dfn>			   0100000L</u></td></tr>
+<tr><th id="373">373</th><td><u>#define <dfn class="macro" id="_M/DRAINS_LIFE" data-ref="_M/DRAINS_LIFE">DRAINS_LIFE</dfn>		   0200000L</u></td></tr>
+<tr><th id="374">374</th><td><u>#define <dfn class="macro" id="_M/DROPS_LEVEL" data-ref="_M/DROPS_LEVEL">DROPS_LEVEL</dfn>		   0400000L</u></td></tr>
+<tr><th id="375">375</th><td><u>#define <dfn class="macro" id="_M/SEEKS_GOLD" data-ref="_M/SEEKS_GOLD">SEEKS_GOLD</dfn>		  01000000L</u></td></tr>
+<tr><th id="376">376</th><td><u>#define <dfn class="macro" id="_M/FREEZING_ROGUE" data-ref="_M/FREEZING_ROGUE">FREEZING_ROGUE</dfn>	  02000000L</u></td></tr>
+<tr><th id="377">377</th><td><u>#define <dfn class="macro" id="_M/RUST_VANISHED" data-ref="_M/RUST_VANISHED">RUST_VANISHED</dfn>	  04000000L</u></td></tr>
+<tr><th id="378">378</th><td><u>#define <dfn class="macro" id="_M/CONFUSES" data-ref="_M/CONFUSES">CONFUSES</dfn>		 010000000L</u></td></tr>
+<tr><th id="379">379</th><td><u>#define <dfn class="macro" id="_M/IMITATES" data-ref="_M/IMITATES">IMITATES</dfn>		 020000000L</u></td></tr>
+<tr><th id="380">380</th><td><u>#define <dfn class="macro" id="_M/FLAMES" data-ref="_M/FLAMES">FLAMES</dfn>			 040000000L</u></td></tr>
+<tr><th id="381">381</th><td><u>#define <dfn class="macro" id="_M/STATIONARY" data-ref="_M/STATIONARY">STATIONARY</dfn>		0100000000L		/* damage will be 1,2,3,... */</u></td></tr>
+<tr><th id="382">382</th><td><u>#define <dfn class="macro" id="_M/NAPPING" data-ref="_M/NAPPING">NAPPING</dfn>			0200000000L		/* can't wake up for a while */</u></td></tr>
+<tr><th id="383">383</th><td><u>#define <dfn class="macro" id="_M/ALREADY_MOVED" data-ref="_M/ALREADY_MOVED">ALREADY_MOVED</dfn>	0400000000L</u></td></tr>
+<tr><th id="384">384</th><td></td></tr>
+<tr><th id="385">385</th><td><u>#define <dfn class="macro" id="_M/SPECIAL_HIT" data-ref="_M/SPECIAL_HIT">SPECIAL_HIT</dfn>		(RUSTS|HOLDS|FREEZES|STEALS_GOLD|STEALS_ITEM|STINGS|DRAINS_LIFE|DROPS_LEVEL)</u></td></tr>
+<tr><th id="386">386</th><td></td></tr>
+<tr><th id="387">387</th><td><u>#define <dfn class="macro" id="_M/WAKE_PERCENT" data-ref="_M/WAKE_PERCENT">WAKE_PERCENT</dfn> 45</u></td></tr>
+<tr><th id="388">388</th><td><u>#define <dfn class="macro" id="_M/FLIT_PERCENT" data-ref="_M/FLIT_PERCENT">FLIT_PERCENT</dfn> 40</u></td></tr>
+<tr><th id="389">389</th><td><u>#define <dfn class="macro" id="_M/PARTY_WAKE_PERCENT" data-ref="_M/PARTY_WAKE_PERCENT">PARTY_WAKE_PERCENT</dfn> 75</u></td></tr>
+<tr><th id="390">390</th><td></td></tr>
+<tr><th id="391">391</th><td><u>#define <dfn class="macro" id="_M/HYPOTHERMIA" data-ref="_M/HYPOTHERMIA">HYPOTHERMIA</dfn> 1</u></td></tr>
+<tr><th id="392">392</th><td><u>#define <dfn class="macro" id="_M/STARVATION" data-ref="_M/STARVATION">STARVATION</dfn> 2</u></td></tr>
+<tr><th id="393">393</th><td><u>#define <dfn class="macro" id="_M/POISON_DART" data-ref="_M/POISON_DART">POISON_DART</dfn> 3</u></td></tr>
+<tr><th id="394">394</th><td><u>#define <dfn class="macro" id="_M/QUIT" data-ref="_M/QUIT">QUIT</dfn> 4</u></td></tr>
+<tr><th id="395">395</th><td><u>#define <dfn class="macro" id="_M/WIN" data-ref="_M/WIN">WIN</dfn> 5</u></td></tr>
+<tr><th id="396">396</th><td><u>#define <dfn class="macro" id="_M/KFIRE" data-ref="_M/KFIRE">KFIRE</dfn> 6</u></td></tr>
+<tr><th id="397">397</th><td></td></tr>
+<tr><th id="398">398</th><td><u>#define <dfn class="macro" id="_M/UPWARD" data-ref="_M/UPWARD">UPWARD</dfn> 0</u></td></tr>
+<tr><th id="399">399</th><td><u>#define <dfn class="macro" id="_M/UPRIGHT" data-ref="_M/UPRIGHT">UPRIGHT</dfn> 1</u></td></tr>
+<tr><th id="400">400</th><td><u>#define <dfn class="macro" id="_M/RIGHT" data-ref="_M/RIGHT">RIGHT</dfn> 2</u></td></tr>
+<tr><th id="401">401</th><td><u>#define <dfn class="macro" id="_M/DOWNRIGHT" data-ref="_M/DOWNRIGHT">DOWNRIGHT</dfn> 3</u></td></tr>
+<tr><th id="402">402</th><td><u>#define <dfn class="macro" id="_M/DOWN" data-ref="_M/DOWN">DOWN</dfn> 4</u></td></tr>
+<tr><th id="403">403</th><td><u>#define <dfn class="macro" id="_M/DOWNLEFT" data-ref="_M/DOWNLEFT">DOWNLEFT</dfn> 5</u></td></tr>
+<tr><th id="404">404</th><td><u>#define <dfn class="macro" id="_M/LEFT" data-ref="_M/LEFT">LEFT</dfn> 6</u></td></tr>
+<tr><th id="405">405</th><td><u>#define <dfn class="macro" id="_M/UPLEFT" data-ref="_M/UPLEFT">UPLEFT</dfn> 7</u></td></tr>
+<tr><th id="406">406</th><td><u>#define <dfn class="macro" id="_M/DIRS" data-ref="_M/DIRS">DIRS</dfn> 8</u></td></tr>
+<tr><th id="407">407</th><td></td></tr>
+<tr><th id="408">408</th><td><u>#define <dfn class="macro" id="_M/ROW1" data-ref="_M/ROW1">ROW1</dfn> 7</u></td></tr>
+<tr><th id="409">409</th><td><u>#define <dfn class="macro" id="_M/ROW2" data-ref="_M/ROW2">ROW2</dfn> 15</u></td></tr>
+<tr><th id="410">410</th><td></td></tr>
+<tr><th id="411">411</th><td><u>#define <dfn class="macro" id="_M/COL1" data-ref="_M/COL1">COL1</dfn> 26</u></td></tr>
+<tr><th id="412">412</th><td><u>#define <dfn class="macro" id="_M/COL2" data-ref="_M/COL2">COL2</dfn> 52</u></td></tr>
+<tr><th id="413">413</th><td></td></tr>
+<tr><th id="414">414</th><td><u>#define <dfn class="macro" id="_M/MOVED" data-ref="_M/MOVED">MOVED</dfn> 0</u></td></tr>
+<tr><th id="415">415</th><td><u>#define <dfn class="macro" id="_M/MOVE_FAILED" data-ref="_M/MOVE_FAILED">MOVE_FAILED</dfn> -1</u></td></tr>
+<tr><th id="416">416</th><td><u>#define <dfn class="macro" id="_M/STOPPED_ON_SOMETHING" data-ref="_M/STOPPED_ON_SOMETHING">STOPPED_ON_SOMETHING</dfn> -2</u></td></tr>
+<tr><th id="417">417</th><td><u>#define <dfn class="macro" id="_M/CANCEL" data-ref="_M/CANCEL">CANCEL</dfn> '\033'</u></td></tr>
+<tr><th id="418">418</th><td><u>#define <dfn class="macro" id="_M/LIST" data-ref="_M/LIST">LIST</dfn> '*'</u></td></tr>
+<tr><th id="419">419</th><td></td></tr>
+<tr><th id="420">420</th><td><u>#define <dfn class="macro" id="_M/HUNGRY" data-ref="_M/HUNGRY">HUNGRY</dfn> 300</u></td></tr>
+<tr><th id="421">421</th><td><u>#define <dfn class="macro" id="_M/WEAK" data-ref="_M/WEAK">WEAK</dfn> 150</u></td></tr>
+<tr><th id="422">422</th><td><u>#define <dfn class="macro" id="_M/FAINT" data-ref="_M/FAINT">FAINT</dfn> 20</u></td></tr>
+<tr><th id="423">423</th><td><u>#define <dfn class="macro" id="_M/STARVE" data-ref="_M/STARVE">STARVE</dfn> 0</u></td></tr>
+<tr><th id="424">424</th><td></td></tr>
+<tr><th id="425">425</th><td><u>#define <dfn class="macro" id="_M/MIN_ROW" data-ref="_M/MIN_ROW">MIN_ROW</dfn> 1</u></td></tr>
+<tr><th id="426">426</th><td></td></tr>
+<tr><th id="427">427</th><td><i>/* external routine declarations.</i></td></tr>
+<tr><th id="428">428</th><td><i> */</i></td></tr>
+<tr><th id="429">429</th><td><em>char</em> *<a class="decl" href="../include/string.h.html#strcpy" title='strcpy' data-ref="strcpy" id="strcpy">strcpy</a>();</td></tr>
+<tr><th id="430">430</th><td><em>char</em> *<a class="decl" href="../include/string.h.html#strncpy" title='strncpy' data-ref="strncpy" id="strncpy">strncpy</a>();</td></tr>
+<tr><th id="431">431</th><td><em>char</em> *<a class="decl" href="../include/string.h.html#strcat" title='strcat' data-ref="strcat" id="strcat">strcat</a>();</td></tr>
+<tr><th id="432">432</th><td></td></tr>
+<tr><th id="433">433</th><td><em>char</em> *<dfn class="decl" id="mon_name" title='mon_name' data-ref="mon_name">mon_name</dfn>();</td></tr>
+<tr><th id="434">434</th><td><em>char</em> *<dfn class="decl" id="get_ench_color" title='get_ench_color' data-ref="get_ench_color">get_ench_color</dfn>();</td></tr>
+<tr><th id="435">435</th><td><em>char</em> *<dfn class="decl" id="name_of" title='name_of' data-ref="name_of">name_of</dfn>();</td></tr>
+<tr><th id="436">436</th><td><em>char</em> *<dfn class="decl" id="md_gln" title='md_gln' data-ref="md_gln">md_gln</dfn>();</td></tr>
+<tr><th id="437">437</th><td><em>char</em> *<dfn class="decl" id="md_getenv" title='md_getenv' data-ref="md_getenv">md_getenv</dfn>();</td></tr>
+<tr><th id="438">438</th><td><em>char</em> *<dfn class="decl" id="md_malloc" title='md_malloc' data-ref="md_malloc">md_malloc</dfn>();</td></tr>
+<tr><th id="439">439</th><td><a class="macro" href="#50" title="char" data-ref="_M/boolean">boolean</a> <dfn class="decl" id="is_direction" title='is_direction' data-ref="is_direction">is_direction</dfn>();</td></tr>
+<tr><th id="440">440</th><td><a class="macro" href="#50" title="char" data-ref="_M/boolean">boolean</a> <dfn class="decl" id="mon_sees" title='mon_sees' data-ref="mon_sees">mon_sees</dfn>();</td></tr>
+<tr><th id="441">441</th><td><a class="macro" href="#50" title="char" data-ref="_M/boolean">boolean</a> <dfn class="decl" id="mask_pack" title='mask_pack' data-ref="mask_pack">mask_pack</dfn>();</td></tr>
+<tr><th id="442">442</th><td><a class="macro" href="#50" title="char" data-ref="_M/boolean">boolean</a> <dfn class="decl" id="mask_room" title='mask_room' data-ref="mask_room">mask_room</dfn>();</td></tr>
+<tr><th id="443">443</th><td><a class="macro" href="#50" title="char" data-ref="_M/boolean">boolean</a> <dfn class="decl" id="is_digit" title='is_digit' data-ref="is_digit">is_digit</dfn>();</td></tr>
+<tr><th id="444">444</th><td><a class="macro" href="#50" title="char" data-ref="_M/boolean">boolean</a> <dfn class="decl" id="check_hunger" title='check_hunger' data-ref="check_hunger">check_hunger</dfn>();</td></tr>
+<tr><th id="445">445</th><td><a class="macro" href="#50" title="char" data-ref="_M/boolean">boolean</a> <dfn class="decl" id="reg_move" title='reg_move' data-ref="reg_move">reg_move</dfn>();</td></tr>
+<tr><th id="446">446</th><td><a class="macro" href="#50" title="char" data-ref="_M/boolean">boolean</a> <dfn class="decl" id="md_df" title='md_df' data-ref="md_df">md_df</dfn>();</td></tr>
+<tr><th id="447">447</th><td><a class="macro" href="#50" title="char" data-ref="_M/boolean">boolean</a> <dfn class="decl" id="has_been_touched" title='has_been_touched' data-ref="has_been_touched">has_been_touched</dfn>();</td></tr>
+<tr><th id="448">448</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="add_to_pack" title='add_to_pack' data-ref="add_to_pack">add_to_pack</dfn>();</td></tr>
+<tr><th id="449">449</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="alloc_object" title='alloc_object' data-ref="alloc_object">alloc_object</dfn>();</td></tr>
+<tr><th id="450">450</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="get_letter_object" title='get_letter_object' data-ref="get_letter_object">get_letter_object</dfn>();</td></tr>
+<tr><th id="451">451</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="gr_monster" title='gr_monster' data-ref="gr_monster">gr_monster</dfn>();</td></tr>
+<tr><th id="452">452</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="get_thrown_at_monster" title='get_thrown_at_monster' data-ref="get_thrown_at_monster">get_thrown_at_monster</dfn>();</td></tr>
+<tr><th id="453">453</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="get_zapped_monster" title='get_zapped_monster' data-ref="get_zapped_monster">get_zapped_monster</dfn>();</td></tr>
+<tr><th id="454">454</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="check_duplicate" title='check_duplicate' data-ref="check_duplicate">check_duplicate</dfn>();</td></tr>
+<tr><th id="455">455</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="gr_object" title='gr_object' data-ref="gr_object">gr_object</dfn>();</td></tr>
+<tr><th id="456">456</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="object_at" title='object_at' data-ref="object_at">object_at</dfn>();</td></tr>
+<tr><th id="457">457</th><td><a class="typedef" href="#object" title='object' data-type='struct obj' data-ref="object">object</a> *<dfn class="decl" id="pick_up" title='pick_up' data-ref="pick_up">pick_up</dfn>();</td></tr>
+<tr><th id="458">458</th><td><b>struct</b> <a class="type" href="#id" title='id' data-ref="id">id</a> *<dfn class="decl" id="get_id_table" title='get_id_table' data-ref="get_id_table">get_id_table</dfn>();</td></tr>
+<tr><th id="459">459</th><td><em>unsigned</em> <em>short</em> <dfn class="decl" id="gr_what_is" title='gr_what_is' data-ref="gr_what_is">gr_what_is</dfn>();</td></tr>
+<tr><th id="460">460</th><td><em>long</em> <dfn class="decl" id="rrandom" title='rrandom' data-ref="rrandom">rrandom</dfn>();</td></tr>
+<tr><th id="461">461</th><td><em>long</em> <a class="decl" href="hit.c.html#lget_number" title='lget_number' data-ref="lget_number" id="lget_number">lget_number</a>();</td></tr>
+<tr><th id="462">462</th><td><em>long</em> <dfn class="decl" id="xxx" title='xxx' data-ref="xxx">xxx</dfn>();</td></tr>
+<tr><th id="463">463</th><td><em>void</em> <dfn class="decl" id="byebye" title='byebye' data-ref="byebye">byebye</dfn>(), <dfn class="decl" id="onintr" title='onintr' data-ref="onintr">onintr</dfn>(), <dfn class="decl" id="error_save" title='error_save' data-ref="error_save">error_save</dfn>();</td></tr>
+<tr><th id="464">464</th><td></td></tr>
+<tr><th id="465">465</th><td><b>struct</b> <dfn class="type def" id="rogue_time" title='rogue_time' data-ref="rogue_time">rogue_time</dfn> {</td></tr>
+<tr><th id="466">466</th><td>    <em>short</em> <dfn class="decl" id="rogue_time::year" title='rogue_time::year' data-ref="rogue_time::year">year</dfn>;		<i>/* &gt;= 1987 */</i></td></tr>
+<tr><th id="467">467</th><td>    <em>short</em> <dfn class="decl" id="rogue_time::month" title='rogue_time::month' data-ref="rogue_time::month">month</dfn>;	<i>/* 1 - 12 */</i></td></tr>
+<tr><th id="468">468</th><td>    <em>short</em> <dfn class="decl" id="rogue_time::day" title='rogue_time::day' data-ref="rogue_time::day">day</dfn>;		<i>/* 1 - 31 */</i></td></tr>
+<tr><th id="469">469</th><td>    <em>short</em> <dfn class="decl" id="rogue_time::hour" title='rogue_time::hour' data-ref="rogue_time::hour">hour</dfn>;		<i>/* 0 - 23 */</i></td></tr>
+<tr><th id="470">470</th><td>    <em>short</em> <dfn class="decl" id="rogue_time::minute" title='rogue_time::minute' data-ref="rogue_time::minute">minute</dfn>;	<i>/* 0 - 59 */</i></td></tr>
+<tr><th id="471">471</th><td>    <em>short</em> <dfn class="decl" id="rogue_time::second" title='rogue_time::second' data-ref="rogue_time::second">second</dfn>;	<i>/* 0 - 59 */</i></td></tr>
+<tr><th id="472">472</th><td>};</td></tr>
+<tr><th id="473">473</th><td></td></tr>
+<tr><th id="474">474</th><td><u>#<span data-ppcond="474">ifdef</span> <span class="macro" data-ref="_M/CURSES">CURSES</span></u></td></tr>
+<tr><th id="475">475</th><td><b>struct</b> _win_st {</td></tr>
+<tr><th id="476">476</th><td>    <em>short</em> _cury, _curx;</td></tr>
+<tr><th id="477">477</th><td>    <em>short</em> _maxy, _maxx;</td></tr>
+<tr><th id="478">478</th><td>};</td></tr>
+<tr><th id="479">479</th><td></td></tr>
+<tr><th id="480">480</th><td><b>typedef</b> <b>struct</b> _win_st WINDOW;</td></tr>
+<tr><th id="481">481</th><td></td></tr>
+<tr><th id="482">482</th><td><b>extern</b> <em>int</em> LINES, COLS;</td></tr>
+<tr><th id="483">483</th><td><b>extern</b> WINDOW *curscr;</td></tr>
+<tr><th id="484">484</th><td><b>extern</b> <em>char</em> *CL;</td></tr>
+<tr><th id="485">485</th><td></td></tr>
+<tr><th id="486">486</th><td><em>char</em> *md_gdtcf();</td></tr>
+<tr><th id="487">487</th><td></td></tr>
+<tr><th id="488">488</th><td><u>#<span data-ppcond="474">else</span></u></td></tr>
+<tr><th id="489">489</th><td><u>#include <a href="../include/curses.h.html">&lt;curses.h&gt;</a></u></td></tr>
+<tr><th id="490">490</th><td><u>#<span data-ppcond="474">endif</span></u></td></tr>
+<tr><th id="491">491</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='hit.c.html'>codebrowser/hit.c</a><br/>Generated on <em>2017-Sep-22</em> from project codebrowser revision <em>83243ca</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

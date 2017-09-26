@@ -1,0 +1,12 @@
+<dec f='codebrowser/hit.c' l='60' type='short'/>
+<use f='codebrowser/hit.c' l='78' u='r' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='437' u='r' c='get_hit_chance'/>
+<use f='codebrowser/hit.c' l='448' u='r' c='get_weapon_damage'/>
+<def f='codebrowser/ring.c' l='58' type='short'/>
+<use f='codebrowser/ring.c' l='78' u='r' c='put_on_ring'/>
+<use f='codebrowser/ring.c' l='97' u='r' c='put_on_ring'/>
+<use f='codebrowser/ring.c' l='152' u='r' c='remove_ring'/>
+<use f='codebrowser/ring.c' l='252' u='r' c='inv_rings'/>
+<use f='codebrowser/ring.c' l='266' u='r' c='inv_rings'/>
+<use f='codebrowser/ring.c' l='280' u='w' c='ring_stats'/>
+<use f='codebrowser/ring.c' l='295' u='w' c='ring_stats'/>

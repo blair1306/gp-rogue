@@ -1,0 +1,6 @@
+<dec f='codebrowser/rogue.h' l='460' type='long rrandom()'/>
+<dec f='codebrowser/random.c' l='75' type='long rrandom()'/>
+<use f='codebrowser/random.c' l='85' u='c' c='srrandom'/>
+<def f='codebrowser/random.c' l='90' ll='110' type='long rrandom()'/>
+<use f='codebrowser/random.c' l='123' u='c' c='get_rand'/>
+<use f='codebrowser/random.c' l='139' u='c' c='coin_toss'/>

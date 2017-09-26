@@ -1,0 +1,3 @@
+<use f='codebrowser/init.c' l='102' u='c' c='init'/>
+<def f='codebrowser/init.c' l='189' ll='197' type='int start_window()'/>
+<use f='codebrowser/room.c' l='646' u='c' c='do_shell'/>

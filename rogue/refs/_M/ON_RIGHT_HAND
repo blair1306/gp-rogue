@@ -1,0 +1,6 @@
+<dec f='codebrowser/rogue.h' l='160'/>
+<use f='codebrowser/inventory.c' l='605' u='c'/>
+<use f='codebrowser/ring.c' l='93' u='c'/>
+<use f='codebrowser/ring.c' l='140' u='c'/>
+<use f='codebrowser/ring.c' l='200' u='c'/>
+<use f='codebrowser/ring.c' l='201' u='c'/>

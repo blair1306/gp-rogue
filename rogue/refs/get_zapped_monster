@@ -1,0 +1,3 @@
+<dec f='codebrowser/rogue.h' l='453' type='object * get_zapped_monster()'/>
+<use f='codebrowser/zap.c' l='102' u='c' c='zapp'/>
+<def f='codebrowser/zap.c' l='116' ll='138' type='object * get_zapped_monster(short dir, short * row, short * col)'/>

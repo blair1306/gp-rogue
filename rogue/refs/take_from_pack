@@ -1,0 +1,7 @@
+<use f='codebrowser/hit.c' l='314' u='c' c='mon_damage'/>
+<def f='codebrowser/pack.c' l='88' ll='95' type='int take_from_pack(object * obj, object * pack)'/>
+<use f='codebrowser/pack.c' l='133' u='c' c='pick_up'/>
+<use f='codebrowser/pack.c' l='142' u='c' c='pick_up'/>
+<use f='codebrowser/pack.c' l='201' u='c' c='drop'/>
+<use f='codebrowser/spec_hit.c' l='233' u='c' c='disappear'/>
+<use f='codebrowser/use.c' l='314' u='c' c='vanish'/>

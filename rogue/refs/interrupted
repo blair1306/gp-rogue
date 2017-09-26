@@ -1,0 +1,16 @@
+<dec f='codebrowser/hit.c' l='61' type='char'/>
+<use f='codebrowser/hit.c' l='84' u='w' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='366' u='r' c='fight'/>
+<dec f='codebrowser/message.c' l='63' type='char'/>
+<use f='codebrowser/message.c' l='77' u='w' c='message'/>
+<dec f='codebrowser/move.c' l='65' type='char'/>
+<use f='codebrowser/move.c' l='201' u='r' c='multiple_move_rogue'/>
+<use f='codebrowser/move.c' l='205' u='r' c='multiple_move_rogue'/>
+<use f='codebrowser/move.c' l='218' u='r' c='multiple_move_rogue'/>
+<use f='codebrowser/move.c' l='220' u='r' c='multiple_move_rogue'/>
+<use f='codebrowser/move.c' l='504' u='w' c='rest'/>
+<use f='codebrowser/move.c' l='507' u='r' c='rest'/>
+<def f='codebrowser/play.c' l='55' macro='1' type='char'/>
+<use f='codebrowser/play.c' l='68' u='w' c='play_level'/>
+<dec f='codebrowser/trap.c' l='76' type='char'/>
+<use f='codebrowser/trap.c' l='274' u='r' c='search'/>

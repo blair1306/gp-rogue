@@ -1,0 +1,4 @@
+<use f='codebrowser/init.c' l='273' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='276' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='281' u='c' c='do_opts'/>
+<def f='codebrowser/init.c' l='306' ll='330' type='int env_get_value(char ** s, char * e, char add_blank)'/>

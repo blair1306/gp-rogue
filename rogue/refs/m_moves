@@ -1,0 +1,8 @@
+<def f='codebrowser/move.c' l='56' type='short'/>
+<use f='codebrowser/move.c' l='456' u='w' c='reg_move'/>
+<use f='codebrowser/move.c' l='457' u='w' c='reg_move'/>
+<dec f='codebrowser/save.c' l='79' type='short'/>
+<use f='codebrowser/save.c' l='152' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='152' c='save_into_file'/>
+<use f='codebrowser/save.c' l='223' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='223' c='restore'/>

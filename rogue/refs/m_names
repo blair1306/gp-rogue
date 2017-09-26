@@ -1,0 +1,10 @@
+<dec f='codebrowser/inventory.c' l='212' type='char *[]'/>
+<use f='codebrowser/inventory.c' l='712' u='r' c='id_type'/>
+<def f='codebrowser/monster.c' l='58' ll='85' type='char *[26]'/>
+<use f='codebrowser/monster.c' l='607' u='r' c='mon_name'/>
+<use f='codebrowser/monster.c' l='610' u='r' c='mon_name'/>
+<dec f='codebrowser/score.c' l='59' type='char *[]'/>
+<use f='codebrowser/score.c' l='96' u='r' c='killed_by'/>
+<use f='codebrowser/score.c' l='101' u='r' c='killed_by'/>
+<use f='codebrowser/score.c' l='365' u='r' c='insert_score'/>
+<use f='codebrowser/score.c' l='370' u='r' c='insert_score'/>

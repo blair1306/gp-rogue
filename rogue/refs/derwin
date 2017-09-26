@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='619' type='WINDOW * derwin(WINDOW * , int , int , int , int )'/>
+<doc f='include/curses.h' l='619'>/* implemented */</doc>

@@ -1,0 +1,21 @@
+<dec f='codebrowser/hit.c' l='61' type='char'/>
+<use f='codebrowser/hit.c' l='317' u='w' c='mon_damage'/>
+<dec f='codebrowser/level.c' l='90' type='char'/>
+<use f='codebrowser/level.c' l='367' u='w' c='clear_level'/>
+<dec f='codebrowser/move.c' l='65' type='char'/>
+<use f='codebrowser/move.c' l='87' u='r' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='89' u='r' c='one_move_rogue'/>
+<dec f='codebrowser/save.c' l='68' type='char'/>
+<use f='codebrowser/save.c' l='141' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='141' c='save_into_file'/>
+<use f='codebrowser/save.c' l='212' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='212' c='restore'/>
+<def f='codebrowser/spec_hit.c' l='56' macro='1' type='char'/>
+<use f='codebrowser/spec_hit.c' l='74' u='w' c='special_hit'/>
+<dec f='codebrowser/use.c' l='70' type='char'/>
+<use f='codebrowser/use.c' l='161' u='w' c='quaff'/>
+<use f='codebrowser/use.c' l='475' u='w' c='tele'/>
+<dec f='codebrowser/zap.c' l='58' type='char'/>
+<use f='codebrowser/zap.c' l='175' u='w' c='zap_monster'/>
+<use f='codebrowser/zap.c' l='193' u='w' c='zap_monster'/>
+<use f='codebrowser/zap.c' l='213' u='w' c='tele_away'/>

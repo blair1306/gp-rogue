@@ -1,0 +1,8 @@
+<dec f='codebrowser/rogue.h' l='269' type='short'/>
+<offset>1120</offset>
+<use f='codebrowser/level.c' l='757' u='r' c='put_player'/>
+<use f='codebrowser/move.c' l='127' u='r' c='one_move_rogue'/>
+<use f='codebrowser/room.c' l='124' u='r' c='light_up_room'/>
+<use f='codebrowser/throw.c' l='106' u='r' c='throw'/>
+<use f='codebrowser/use.c' l='537' u='r' c='relight'/>
+<use f='codebrowser/use.c' l='582' u='r' c='go_blind'/>

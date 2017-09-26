@@ -1,0 +1,6 @@
+<dec f='include/curses.h' l='55'/>
+<use f='include/curses.h' l='1534' u='c'/>
+<use f='include/curses.h' l='1576' u='c'/>
+<doc f='include/curses.h' l='52'>/*
+ * Identify the mouse encoding version.
+ */</doc>

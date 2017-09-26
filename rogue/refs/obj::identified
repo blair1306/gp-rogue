@@ -1,0 +1,19 @@
+<dec f='codebrowser/rogue.h' l='230' type='short'/>
+<use f='codebrowser/hit.c' l='111' macro='1' u='w'/>
+<use f='codebrowser/hit.c' l='361' macro='1' u='r'/>
+<offset>224</offset>
+<doc f='codebrowser/rogue.h' l='230'>/* &apos;F&apos; damage, 1,2,3... */</doc>
+<use f='codebrowser/init.c' l='151' u='w' c='player_init'/>
+<use f='codebrowser/init.c' l='161' u='w' c='player_init'/>
+<use f='codebrowser/init.c' l='171' u='w' c='player_init'/>
+<use f='codebrowser/inventory.c' l='509' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='520' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='526' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='555' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='569' u='r' c='get_desc'/>
+<use f='codebrowser/object.c' l='630' u='w' c='alloc_object'/>
+<use f='codebrowser/pack.c' l='354' u='w' c='wear'/>
+<use f='codebrowser/pack.c' l='377' u='w' c='do_wear'/>
+<use f='codebrowser/score.c' l='407' u='w' c='sell_pack'/>
+<use f='codebrowser/use.c' l='247' u='w' c='read_scroll'/>
+<use f='codebrowser/use.c' l='385' u='w' c='idntfy'/>

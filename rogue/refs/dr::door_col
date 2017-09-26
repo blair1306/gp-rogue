@@ -1,0 +1,4 @@
+<dec f='codebrowser/rogue.h' l='280' type='short'/>
+<offset>64</offset>
+<use f='codebrowser/level.c' l='407' u='w' c='put_door'/>
+<use f='codebrowser/monster.c' l='735' u='r' c='aim_monster'/>

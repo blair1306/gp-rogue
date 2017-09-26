@@ -1,0 +1,5 @@
+<def f='codebrowser/level.c' l='62' type='short'/>
+<use f='codebrowser/level.c' l='498' u='w' c='fill_out_level'/>
+<use f='codebrowser/level.c' l='507' u='r' c='fill_out_level'/>
+<use f='codebrowser/level.c' l='508' u='r' c='fill_out_level'/>
+<use f='codebrowser/level.c' l='603' u='w' c='recursive_deadend'/>

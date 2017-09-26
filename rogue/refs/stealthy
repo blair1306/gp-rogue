@@ -1,0 +1,9 @@
+<dec f='codebrowser/monster.c' l='132' type='short'/>
+<use f='codebrowser/monster.c' l='315' u='r' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='316' u='r' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='569' u='r' c='wake_room'/>
+<use f='codebrowser/monster.c' l='570' u='r' c='wake_room'/>
+<def f='codebrowser/ring.c' l='57' type='short'/>
+<use f='codebrowser/ring.c' l='266' u='r' c='inv_rings'/>
+<use f='codebrowser/ring.c' l='279' u='w' c='ring_stats'/>
+<use f='codebrowser/ring.c' l='299' u='w' c='ring_stats'/>

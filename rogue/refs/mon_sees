@@ -1,0 +1,5 @@
+<dec f='codebrowser/rogue.h' l='440' type='char mon_sees()'/>
+<use f='codebrowser/monster.c' l='426' u='c' c='mv_1_monster'/>
+<def f='codebrowser/monster.c' l='853' ll='871' macro='1' type='char mon_sees(object * monster, int row, int col)'/>
+<use f='codebrowser/room.c' l='418' u='c' c='dr_course'/>
+<use f='codebrowser/spec_hit.c' l='484' u='c' c='flame_broil'/>

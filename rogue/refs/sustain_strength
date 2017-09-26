@@ -1,0 +1,12 @@
+<def f='codebrowser/ring.c' l='66' macro='1' type='char'/>
+<use f='codebrowser/ring.c' l='266' u='r' c='inv_rings'/>
+<use f='codebrowser/ring.c' l='283' u='w' c='ring_stats'/>
+<use f='codebrowser/ring.c' l='314' u='w' c='ring_stats'/>
+<dec f='codebrowser/spec_hit.c' l='61' type='char'/>
+<use f='codebrowser/spec_hit.c' l='393' u='r' c='sting'/>
+<use f='codebrowser/spec_hit.c' l='438' u='r' c='drain_life'/>
+<use f='codebrowser/spec_hit.c' l='447' u='r' c='drain_life'/>
+<dec f='codebrowser/trap.c' l='78' type='char'/>
+<use f='codebrowser/trap.c' l='126' u='r' c='trap_player'/>
+<dec f='codebrowser/use.c' l='72' type='char'/>
+<use f='codebrowser/use.c' l='115' u='r' c='quaff'/>

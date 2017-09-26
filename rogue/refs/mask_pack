@@ -1,0 +1,4 @@
+<dec f='codebrowser/rogue.h' l='441' type='char mask_pack()'/>
+<use f='codebrowser/pack.c' l='278' u='c' c='pack_letter'/>
+<def f='codebrowser/pack.c' l='488' ll='500' macro='1' type='char mask_pack(object * pack, unsigned short mask)'/>
+<use f='codebrowser/pack.c' l='542' u='c' c='has_amulet'/>

@@ -1,0 +1,28 @@
+<dec f='codebrowser/level.c' l='90' type='char'/>
+<use f='codebrowser/level.c' l='366' u='w' c='clear_level'/>
+<dec f='codebrowser/monster.c' l='131' type='char'/>
+<use f='codebrowser/monster.c' l='272' u='r' c='gmc_row_col'/>
+<use f='codebrowser/monster.c' l='288' u='r' c='gmc'/>
+<use f='codebrowser/monster.c' l='468' u='r' c='move_mon_to'/>
+<use f='codebrowser/monster.c' l='482' u='r' c='move_mon_to'/>
+<use f='codebrowser/monster.c' l='484' u='r' c='move_mon_to'/>
+<use f='codebrowser/monster.c' l='602' u='r' c='mon_name'/>
+<use f='codebrowser/monster.c' l='659' u='w' c='show_monsters'/>
+<dec f='codebrowser/room.c' l='60' type='char'/>
+<use f='codebrowser/room.c' l='158' u='r' c='darken_room'/>
+<dec f='codebrowser/save.c' l='60' type='char'/>
+<dec f='codebrowser/save.c' l='76' type='char'/>
+<use f='codebrowser/save.c' l='120' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='120' c='save_into_file'/>
+<use f='codebrowser/save.c' l='149' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='149' c='save_into_file'/>
+<use f='codebrowser/save.c' l='182' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='182' c='restore'/>
+<use f='codebrowser/save.c' l='220' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='220' c='restore'/>
+<dec f='codebrowser/spec_hit.c' l='60' type='char'/>
+<def f='codebrowser/use.c' l='62' macro='1' type='char'/>
+<use f='codebrowser/use.c' l='525' u='r' c='unblind'/>
+<use f='codebrowser/use.c' l='563' u='r' c='go_blind'/>
+<dec f='codebrowser/zap.c' l='58' type='char'/>
+<use f='codebrowser/zap.c' l='222' u='r' c='tele_away'/>

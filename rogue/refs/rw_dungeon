@@ -1,0 +1,3 @@
+<use f='codebrowser/save.c' l='129' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='200' u='c' c='restore'/>
+<def f='codebrowser/save.c' l='288' ll='310' type='int rw_dungeon(FILE * fp, char rw)'/>

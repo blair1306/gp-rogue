@@ -1,0 +1,10 @@
+<use f='codebrowser/pack.c' l='123' u='c' c='pick_up'/>
+<use f='codebrowser/spec_hit.c' l='216' u='c' c='steal_item'/>
+<use f='codebrowser/throw.c' l='122' u='c' c='throw'/>
+<use f='codebrowser/use.c' l='184' u='c' c='quaff'/>
+<use f='codebrowser/use.c' l='292' u='c' c='read_scroll'/>
+<def f='codebrowser/use.c' l='299' ll='320' type='int vanish(object * obj, short rm, object * pack)'/>
+<use f='codebrowser/use.c' l='432' u='c' c='eat'/>
+<doc f='codebrowser/use.c' l='295'>/* vanish() does NOT handle a quiver of weapons with more than one
+ *  arrow (or whatever) in the quiver.  It will only decrement the count.
+ */</doc>

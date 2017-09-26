@@ -1,0 +1,14 @@
+<dec f='include/curses.h' l='1202'/>
+<doc f='include/curses.h' l='1198'>/*
+ * pseudo functions for standard screen
+ */</doc>
+<use f='codebrowser/inventory.c' l='328' u='c'/>
+<use f='codebrowser/message.c' l='92' u='c'/>
+<use f='codebrowser/message.c' l='157' u='c'/>
+<use f='codebrowser/message.c' l='314' u='c'/>
+<use f='codebrowser/room.c' l='392' u='c'/>
+<use f='codebrowser/room.c' l='571' u='c'/>
+<use f='codebrowser/room.c' l='575' u='c'/>
+<use f='codebrowser/room.c' l='596' u='c'/>
+<use f='codebrowser/use.c' l='495' u='c'/>
+<use f='codebrowser/use.c' l='504' u='c'/>

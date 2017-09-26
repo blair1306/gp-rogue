@@ -1,0 +1,4 @@
+<dec f='include/curses.h' l='1124'/>
+<doc f='include/curses.h' l='1120'>/*
+ * These miscellaneous pseudo functions are provided for compatibility:
+ */</doc>

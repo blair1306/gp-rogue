@@ -1,0 +1,3 @@
+<use f='codebrowser/hit.c' l='117' u='c' c='mon_hit'/>
+<def f='codebrowser/hit.c' l='163' ll='177' type='int rogue_damage(short d, object * monster, short other)'/>
+<use f='codebrowser/zap.c' l='386' u='c' c='bounce'/>

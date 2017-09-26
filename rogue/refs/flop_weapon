@@ -1,0 +1,3 @@
+<use f='codebrowser/throw.c' l='117' u='c' c='throw'/>
+<use f='codebrowser/throw.c' l='120' u='c' c='throw'/>
+<def f='codebrowser/throw.c' l='207' ll='264' type='int flop_weapon(object * weapon, short row, short col)'/>

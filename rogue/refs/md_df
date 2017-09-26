@@ -1,0 +1,4 @@
+<dec f='codebrowser/rogue.h' l='446' type='char md_df()'/>
+<def f='codebrowser/machdep.c' l='370' ll='378' macro='1' type='char md_df(char * fname)'/>
+<use f='codebrowser/save.c' l='159' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='237' u='c' c='restore'/>

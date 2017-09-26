@@ -1,0 +1,6 @@
+<use f='codebrowser/hit.c' l='171' u='c' c='rogue_damage'/>
+<use f='codebrowser/move.c' l='416' u='c' c='check_hunger'/>
+<def f='codebrowser/score.c' l='64' ll='130' type='int killed_by(object * monster, short other)'/>
+<use f='codebrowser/score.c' l='193' u='c' c='quit'/>
+<use f='codebrowser/spec_hit.c' l='140' u='c' c='freeze'/>
+<use f='codebrowser/trap.c' l='132' u='c' c='trap_player'/>

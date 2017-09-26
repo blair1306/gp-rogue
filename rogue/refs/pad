@@ -1,0 +1,7 @@
+<use f='codebrowser/message.c' l='237' u='c' c='print_stats'/>
+<use f='codebrowser/message.c' l='248' u='c' c='print_stats'/>
+<use f='codebrowser/message.c' l='260' u='c' c='print_stats'/>
+<use f='codebrowser/message.c' l='273' u='c' c='print_stats'/>
+<use f='codebrowser/message.c' l='284' u='c' c='print_stats'/>
+<use f='codebrowser/message.c' l='298' u='c' c='print_stats'/>
+<def f='codebrowser/message.c' l='307' ll='316' type='int pad(char * s, short n)'/>

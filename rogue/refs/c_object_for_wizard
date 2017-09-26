@@ -1,0 +1,2 @@
+<def f='codebrowser/object.c' l='709' ll='784' type='int c_object_for_wizard()'/>
+<use f='codebrowser/play.c' l='278' u='c' c='play_level'/>

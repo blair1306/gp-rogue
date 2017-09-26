@@ -1,0 +1,16 @@
+<dec f='codebrowser/rogue.h' l='237' type='short'/>
+<use f='codebrowser/hit.c' l='217' u='r' c='get_w_damage'/>
+<use f='codebrowser/hit.c' l='259' u='r' c='to_hit'/>
+<use f='codebrowser/hit.c' l='457' macro='1' u='w'/>
+<offset>400</offset>
+<doc f='codebrowser/rogue.h' l='237'>/* how many moves is confused */</doc>
+<use f='codebrowser/init.c' l='150' u='w' c='player_init'/>
+<use f='codebrowser/init.c' l='159' u='w' c='player_init'/>
+<use f='codebrowser/init.c' l='169' u='w' c='player_init'/>
+<use f='codebrowser/inventory.c' l='583' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='583' u='r' c='get_desc'/>
+<use f='codebrowser/monster.c' l='760' macro='1' u='w'/>
+<use f='codebrowser/object.c' l='504' u='w' c='gr_weapon'/>
+<use f='codebrowser/object.c' l='518' u='w' c='gr_weapon'/>
+<use f='codebrowser/score.c' l='442' u='r' c='get_value'/>
+<use f='codebrowser/use.c' l='223' u='w' c='read_scroll'/>

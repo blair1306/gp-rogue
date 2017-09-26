@@ -1,0 +1,4 @@
+<dec f='codebrowser/inventory.c' l='212' type='char *'/>
+<use f='codebrowser/inventory.c' l='316' u='r' c='id_com'/>
+<def f='codebrowser/message.c' l='61' type='char *'/>
+<use f='codebrowser/message.c' l='82' u='r' c='message'/>

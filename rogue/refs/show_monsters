@@ -1,0 +1,4 @@
+<def f='codebrowser/monster.c' l='655' ll='674' type='int show_monsters()'/>
+<use f='codebrowser/play.c' l='285' u='c' c='play_level'/>
+<use f='codebrowser/use.c' l='139' u='c' c='quaff'/>
+<use f='codebrowser/use.c' l='526' u='c' c='unblind'/>

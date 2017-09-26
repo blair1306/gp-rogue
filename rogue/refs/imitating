@@ -1,0 +1,4 @@
+<use f='codebrowser/room.c' l='159' u='c' c='darken_room'/>
+<def f='codebrowser/spec_hit.c' l='372' ll='385' type='int imitating(short row, short col)'/>
+<use f='codebrowser/throw.c' l='196' u='c' c='get_thrown_at_monster'/>
+<use f='codebrowser/zap.c' l='133' u='c' c='get_zapped_monster'/>

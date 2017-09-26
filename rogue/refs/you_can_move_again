@@ -1,0 +1,6 @@
+<def f='codebrowser/move.c' l='58' type='char *'/>
+<use f='codebrowser/move.c' l='409' u='r' c='check_hunger'/>
+<dec f='codebrowser/spec_hit.c' l='62' type='char *'/>
+<use f='codebrowser/spec_hit.c' l='142' u='r' c='freeze'/>
+<dec f='codebrowser/use.c' l='71' type='char *'/>
+<use f='codebrowser/use.c' l='551' u='r' c='take_a_nap'/>

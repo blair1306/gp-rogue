@@ -1,0 +1,8 @@
+mon_damage|mon_damage
+mon_hit|mon_hit
+mon_can_go|mon_can_go
+mon_name|mon_name
+mon_sees|mon_sees
+move_confused|move_confused
+move_mon_to|move_mon_to
+move_onto|move_onto

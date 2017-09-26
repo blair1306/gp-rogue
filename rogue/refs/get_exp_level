@@ -1,0 +1,2 @@
+<use f='codebrowser/level.c' l='809' u='c' c='add_exp'/>
+<def f='codebrowser/level.c' l='829' ll='840' type='int get_exp_level(long e)'/>

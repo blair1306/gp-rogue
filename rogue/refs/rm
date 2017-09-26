@@ -1,0 +1,8 @@
+<def f='codebrowser/rogue.h' l='285' ll='289'/>
+<size>50</size>
+<mbr r='rm::bottom_row' o='0' t='short'/>
+<mbr r='rm::right_col' o='16' t='short'/>
+<mbr r='rm::left_col' o='32' t='short'/>
+<mbr r='rm::top_row' o='48' t='short'/>
+<mbr r='rm::doors' o='64' t='door [4]'/>
+<mbr r='rm::is_room' o='384' t='unsigned short'/>

@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='677' type='int mvgetnstr(int , int , char * , int )'/>
+<doc f='include/curses.h' l='677'>/* generated */</doc>

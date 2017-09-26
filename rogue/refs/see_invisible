@@ -1,0 +1,14 @@
+<dec f='codebrowser/level.c' l='91' type='char'/>
+<use f='codebrowser/level.c' l='366' u='w' c='clear_level'/>
+<dec f='codebrowser/monster.c' l='131' type='char'/>
+<use f='codebrowser/monster.c' l='272' u='r' c='gmc_row_col'/>
+<use f='codebrowser/monster.c' l='288' u='r' c='gmc'/>
+<use f='codebrowser/monster.c' l='484' u='r' c='move_mon_to'/>
+<use f='codebrowser/monster.c' l='602' u='r' c='mon_name'/>
+<dec f='codebrowser/save.c' l='75' type='char'/>
+<use f='codebrowser/save.c' l='148' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='148' c='save_into_file'/>
+<use f='codebrowser/save.c' l='219' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='219' c='restore'/>
+<def f='codebrowser/use.c' l='60' macro='1' type='char'/>
+<use f='codebrowser/use.c' l='176' u='w' c='quaff'/>

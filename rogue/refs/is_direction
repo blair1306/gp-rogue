@@ -1,0 +1,8 @@
+<dec f='codebrowser/rogue.h' l='439' type='char is_direction()'/>
+<use f='codebrowser/hit.c' l='334' u='c' c='fight'/>
+<use f='codebrowser/move.c' l='81' u='c' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='323' u='c' c='move_onto'/>
+<def f='codebrowser/move.c' l='336' ll='372' macro='1' type='char is_direction(short c, short * d)'/>
+<use f='codebrowser/throw.c' l='69' u='c' c='throw'/>
+<use f='codebrowser/trap.c' l='196' u='c' c='id_trap'/>
+<use f='codebrowser/zap.c' l='69' u='c' c='zapp'/>

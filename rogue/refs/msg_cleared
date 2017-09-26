@@ -1,0 +1,10 @@
+<def f='codebrowser/message.c' l='59' macro='1' type='char'/>
+<use f='codebrowser/message.c' l='81' u='r' c='message'/>
+<use f='codebrowser/message.c' l='94' u='w' c='message'/>
+<use f='codebrowser/message.c' l='123' u='r' c='check_message'/>
+<use f='codebrowser/message.c' l='129' u='w' c='check_message'/>
+<dec f='codebrowser/save.c' l='81' type='char'/>
+<use f='codebrowser/save.c' l='240' u='w' c='restore'/>
+<dec f='codebrowser/score.c' l='61' type='char'/>
+<use f='codebrowser/score.c' l='168' u='r' c='quit'/>
+<use f='codebrowser/score.c' l='183' u='w' c='quit'/>

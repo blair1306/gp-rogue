@@ -1,0 +1,2 @@
+<dec f='include/fcntl.h' l='156' type='int open(const char * __file, int __oflag)'/>
+<use f='codebrowser/machdep.c' l='533' u='c' c='md_lock'/>

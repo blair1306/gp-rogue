@@ -1,0 +1,2 @@
+<use f='codebrowser/score.c' l='232' u='c' c='put_scores'/>
+<def f='codebrowser/score.c' l='494' ll='507' type='int name_cmp(char * s1, char * s2)'/>

@@ -1,0 +1,2 @@
+<use f='codebrowser/hit.c' l='131' u='c' c='rogue_hit'/>
+<def f='codebrowser/spec_hit.c' l='353' ll='370' type='int check_imitator(object * monster)'/>

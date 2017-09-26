@@ -1,0 +1,2 @@
+<use f='codebrowser/object.c' l='360' u='c' c='gr_object'/>
+<def f='codebrowser/object.c' l='445' ll='483' type='int gr_potion(object * obj)'/>

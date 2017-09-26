@@ -1,0 +1,3 @@
+<use f='codebrowser/spec_hit.c' l='473' u='c' c='m_confuse'/>
+<use f='codebrowser/use.c' l='156' u='c' c='quaff'/>
+<def f='codebrowser/use.c' l='596' ll='599' type='int cnfs()'/>

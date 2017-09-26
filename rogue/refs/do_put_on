@@ -1,0 +1,8 @@
+<use f='codebrowser/ring.c' l='116' u='c' c='put_on_ring'/>
+<use f='codebrowser/ring.c' l='118' u='c' c='put_on_ring'/>
+<def f='codebrowser/ring.c' l='132' ll='143' type='int do_put_on(object * ring, char on_left)'/>
+<doc f='codebrowser/ring.c' l='127'>/*
+ * Do not call ring_stats() from within do_put_on().  It will cause
+ * serious problems when do_put_on() is called from read_pack() in restore().
+ */</doc>
+<use f='codebrowser/save.c' l='279' u='c' c='read_pack'/>

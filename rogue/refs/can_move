@@ -1,0 +1,4 @@
+<use f='codebrowser/hit.c' l='351' u='c' c='fight'/>
+<use f='codebrowser/move.c' l='84' u='c' c='one_move_rogue'/>
+<def f='codebrowser/move.c' l='302' ll='316' type='int can_move(int row1, int col1, int row2, int col2)'/>
+<use f='codebrowser/room.c' l='140' u='c' c='light_passage'/>

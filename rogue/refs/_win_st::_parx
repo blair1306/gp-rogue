@@ -1,0 +1,4 @@
+<dec f='include/curses.h' l='454' type='int'/>
+<offset>480</offset>
+<doc f='include/curses.h' l='453'>/* these are used only if this is a sub-window */</doc>
+<doc f='include/curses.h' l='454'>/* x coordinate of this window in parent */</doc>

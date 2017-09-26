@@ -1,0 +1,2 @@
+<use f='codebrowser/message.c' l='209' u='c' c='rgetchar'/>
+<def f='codebrowser/message.c' l='318' ll='344' type='int save_screen()'/>

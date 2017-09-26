@@ -1,0 +1,2 @@
+<use f='codebrowser/monster.c' l='345' u='c' c='mv_1_monster'/>
+<def f='codebrowser/spec_hit.c' l='301' ll='331' type='int seek_gold(object * monster)'/>

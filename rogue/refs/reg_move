@@ -1,0 +1,18 @@
+<dec f='codebrowser/rogue.h' l='445' type='char reg_move()'/>
+<use f='codebrowser/move.c' l='93' u='c' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='106' u='c' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='164' u='c' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='171' u='c' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='175' u='c' c='one_move_rogue'/>
+<def f='codebrowser/move.c' l='443' ll='498' macro='1' type='char reg_move()'/>
+<use f='codebrowser/move.c' l='510' u='c' c='rest'/>
+<use f='codebrowser/pack.c' l='207' u='c' c='drop'/>
+<use f='codebrowser/pack.c' l='324' u='c' c='take_off'/>
+<use f='codebrowser/pack.c' l='360' u='c' c='wear'/>
+<use f='codebrowser/pack.c' l='413' u='c' c='wield'/>
+<use f='codebrowser/pack.c' l='569' u='c' c='kick_into_pack'/>
+<use f='codebrowser/ring.c' l='124' u='c' c='put_on_ring'/>
+<use f='codebrowser/ring.c' l='189' u='c' c='remove_ring'/>
+<use f='codebrowser/trap.c' l='280' u='c' c='search'/>
+<use f='codebrowser/use.c' l='318' u='c' c='vanish'/>
+<use f='codebrowser/zap.c' l='113' u='c' c='zapp'/>

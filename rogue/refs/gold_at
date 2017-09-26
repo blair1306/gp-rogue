@@ -1,0 +1,2 @@
+<use f='codebrowser/spec_hit.c' l='311' u='c' c='seek_gold'/>
+<def f='codebrowser/spec_hit.c' l='333' ll='345' type='int gold_at(short row, short col)'/>

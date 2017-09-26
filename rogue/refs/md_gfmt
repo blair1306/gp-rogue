@@ -1,0 +1,17 @@
+<def f='codebrowser/machdep.c' l='339' ll='357' type='int md_gfmt(char * fname, struct rogue_time * rt_buf)'/>
+<doc f='codebrowser/machdep.c' l='323'>/* md_gfmt: (Get File Modification Time)
+ *
+ * This routine returns a file&apos;s date of last modification in the same format
+ * as md_gct() above.
+ *
+ * This function is not strictly necessary.  It is used to see if saved-game
+ * files have been modified since they were saved.  If you have stubbed the
+ * routine md_gct() above by returning constant values, then you may do
+ * exactly the same here.
+ * Or if md_gct() is implemented correctly, but your system does not provide
+ * file modification dates, you may return some date far in the past so
+ * that the program will never know that a saved-game file being modified.
+ * You may also do this if you wish to be able to restore games from
+ * saved-games that have been modified.
+ */</doc>
+<use f='codebrowser/save.c' l='231' u='c' c='restore'/>

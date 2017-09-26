@@ -1,0 +1,19 @@
+<use f='codebrowser/init.c' l='110' u='c' c='init'/>
+<def f='codebrowser/machdep.c' l='497' ll='500' type='int md_gseed()'/>
+<doc f='codebrowser/machdep.c' l='479'>/* md_gseed() (Get Seed)
+ *
+ * This function returns a seed for the random number generator (RNG).  This
+ * seed causes the RNG to begin generating numbers at some point in it&apos;s
+ * sequence.  Without a random seed, the RNG will generate the same set
+ * of numbers, and every game will start out exactly the same way.  A good
+ * number to use is the process id, given by getpid() on most UNIX systems.
+ *
+ * You need to find some single random integer, such as:
+ *   process id.
+ *   current time (minutes + seconds) returned from md_gct(), if implemented.
+ *
+ * It will not help to return &quot;get_rand()&quot; or &quot;rand()&quot; or the return value of
+ * any pseudo-RNG.  If you don&apos;t have a random number, you can just return 1,
+ * but this means your games will ALWAYS start the same way, and will play
+ * exactly the same way given the same input.
+ */</doc>

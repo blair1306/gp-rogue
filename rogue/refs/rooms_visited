@@ -1,0 +1,5 @@
+<def f='codebrowser/room.c' l='57' macro='1' type='char [9]'/>
+<use f='codebrowser/room.c' l='329' u='w' c='is_all_connected'/>
+<use f='codebrowser/room.c' l='338' u='r' c='is_all_connected'/>
+<use f='codebrowser/room.c' l='351' u='w' c='visit_rooms'/>
+<use f='codebrowser/room.c' l='355' u='r' c='visit_rooms'/>

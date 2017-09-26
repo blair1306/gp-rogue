@@ -1,0 +1,3 @@
+<def f='codebrowser/message.c' l='58' type='short'/>
+<use f='codebrowser/message.c' l='82' u='r' c='message'/>
+<use f='codebrowser/message.c' l='95' u='w' c='message'/>

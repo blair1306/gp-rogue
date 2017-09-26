@@ -1,0 +1,4 @@
+<use f='codebrowser/level.c' l='334' u='c' c='connect_rooms'/>
+<def f='codebrowser/level.c' l='410' ll='449' type='int draw_simple_passage(short row1, short col1, short row2, short col2, short dir)'/>
+<use f='codebrowser/level.c' l='556' u='c' c='fill_it'/>
+<use f='codebrowser/level.c' l='602' u='c' c='recursive_deadend'/>

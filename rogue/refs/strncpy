@@ -1,0 +1,5 @@
+<dec f='include/string.h' l='128' type='char * strncpy(char *restrict __dest, const char *restrict __src, size_t __n)'/>
+<dec f='codebrowser/rogue.h' l='430' type='char * strncpy(char * , const char * , unsigned long )'/>
+<doc f='include/string.h' l='127'>/* Copy no more than N characters of SRC to DEST.  */</doc>
+<use f='codebrowser/init.c' l='325' u='c' c='env_get_value'/>
+<use f='codebrowser/score.c' l='551' u='c' c='nickize'/>

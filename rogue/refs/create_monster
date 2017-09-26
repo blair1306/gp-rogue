@@ -1,0 +1,2 @@
+<def f='codebrowser/monster.c' l='676' ll='709' type='int create_monster()'/>
+<use f='codebrowser/use.c' l='274' u='c' c='read_scroll'/>

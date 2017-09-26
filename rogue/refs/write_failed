@@ -1,0 +1,5 @@
+<def f='codebrowser/save.c' l='57' type='short'/>
+<use f='codebrowser/save.c' l='118' u='w' c='save_into_file'/>
+<use f='codebrowser/save.c' l='158' u='r' c='save_into_file'/>
+<use f='codebrowser/save.c' l='385' u='r' c='r_write'/>
+<use f='codebrowser/save.c' l='389' u='w' c='r_write'/>

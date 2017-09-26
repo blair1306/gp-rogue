@@ -1,0 +1,29 @@
+<use f='codebrowser/hit.c' l='170' u='c' c='rogue_damage'/>
+<use f='codebrowser/hit.c' l='175' u='c' c='rogue_damage'/>
+<use f='codebrowser/level.c' l='822' u='c' c='add_exp'/>
+<use f='codebrowser/level.c' l='825' u='c' c='add_exp'/>
+<use f='codebrowser/main.c' l='79' u='c' c='main'/>
+<def f='codebrowser/message.c' l='221' ll='305' type='int print_stats(int stat_mask)'/>
+<doc f='codebrowser/message.c' l='216'>/*
+Level: 99 Gold: 999999 Hp: 999(999) Str: 99(99) Arm: 99 Exp: 21/10000000 Hungry
+0    5    1    5    2    5    3    5    4    5    5    5    6    5    7    5
+*/</doc>
+<use f='codebrowser/move.c' l='384' u='c' c='check_hunger'/>
+<use f='codebrowser/move.c' l='389' u='c' c='check_hunger'/>
+<use f='codebrowser/move.c' l='395' u='c' c='check_hunger'/>
+<use f='codebrowser/move.c' l='609' u='c' c='heal'/>
+<use f='codebrowser/pack.c' l='134' u='c' c='pick_up'/>
+<use f='codebrowser/pack.c' l='182' u='c' c='drop'/>
+<use f='codebrowser/pack.c' l='323' u='c' c='take_off'/>
+<use f='codebrowser/pack.c' l='359' u='c' c='wear'/>
+<use f='codebrowser/ring.c' l='333' u='c' c='ring_stats'/>
+<use f='codebrowser/spec_hit.c' l='110' u='c' c='rust'/>
+<use f='codebrowser/spec_hit.c' l='163' u='c' c='steal_gold'/>
+<use f='codebrowser/spec_hit.c' l='406' u='c' c='sting'/>
+<use f='codebrowser/spec_hit.c' l='454' u='c' c='drain_life'/>
+<use f='codebrowser/throw.c' l='101' u='c' c='throw'/>
+<use f='codebrowser/trap.c' l='130' u='c' c='trap_player'/>
+<use f='codebrowser/use.c' l='180' u='c' c='quaff'/>
+<use f='codebrowser/use.c' l='240' u='c' c='read_scroll'/>
+<use f='codebrowser/use.c' l='430' u='c' c='eat'/>
+<use f='codebrowser/zap.c' l='274' u='c' c='wdrain_life'/>

@@ -1,0 +1,11 @@
+<def f='codebrowser/machdep.c' l='409' ll='413' type='int md_sleep(int nsecs)'/>
+<doc f='codebrowser/machdep.c' l='400'>/* md_sleep:
+ *
+ * This routine causes the game to pause for the specified number of
+ * seconds.
+ *
+ * This routine is not particularly necessary at all.  It is used for
+ * delaying execution, which is useful to this program at some times.
+ */</doc>
+<use f='codebrowser/use.c' l='545' u='c' c='take_a_nap'/>
+<use f='codebrowser/use.c' l='550' u='c' c='take_a_nap'/>

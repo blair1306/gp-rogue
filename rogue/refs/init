@@ -1,0 +1,2 @@
+<def f='codebrowser/init.c' l='76' ll='125' type='int init(int argc, char ** argv)'/>
+<use f='codebrowser/main.c' l='67' u='c' c='main'/>

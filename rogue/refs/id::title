@@ -1,0 +1,24 @@
+<dec f='codebrowser/rogue.h' l='195' type='char [40]'/>
+<offset>16</offset>
+<use f='codebrowser/inventory.c' l='421' u='r' c='mix_colors'/>
+<use f='codebrowser/inventory.c' l='422' u='r' c='mix_colors'/>
+<use f='codebrowser/inventory.c' l='422' u='r' c='mix_colors'/>
+<use f='codebrowser/inventory.c' l='423' u='r' c='mix_colors'/>
+<use f='codebrowser/inventory.c' l='434' u='r' c='make_scroll_titles'/>
+<use f='codebrowser/inventory.c' l='438' u='r' c='make_scroll_titles'/>
+<use f='codebrowser/inventory.c' l='440' u='r' c='make_scroll_titles'/>
+<use f='codebrowser/inventory.c' l='441' u='r' c='make_scroll_titles'/>
+<use f='codebrowser/inventory.c' l='501' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='504' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='516' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='523' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='542' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='577' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='623' u='r' c='get_wand_and_ring_materials'/>
+<use f='codebrowser/inventory.c' l='634' u='r' c='get_wand_and_ring_materials'/>
+<use f='codebrowser/object.c' l='323' u='r' c='name_of'/>
+<use f='codebrowser/pack.c' l='455' c='call_it'/>
+<use f='codebrowser/pack.c' l='457' u='r' c='call_it'/>
+<use f='codebrowser/save.c' l='325' c='rw_id'/>
+<use f='codebrowser/save.c' l='330' c='rw_id'/>
+<use f='codebrowser/use.c' l='589' u='r' c='get_ench_color'/>

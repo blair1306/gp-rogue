@@ -1,0 +1,7 @@
+<def f='codebrowser/object.c' l='58' type='object *'/>
+<use f='codebrowser/object.c' l='619' u='r' c='alloc_object'/>
+<use f='codebrowser/object.c' l='620' u='r' c='alloc_object'/>
+<use f='codebrowser/object.c' l='621' u='w' c='alloc_object'/>
+<use f='codebrowser/object.c' l='621' u='r' c='alloc_object'/>
+<use f='codebrowser/object.c' l='638' u='r' c='free_object'/>
+<use f='codebrowser/object.c' l='639' u='w' c='free_object'/>

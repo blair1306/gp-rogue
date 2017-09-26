@@ -1,0 +1,4 @@
+<dec f='codebrowser/rogue.h' l='226' type='short'/>
+<use f='codebrowser/hit.c' l='313' u='r' c='mon_damage'/>
+<offset>160</offset>
+<doc f='codebrowser/rogue.h' l='226'>/* exp for killing it */</doc>

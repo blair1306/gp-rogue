@@ -1,0 +1,5 @@
+<use f='codebrowser/level.c' l='319' u='c' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='324' u='c' c='connect_rooms'/>
+<def f='codebrowser/level.c' l='456' ll='459' type='int same_col(int room1, int room2)'/>
+<use f='codebrowser/level.c' l='534' u='c' c='fill_it'/>
+<use f='codebrowser/level.c' l='587' u='c' c='recursive_deadend'/>

@@ -1,0 +1,12 @@
+<dec f='include/string.h' l='143' type='int strncmp(const char * __s1, const char * __s2, size_t __n)'/>
+<doc f='include/string.h' l='142'>/* Compare N characters of S1 and S2.  */</doc>
+<use f='codebrowser/init.c' l='271' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='274' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='277' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='279' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='282' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='284' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='285' u='c' c='do_opts'/>
+<use f='codebrowser/init.c' l='287' u='c' c='do_opts'/>
+<use f='codebrowser/inventory.c' l='591' u='c' c='get_desc'/>
+<use f='codebrowser/zap.c' l='238' u='c' c='wizardize'/>

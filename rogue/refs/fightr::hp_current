@@ -1,0 +1,35 @@
+<dec f='codebrowser/rogue.h' l='260' type='short'/>
+<use f='codebrowser/hit.c' l='168' u='r' c='rogue_damage'/>
+<use f='codebrowser/hit.c' l='169' u='w' c='rogue_damage'/>
+<use f='codebrowser/hit.c' l='174' u='w' c='rogue_damage'/>
+<use f='codebrowser/hit.c' l='365' u='r' c='fight'/>
+<offset>256</offset>
+<use f='codebrowser/level.c' l='818' u='w' c='add_exp'/>
+<use f='codebrowser/message.c' l='255' u='w' c='print_stats'/>
+<use f='codebrowser/message.c' l='258' u='r' c='print_stats'/>
+<use f='codebrowser/move.c' l='554' u='r' c='heal'/>
+<use f='codebrowser/move.c' l='602' u='w' c='heal'/>
+<use f='codebrowser/move.c' l='604' u='w' c='heal'/>
+<use f='codebrowser/move.c' l='606' u='w' c='heal'/>
+<use f='codebrowser/move.c' l='607' u='w' c='heal'/>
+<use f='codebrowser/spec_hit.c' l='420' u='w' c='drop_level'/>
+<use f='codebrowser/spec_hit.c' l='421' u='w' c='drop_level'/>
+<use f='codebrowser/spec_hit.c' l='433' u='r' c='drain_life'/>
+<use f='codebrowser/spec_hit.c' l='443' u='w' c='drain_life'/>
+<use f='codebrowser/trap.c' l='122' u='w' c='trap_player'/>
+<use f='codebrowser/trap.c' l='123' u='r' c='trap_player'/>
+<use f='codebrowser/trap.c' l='124' u='w' c='trap_player'/>
+<use f='codebrowser/trap.c' l='131' u='r' c='trap_player'/>
+<use f='codebrowser/use.c' l='327' u='w' c='potion_heal'/>
+<use f='codebrowser/use.c' l='329' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='334' u='w' c='potion_heal'/>
+<use f='codebrowser/use.c' l='338' u='w' c='potion_heal'/>
+<use f='codebrowser/use.c' l='346' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='347' u='w' c='potion_heal'/>
+<use f='codebrowser/use.c' l='348' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='349' u='w' c='potion_heal'/>
+<use f='codebrowser/zap.c' l='255' u='r' c='wdrain_life'/>
+<use f='codebrowser/zap.c' l='256' u='w' c='wdrain_life'/>
+<use f='codebrowser/zap.c' l='256' u='r' c='wdrain_life'/>
+<use f='codebrowser/zap.c' l='347' u='r' c='bounce'/>
+<use f='codebrowser/zap.c' l='363' u='r' c='bounce'/>

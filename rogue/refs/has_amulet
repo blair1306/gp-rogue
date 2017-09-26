@@ -1,0 +1,4 @@
+<use f='codebrowser/level.c' l='186' u='c' c='make_level'/>
+<use f='codebrowser/level.c' l='783' u='c' c='check_up'/>
+<def f='codebrowser/pack.c' l='540' ll='543' type='int has_amulet()'/>
+<use f='codebrowser/score.c' l='373' u='c' c='insert_score'/>

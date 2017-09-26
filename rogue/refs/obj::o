@@ -1,0 +1,5 @@
+<dec f='codebrowser/rogue.h' l='232' type='short'/>
+<offset>288</offset>
+<use f='codebrowser/monster.c' l='424' u='w' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='431' u='w' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='437' u='w' c='mv_1_monster'/>

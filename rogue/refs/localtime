@@ -1,0 +1,4 @@
+<dec f='include/time.h' l='243' type='struct tm * localtime(const time_t * __timer)'/>
+<dec f='codebrowser/machdep.c' l='309' type='struct tm * localtime(const long * )'/>
+<use f='codebrowser/machdep.c' l='313' u='c' c='md_gct'/>
+<use f='codebrowser/machdep.c' l='349' u='c' c='md_gfmt'/>

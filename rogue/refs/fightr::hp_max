@@ -1,0 +1,26 @@
+<dec f='codebrowser/rogue.h' l='261' type='short'/>
+<offset>272</offset>
+<use f='codebrowser/level.c' l='819' u='w' c='add_exp'/>
+<use f='codebrowser/level.c' l='860' u='r' c='show_average_hp'/>
+<use f='codebrowser/level.c' l='861' u='r' c='show_average_hp'/>
+<use f='codebrowser/message.c' l='254' u='r' c='print_stats'/>
+<use f='codebrowser/message.c' l='255' u='r' c='print_stats'/>
+<use f='codebrowser/message.c' l='256' u='w' c='print_stats'/>
+<use f='codebrowser/message.c' l='258' u='r' c='print_stats'/>
+<use f='codebrowser/move.c' l='554' u='r' c='heal'/>
+<use f='codebrowser/move.c' l='606' u='r' c='heal'/>
+<use f='codebrowser/move.c' l='607' u='r' c='heal'/>
+<use f='codebrowser/spec_hit.c' l='126' u='r' c='freeze'/>
+<use f='codebrowser/spec_hit.c' l='423' u='w' c='drop_level'/>
+<use f='codebrowser/spec_hit.c' l='424' u='w' c='drop_level'/>
+<use f='codebrowser/spec_hit.c' l='433' u='r' c='drain_life'/>
+<use f='codebrowser/spec_hit.c' l='442' u='w' c='drain_life'/>
+<use f='codebrowser/use.c' l='329' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='332' u='w' c='potion_heal'/>
+<use f='codebrowser/use.c' l='334' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='336' u='w' c='potion_heal'/>
+<use f='codebrowser/use.c' l='338' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='346' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='348' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='349' u='r' c='potion_heal'/>
+<use f='codebrowser/zap.c' l='347' u='r' c='bounce'/>

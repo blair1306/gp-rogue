@@ -1,0 +1,20 @@
+<dec f='codebrowser/rogue.h' l='223' type='char *'/>
+<use f='codebrowser/hit.c' l='102' macro='1' u='r'/>
+<use f='codebrowser/hit.c' l='217' u='r' c='get_w_damage'/>
+<use f='codebrowser/hit.c' l='218' u='r' c='get_w_damage'/>
+<use f='codebrowser/hit.c' l='219' u='r' c='get_w_damage'/>
+<use f='codebrowser/hit.c' l='259' u='r' c='to_hit'/>
+<use f='codebrowser/hit.c' l='359' macro='1' u='r'/>
+<offset>64</offset>
+<doc f='codebrowser/rogue.h' l='223'>/* damage it does */</doc>
+<use f='codebrowser/init.c' l='149' u='w' c='player_init'/>
+<use f='codebrowser/init.c' l='158' u='w' c='player_init'/>
+<use f='codebrowser/init.c' l='168' u='w' c='player_init'/>
+<use f='codebrowser/object.c' l='527' u='w' c='gr_weapon'/>
+<use f='codebrowser/object.c' l='530' u='w' c='gr_weapon'/>
+<use f='codebrowser/object.c' l='533' u='w' c='gr_weapon'/>
+<use f='codebrowser/object.c' l='536' u='w' c='gr_weapon'/>
+<use f='codebrowser/object.c' l='539' u='w' c='gr_weapon'/>
+<use f='codebrowser/object.c' l='542' u='w' c='gr_weapon'/>
+<use f='codebrowser/object.c' l='545' u='w' c='gr_weapon'/>
+<use f='codebrowser/object.c' l='631' u='w' c='alloc_object'/>

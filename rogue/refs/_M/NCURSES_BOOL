@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='223'/>
+<doc f='include/curses.h' l='222'>/* use whatever the C compiler decides bool really is */</doc>

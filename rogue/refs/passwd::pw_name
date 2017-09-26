@@ -1,0 +1,4 @@
+<dec f='include/pwd.h' l='51' type='char *'/>
+<use f='codebrowser/machdep.c' l='397' u='r' c='md_gln'/>
+<offset>0</offset>
+<doc f='include/pwd.h' l='51'>/* Username.  */</doc>

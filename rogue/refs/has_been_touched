@@ -1,0 +1,3 @@
+<dec f='codebrowser/rogue.h' l='447' type='char has_been_touched()'/>
+<use f='codebrowser/save.c' l='233' u='c' c='restore'/>
+<def f='codebrowser/save.c' l='394' ll='427' macro='1' type='char has_been_touched(struct rogue_time * saved_time, struct rogue_time * mod_time)'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/rogue.h' l='275' ll='281'/>
+<size>10</size>
+<mbr r='dr::oth_room' o='0' t='short'/>
+<mbr r='dr::oth_row' o='16' t='short'/>
+<mbr r='dr::oth_col' o='32' t='short'/>
+<mbr r='dr::door_row' o='48' t='short'/>
+<mbr r='dr::door_col' o='64' t='short'/>

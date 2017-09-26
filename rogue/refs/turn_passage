@@ -1,0 +1,3 @@
+<use f='codebrowser/move.c' l='207' u='c' c='multiple_move_rogue'/>
+<use f='codebrowser/move.c' l='222' u='c' c='multiple_move_rogue'/>
+<def f='codebrowser/move.c' l='623' ll='649' type='int turn_passage(short dir, char fast)'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/rogue.h' l='462' type='long xxx()'/>
+<use f='codebrowser/save.c' l='119' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='181' u='c' c='restore'/>
+<use f='codebrowser/score.c' l='216' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='287' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='519' u='c' c='xxxx'/>
+<def f='codebrowser/score.c' l='525' ll='541' type='long xxx(char st)'/>
+<use f='codebrowser/zap.c' l='236' u='c' c='wizardize'/>

@@ -1,0 +1,4 @@
+<use f='codebrowser/move.c' l='469' u='c' c='reg_move'/>
+<use f='codebrowser/use.c' l='174' u='c' c='quaff'/>
+<use f='codebrowser/use.c' l='353' u='c' c='potion_heal'/>
+<def f='codebrowser/use.c' l='517' ll='528' type='int unblind()'/>

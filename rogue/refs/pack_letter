@@ -1,0 +1,13 @@
+<use f='codebrowser/inventory.c' l='645' u='c' c='single_inv'/>
+<use f='codebrowser/pack.c' l='162' u='c' c='drop'/>
+<def f='codebrowser/pack.c' l='271' ll='306' type='int pack_letter(char * prompt, unsigned short mask)'/>
+<use f='codebrowser/pack.c' l='341' u='c' c='wear'/>
+<use f='codebrowser/pack.c' l='390' u='c' c='wield'/>
+<use f='codebrowser/pack.c' l='440' u='c' c='call_it'/>
+<use f='codebrowser/ring.c' l='82' u='c' c='put_on_ring'/>
+<use f='codebrowser/throw.c' l='80' u='c' c='throw'/>
+<use f='codebrowser/use.c' l='80' u='c' c='quaff'/>
+<use f='codebrowser/use.c' l='193' u='c' c='read_scroll'/>
+<use f='codebrowser/use.c' l='374' u='c' c='idntfy'/>
+<use f='codebrowser/use.c' l='401' u='c' c='eat'/>
+<use f='codebrowser/zap.c' l='80' u='c' c='zapp'/>

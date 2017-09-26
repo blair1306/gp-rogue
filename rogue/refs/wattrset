@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='806' type='int wattrset(WINDOW * , int )'/>
+<doc f='include/curses.h' l='806'>/* generated */</doc>

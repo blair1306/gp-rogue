@@ -1,0 +1,4 @@
+<dec f='codebrowser/rogue.h' l='463' type='void onintr()'/>
+<def f='codebrowser/init.c' l='217' ll='228' type='void onintr()'/>
+<use f='codebrowser/machdep.c' l='229' u='r' c='md_heed_signals'/>
+<use f='codebrowser/message.c' l='101' u='c' c='message'/>

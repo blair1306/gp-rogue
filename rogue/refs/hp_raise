@@ -1,0 +1,3 @@
+<use f='codebrowser/level.c' l='817' u='c' c='add_exp'/>
+<def f='codebrowser/level.c' l='842' ll='848' type='int hp_raise()'/>
+<use f='codebrowser/spec_hit.c' l='419' u='c' c='drop_level'/>

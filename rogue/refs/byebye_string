@@ -1,0 +1,4 @@
+<def f='codebrowser/init.c' l='69' type='char *'/>
+<use f='codebrowser/init.c' l='212' u='r' c='byebye'/>
+<dec f='codebrowser/score.c' l='62' type='char *'/>
+<use f='codebrowser/score.c' l='190' u='r' c='quit'/>

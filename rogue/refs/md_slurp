@@ -1,0 +1,13 @@
+<def f='codebrowser/machdep.c' l='133' ll='138' type='int md_slurp()'/>
+<doc f='codebrowser/machdep.c' l='121'>/* md_slurp:
+ *
+ * This routine throws away all keyboard input that has not
+ * yet been read.  It is used to get rid of input that the user may have
+ * typed-ahead.
+ *
+ * This function is not necessary, so it may be stubbed.  The might cause
+ * message-line output to flash by because the game has continued to read
+ * input without waiting for the user to read the message.  Not such a
+ * big deal.
+ */</doc>
+<use f='codebrowser/message.c' l='78' u='c' c='message'/>

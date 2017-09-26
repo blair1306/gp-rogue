@@ -1,0 +1,2 @@
+<use f='codebrowser/hit.c' l='308' u='c' c='mon_damage'/>
+<def f='codebrowser/spec_hit.c' l='238' ll='280' type='int cough_up(object * monster)'/>

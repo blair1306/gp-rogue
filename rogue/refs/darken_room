@@ -1,0 +1,3 @@
+<use f='codebrowser/move.c' l='121' u='c' c='one_move_rogue'/>
+<def f='codebrowser/room.c' l='147' ll='169' type='int darken_room(short rn)'/>
+<use f='codebrowser/use.c' l='472' u='c' c='tele'/>

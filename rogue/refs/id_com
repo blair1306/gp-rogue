@@ -1,0 +1,2 @@
+<def f='codebrowser/inventory.c' l='271' ll='344' type='int id_com()'/>
+<use f='codebrowser/play.c' l='187' u='c' c='play_level'/>

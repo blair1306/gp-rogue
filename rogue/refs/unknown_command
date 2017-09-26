@@ -1,0 +1,8 @@
+<def f='codebrowser/play.c' l='56' type='char *'/>
+<use f='codebrowser/play.c' l='249' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='256' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='263' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='270' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='280' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='287' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='294' u='r' c='play_level'/>

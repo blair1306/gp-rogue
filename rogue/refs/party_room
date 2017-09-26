@@ -1,0 +1,26 @@
+<dec f='codebrowser/init.c' l='73' type='short'/>
+<def f='codebrowser/level.c' l='61' type='short'/>
+<use f='codebrowser/level.c' l='141' u='w' c='make_level'/>
+<use f='codebrowser/level.c' l='143' u='r' c='make_level'/>
+<use f='codebrowser/level.c' l='368' u='w' c='clear_level'/>
+<dec f='codebrowser/main.c' l='61' type='short'/>
+<use f='codebrowser/main.c' l='78' u='r' c='main'/>
+<dec f='codebrowser/monster.c' l='129' type='short'/>
+<use f='codebrowser/monster.c' l='568' u='r' c='wake_room'/>
+<dec f='codebrowser/object.c' l='157' type='short'/>
+<use f='codebrowser/object.c' l='173' u='r' c='put_objects'/>
+<use f='codebrowser/object.c' l='646' u='w' c='make_party'/>
+<use f='codebrowser/object.c' l='648' u='r' c='make_party'/>
+<use f='codebrowser/object.c' l='650' u='r' c='make_party'/>
+<dec f='codebrowser/play.c' l='58' type='short'/>
+<dec f='codebrowser/save.c' l='64' type='short'/>
+<use f='codebrowser/save.c' l='125' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='125' c='save_into_file'/>
+<use f='codebrowser/save.c' l='193' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='193' c='restore'/>
+<dec f='codebrowser/trap.c' l='74' type='short'/>
+<use f='codebrowser/trap.c' l='169' u='r' c='add_traps'/>
+<use f='codebrowser/trap.c' l='171' u='r' c='add_traps'/>
+<use f='codebrowser/trap.c' l='172' u='r' c='add_traps'/>
+<use f='codebrowser/trap.c' l='173' u='r' c='add_traps'/>
+<use f='codebrowser/trap.c' l='174' u='r' c='add_traps'/>

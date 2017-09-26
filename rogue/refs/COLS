@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='1406' type='int'/>
+<use f='codebrowser/init.c' l='99' u='r' c='init'/>

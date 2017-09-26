@@ -1,0 +1,7 @@
+<dec f='codebrowser/rogue.h' l='457' type='object * pick_up()'/>
+<use f='codebrowser/move.c' l='139' u='c' c='one_move_rogue'/>
+<def f='codebrowser/pack.c' l='101' ll='146' type='object * pick_up(int row, int col, short * status)'/>
+<use f='codebrowser/pack.c' l='554' u='c' c='kick_into_pack'/>
+<doc f='codebrowser/pack.c' l='97'>/* Note: *status is set to 0 if the rogue attempts to pick up a scroll
+ * of scare-monster and it turns to dust.  *status is otherwise set to 1.
+ */</doc>

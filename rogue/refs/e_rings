@@ -1,0 +1,7 @@
+<dec f='codebrowser/move.c' l='63' type='short'/>
+<use f='codebrowser/move.c' l='419' u='r' c='check_hunger'/>
+<def f='codebrowser/ring.c' l='60' type='short'/>
+<use f='codebrowser/ring.c' l='266' u='r' c='inv_rings'/>
+<use f='codebrowser/ring.c' l='281' u='w' c='ring_stats'/>
+<use f='codebrowser/ring.c' l='296' u='w' c='ring_stats'/>
+<use f='codebrowser/ring.c' l='308' u='w' c='ring_stats'/>

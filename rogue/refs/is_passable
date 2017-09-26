@@ -1,0 +1,4 @@
+<use f='codebrowser/monster.c' l='520' u='c' c='mon_can_go'/>
+<def f='codebrowser/move.c' l='228' ll='239' type='int is_passable(int row, int col)'/>
+<use f='codebrowser/move.c' l='304' u='c' c='can_move'/>
+<use f='codebrowser/move.c' l='617' u='c' c='can_turn'/>

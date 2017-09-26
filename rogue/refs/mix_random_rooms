@@ -1,0 +1,3 @@
+<use f='codebrowser/level.c' l='154' u='c' c='make_level'/>
+<use f='codebrowser/level.c' l='496' u='c' c='fill_out_level'/>
+<def f='codebrowser/level.c' l='869' ll='881' type='int mix_random_rooms()'/>

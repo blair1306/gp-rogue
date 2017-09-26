@@ -1,0 +1,5 @@
+<use f='codebrowser/hit.c' l='313' u='c' c='mon_damage'/>
+<def f='codebrowser/level.c' l='798' ll='827' type='int add_exp(int e, char promotion)'/>
+<use f='codebrowser/spec_hit.c' l='426' u='c' c='drop_level'/>
+<use f='codebrowser/use.c' l='129' u='c' c='quaff'/>
+<use f='codebrowser/use.c' l='425' u='c' c='eat'/>

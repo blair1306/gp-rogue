@@ -1,0 +1,2 @@
+<use f='codebrowser/inventory.c' l='335' u='c' c='id_com'/>
+<def f='codebrowser/inventory.c' l='374' ll='411' type='int pr_motion_char(int ch)'/>

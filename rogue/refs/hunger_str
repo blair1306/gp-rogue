@@ -1,0 +1,14 @@
+<def f='codebrowser/message.c' l='60' type='char [8]'/>
+<use f='codebrowser/message.c' l='301' u='r' c='print_stats'/>
+<dec f='codebrowser/move.c' l='64' type='char []'/>
+<use f='codebrowser/move.c' l='382' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='383' c='check_hunger'/>
+<use f='codebrowser/move.c' l='387' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='388' c='check_hunger'/>
+<use f='codebrowser/move.c' l='393' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='394' c='check_hunger'/>
+<dec f='codebrowser/save.c' l='62' type='char []'/>
+<use f='codebrowser/save.c' l='123' c='save_into_file'/>
+<use f='codebrowser/save.c' l='185' c='restore'/>
+<dec f='codebrowser/use.c' l='67' type='char []'/>
+<use f='codebrowser/use.c' l='429' u='w' c='eat'/>

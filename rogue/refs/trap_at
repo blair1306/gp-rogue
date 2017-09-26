@@ -1,0 +1,4 @@
+<def f='codebrowser/trap.c' l='81' ll='92' type='int trap_at(int row, int col)'/>
+<use f='codebrowser/trap.c' l='99' u='c' c='trap_player'/>
+<use f='codebrowser/trap.c' l='210' u='c' c='id_trap'/>
+<use f='codebrowser/trap.c' l='269' u='c' c='search'/>

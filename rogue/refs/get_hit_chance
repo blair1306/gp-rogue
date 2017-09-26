@@ -1,0 +1,3 @@
+<use f='codebrowser/hit.c' l='134' u='c' c='rogue_hit'/>
+<def f='codebrowser/hit.c' l='430' ll='439' type='int get_hit_chance(object * weapon)'/>
+<use f='codebrowser/throw.c' l='131' u='c' c='throw_at_monster'/>

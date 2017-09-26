@@ -1,0 +1,3 @@
+<dec f='include/curses.h' l='646' type='WINDOW * initscr()'/>
+<doc f='include/curses.h' l='646'>/* implemented */</doc>
+<use f='codebrowser/init.c' l='98' u='c' c='init'/>

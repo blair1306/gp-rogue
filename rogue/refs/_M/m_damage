@@ -1,0 +1,8 @@
+<dec f='codebrowser/rogue.h' l='206'/>
+<use f='codebrowser/hit.c' l='102' u='c'/>
+<use f='codebrowser/hit.c' l='359' u='c'/>
+<doc f='codebrowser/rogue.h' l='200'>/* The following #defines provide more meaningful names for some of the
+ * struct object fields that are used for monsters.  This, since each monster
+ * and object (scrolls, potions, etc) are represented by a struct object.
+ * Ideally, this should be handled by some kind of union structure.
+ */</doc>

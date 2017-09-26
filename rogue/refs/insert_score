@@ -1,0 +1,2 @@
+<use f='codebrowser/score.c' l='272' u='c' c='put_scores'/>
+<def f='codebrowser/score.c' l='322' ll='382' type='int insert_score(char (*)[82] scores, char (*)[30] n_names, char * n_name, short rank, short n, object * monster, int other)'/>

@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='665' type='int meta(WINDOW * , _Bool )'/>
+<doc f='include/curses.h' l='665'>/* implemented */</doc>

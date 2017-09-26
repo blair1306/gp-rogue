@@ -1,0 +1,5 @@
+<dec f='codebrowser/rogue.h' l='434' type='char * get_ench_color()'/>
+<use f='codebrowser/use.c' l='220' u='c' c='read_scroll'/>
+<use f='codebrowser/use.c' l='236' u='c' c='read_scroll'/>
+<use f='codebrowser/use.c' l='285' u='c' c='read_scroll'/>
+<def f='codebrowser/use.c' l='585' ll='594' type='char * get_ench_color()'/>

@@ -1,0 +1,10 @@
+<def f='codebrowser/init.c' l='67' macro='1' type='char'/>
+<use f='codebrowser/init.c' l='288' u='w' c='do_opts'/>
+<dec f='codebrowser/move.c' l='65' type='char'/>
+<use f='codebrowser/move.c' l='205' u='r' c='multiple_move_rogue'/>
+<use f='codebrowser/move.c' l='220' u='r' c='multiple_move_rogue'/>
+<dec f='codebrowser/room.c' l='60' type='char'/>
+<use f='codebrowser/room.c' l='77' u='a'/>
+<use f='codebrowser/room.c' l='77' u='a'/>
+<use f='codebrowser/room.c' l='77' u='a'/>
+<use f='codebrowser/room.c' l='77' u='a'/>

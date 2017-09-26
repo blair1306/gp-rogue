@@ -1,0 +1,6 @@
+<def f='codebrowser/inventory.c' l='160' ll='209' type='struct id_com_s [48]'/>
+<use f='codebrowser/inventory.c' l='308' u='m' c='id_com'/>
+<use f='codebrowser/inventory.c' l='312' u='m' c='id_com'/>
+<use f='codebrowser/inventory.c' l='355' u='m' c='pr_com_id'/>
+<use f='codebrowser/inventory.c' l='366' u='m' c='get_com_id'/>
+<use f='codebrowser/inventory.c' l='404' u='m' c='pr_motion_char'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/rogue.h' l='438' type='char * md_malloc()'/>
+<use f='codebrowser/init.c' l='324' u='c' c='env_get_value'/>
+<use f='codebrowser/init.c' l='336' u='c' c='init_str'/>
+<def f='codebrowser/machdep.c' l='472' ll='477' type='char * md_malloc(int n)'/>
+<doc f='codebrowser/machdep.c' l='464'>/* md_malloc()
+ *
+ * This routine allocates, and returns a pointer to, the specified number
+ * of bytes.  This routines absolutely MUST be implemented for your
+ * particular system or the program will not run at all.  Return zero
+ * when no more memory can be allocated.
+ */</doc>
+<use f='codebrowser/object.c' l='622' u='c' c='alloc_object'/>

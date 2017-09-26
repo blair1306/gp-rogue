@@ -1,0 +1,5 @@
+<def f='codebrowser/init.c' l='59' type='char *'/>
+<use f='codebrowser/init.c' l='92' u='r' c='init'/>
+<use f='codebrowser/init.c' l='112' u='r' c='init'/>
+<use f='codebrowser/init.c' l='113' u='r' c='init'/>
+<use f='codebrowser/init.c' l='254' u='w' c='do_args'/>

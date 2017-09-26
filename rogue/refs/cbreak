@@ -1,0 +1,3 @@
+<dec f='include/curses.h' l='601' type='int cbreak()'/>
+<doc f='include/curses.h' l='601'>/* implemented */</doc>
+<use f='codebrowser/init.c' l='191' macro='1' u='c'/>

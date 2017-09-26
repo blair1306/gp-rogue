@@ -1,0 +1,15 @@
+<dec f='codebrowser/rogue.h' l='379'/>
+<use f='codebrowser/monster.c' l='123' u='c'/>
+<use f='codebrowser/monster.c' l='170' u='c'/>
+<use f='codebrowser/monster.c' l='255' u='c'/>
+<use f='codebrowser/monster.c' l='276' u='c'/>
+<use f='codebrowser/monster.c' l='293' u='c'/>
+<use f='codebrowser/monster.c' l='555' u='c'/>
+<use f='codebrowser/monster.c' l='668' u='c'/>
+<use f='codebrowser/monster.c' l='669' u='c'/>
+<use f='codebrowser/monster.c' l='845' u='c'/>
+<use f='codebrowser/object.c' l='684' u='c'/>
+<use f='codebrowser/spec_hit.c' l='358' u='c'/>
+<use f='codebrowser/spec_hit.c' l='379' u='c'/>
+<use f='codebrowser/zap.c' l='184' u='c'/>
+<use f='codebrowser/zap.c' l='199' u='c'/>

@@ -1,0 +1,8 @@
+<def f='codebrowser/object.c' l='57' type='short'/>
+<use f='codebrowser/object.c' l='349' u='r' c='gr_object'/>
+<use f='codebrowser/object.c' l='351' u='w' c='gr_object'/>
+<dec f='codebrowser/save.c' l='65' type='short'/>
+<use f='codebrowser/save.c' l='130' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='130' c='save_into_file'/>
+<use f='codebrowser/save.c' l='201' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='201' c='restore'/>

@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='602' type='int chgat(int , attr_t , short , const void * )'/>
+<doc f='include/curses.h' l='602'>/* generated */</doc>

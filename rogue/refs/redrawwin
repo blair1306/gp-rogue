@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='742' type='int redrawwin(WINDOW * )'/>
+<doc f='include/curses.h' l='742'>/* generated */</doc>

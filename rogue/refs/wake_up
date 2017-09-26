@@ -1,0 +1,15 @@
+<use f='codebrowser/hit.c' l='159' u='c' c='rogue_hit'/>
+<use f='codebrowser/monster.c' l='146' u='c' c='put_mons'/>
+<use f='codebrowser/monster.c' l='318' u='c' c='mv_1_monster'/>
+<def f='codebrowser/monster.c' l='551' ll='557' type='int wake_up(object * monster)'/>
+<use f='codebrowser/monster.c' l='588' u='c' c='wake_room'/>
+<use f='codebrowser/monster.c' l='641' u='c' c='wanderer'/>
+<use f='codebrowser/monster.c' l='704' u='c' c='create_monster'/>
+<use f='codebrowser/monster.c' l='844' u='c' c='aggravate'/>
+<use f='codebrowser/spec_hit.c' l='359' u='c' c='check_imitator'/>
+<use f='codebrowser/throw.c' l='113' u='c' c='throw'/>
+<use f='codebrowser/zap.c' l='106' u='c' c='zapp'/>
+<use f='codebrowser/zap.c' l='185' u='c' c='zap_monster'/>
+<use f='codebrowser/zap.c' l='263' u='c' c='wdrain_life'/>
+<use f='codebrowser/zap.c' l='270' u='c' c='wdrain_life'/>
+<use f='codebrowser/zap.c' l='334' u='c' c='bounce'/>

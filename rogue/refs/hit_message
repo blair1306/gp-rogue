@@ -1,0 +1,23 @@
+<def f='codebrowser/hit.c' l='57' type='char [80]'/>
+<use f='codebrowser/hit.c' l='90' u='r' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='90' u='r' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='91' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='92' u='w' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='97' u='r' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='97' u='r' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='98' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='99' u='w' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='141' u='r' c='rogue_hit'/>
+<use f='codebrowser/hit.c' l='154' u='r' c='rogue_hit'/>
+<use f='codebrowser/hit.c' l='310' u='r' c='mon_damage'/>
+<use f='codebrowser/hit.c' l='310' u='r' c='mon_damage'/>
+<use f='codebrowser/hit.c' l='311' c='mon_damage'/>
+<use f='codebrowser/hit.c' l='312' u='w' c='mon_damage'/>
+<dec f='codebrowser/play.c' l='59' type='char []'/>
+<use f='codebrowser/play.c' l='69' u='r' c='play_level'/>
+<use f='codebrowser/play.c' l='70' c='play_level'/>
+<use f='codebrowser/play.c' l='71' u='w' c='play_level'/>
+<dec f='codebrowser/throw.c' l='57' type='char []'/>
+<use f='codebrowser/throw.c' l='147' u='r' c='throw_at_monster'/>
+<use f='codebrowser/throw.c' l='151' u='r' c='throw_at_monster'/>
+<use f='codebrowser/throw.c' l='155' u='r' c='throw_at_monster'/>

@@ -1,0 +1,21 @@
+<dec f='codebrowser/rogue.h' l='228' type='short'/>
+<offset>192</offset>
+<doc f='codebrowser/rogue.h' l='228'>/* level ends */</doc>
+<use f='codebrowser/monster.c' l='164' macro='1' u='r'/>
+<use f='codebrowser/object.c' l='513' u='w' c='gr_weapon'/>
+<use f='codebrowser/object.c' l='569' u='w' c='gr_armor'/>
+<use f='codebrowser/object.c' l='628' u='w' c='alloc_object'/>
+<use f='codebrowser/pack.c' l='170' u='r' c='drop'/>
+<use f='codebrowser/pack.c' l='176' u='r' c='drop'/>
+<use f='codebrowser/pack.c' l='184' u='r' c='drop'/>
+<use f='codebrowser/pack.c' l='314' u='r' c='take_off'/>
+<use f='codebrowser/pack.c' l='386' u='r' c='wield'/>
+<use f='codebrowser/ring.c' l='182' u='r' c='remove_ring'/>
+<use f='codebrowser/ring.c' l='235' u='w' c='gr_ring'/>
+<use f='codebrowser/ring.c' l='240' u='w' c='gr_ring'/>
+<use f='codebrowser/ring.c' l='243' u='w' c='gr_ring'/>
+<use f='codebrowser/throw.c' l='89' u='r' c='throw'/>
+<use f='codebrowser/use.c' l='228' u='w' c='read_scroll'/>
+<use f='codebrowser/use.c' l='239' u='w' c='read_scroll'/>
+<use f='codebrowser/use.c' l='262' u='w' c='read_scroll'/>
+<use f='codebrowser/use.c' l='617' u='w' c='uncurse_all'/>

@@ -1,0 +1,16 @@
+<use f='codebrowser/level.c' l='736' u='c' c='put_player'/>
+<use f='codebrowser/level.c' l='751' u='c' c='put_player'/>
+<use f='codebrowser/monster.c' l='489' u='c' c='move_mon_to'/>
+<use f='codebrowser/monster.c' l='576' u='c' c='wake_room'/>
+<use f='codebrowser/monster.c' l='586' u='c' c='wake_room'/>
+<use f='codebrowser/monster.c' l='728' u='c' c='aim_monster'/>
+<use f='codebrowser/monster.c' l='747' u='c' c='rogue_can_see'/>
+<use f='codebrowser/monster.c' l='859' u='c' c='mon_sees'/>
+<use f='codebrowser/monster.c' l='862' u='c' c='mon_sees'/>
+<use f='codebrowser/move.c' l='111' u='c' c='one_move_rogue'/>
+<use f='codebrowser/room.c' l='256' u='c' c='gr_row_col'/>
+<def f='codebrowser/room.c' l='310' ll='322' type='int get_room_number(int row, int col)'/>
+<use f='codebrowser/room.c' l='422' u='c' c='dr_course'/>
+<use f='codebrowser/spec_hit.c' l='306' u='c' c='seek_gold'/>
+<use f='codebrowser/use.c' l='474' u='c' c='tele'/>
+<use f='codebrowser/zap.c' l='262' u='c' c='wdrain_life'/>

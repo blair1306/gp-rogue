@@ -1,0 +1,3 @@
+<dec f='codebrowser/rogue.h' l='454' type='object * check_duplicate()'/>
+<use f='codebrowser/pack.c' l='67' u='c' c='add_to_pack'/>
+<def f='codebrowser/pack.c' l='210' ll='242' type='object * check_duplicate(object * obj, object * pack)'/>

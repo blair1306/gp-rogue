@@ -1,0 +1,9 @@
+<def f='codebrowser/init.c' l='66' macro='1' type='char'/>
+<use f='codebrowser/init.c' l='286' u='w' c='do_opts'/>
+<dec f='codebrowser/room.c' l='60' type='char'/>
+<use f='codebrowser/room.c' l='81' u='a'/>
+<use f='codebrowser/room.c' l='81' u='a'/>
+<use f='codebrowser/room.c' l='81' u='a'/>
+<use f='codebrowser/room.c' l='81' u='a'/>
+<dec f='codebrowser/score.c' l='61' type='char'/>
+<use f='codebrowser/score.c' l='105' u='r' c='killed_by'/>

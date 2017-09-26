@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='1654' type='void _tracef(const char * )'/>
+<doc f='include/curses.h' l='1652'>/* Debugging : use with libncurses_g.a */</doc>

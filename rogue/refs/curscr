@@ -1,0 +1,3 @@
+<dec f='include/curses.h' l='1400' type='WINDOW *'/>
+<use f='codebrowser/message.c' l='199' u='r' c='rgetchar'/>
+<use f='codebrowser/room.c' l='647' u='r' c='do_shell'/>

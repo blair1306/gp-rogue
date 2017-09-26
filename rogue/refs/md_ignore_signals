@@ -1,0 +1,19 @@
+<use f='codebrowser/init.c' l='208' u='c' c='byebye'/>
+<use f='codebrowser/init.c' l='220' u='c' c='onintr'/>
+<def f='codebrowser/machdep.c' l='246' ll='251' type='int md_ignore_signals()'/>
+<doc f='codebrowser/machdep.c' l='234'>/* md_ignore_signals():
+ *
+ * This routine tells the program to completely ignore the events mentioned
+ * in md_heed_signals() above.  The event handlers will later be turned on
+ * by a future call to md_heed_signals(), so md_heed_signals() and
+ * md_ignore_signals() need to work together.
+ *
+ * This function should be implemented or the user risks interrupting
+ * critical sections of code, which could cause score file, or saved-game
+ * file, corruption.
+ */</doc>
+<use f='codebrowser/room.c' l='637' u='c' c='do_shell'/>
+<use f='codebrowser/save.c' l='117' u='c' c='save_into_file'/>
+<use f='codebrowser/score.c' l='70' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='162' u='c' c='quit'/>
+<use f='codebrowser/score.c' l='285' u='c' c='put_scores'/>

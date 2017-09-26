@@ -1,0 +1,3 @@
+<use f='codebrowser/move.c' l='495' u='c' c='reg_move'/>
+<use f='codebrowser/play.c' l='90' u='c' c='play_level'/>
+<def f='codebrowser/trap.c' l='230' ll='283' type='int search(short n, char is_auto)'/>

@@ -1,0 +1,5 @@
+<use f='codebrowser/spec_hit.c' l='263' u='c' c='cough_up'/>
+<use f='codebrowser/spec_hit.c' l='266' u='c' c='cough_up'/>
+<use f='codebrowser/spec_hit.c' l='271' u='c' c='cough_up'/>
+<use f='codebrowser/spec_hit.c' l='274' u='c' c='cough_up'/>
+<def f='codebrowser/spec_hit.c' l='282' ll='299' type='int try_to_cough(short row, short col, object * obj)'/>

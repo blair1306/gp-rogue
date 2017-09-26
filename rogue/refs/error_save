@@ -1,0 +1,3 @@
+<dec f='codebrowser/rogue.h' l='463' type='void error_save()'/>
+<def f='codebrowser/init.c' l='230' ll='236' type='void error_save()'/>
+<use f='codebrowser/machdep.c' l='231' u='r' c='md_heed_signals'/>

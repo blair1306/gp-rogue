@@ -1,0 +1,15 @@
+<dec f='include/curses.h' l='104'/>
+<use f='include/curses.h' l='590' u='c'/>
+<use f='include/curses.h' l='593' u='c'/>
+<use f='include/curses.h' l='602' u='c'/>
+<use f='include/curses.h' l='608' u='c'/>
+<use f='include/curses.h' l='648' u='c'/>
+<use f='include/curses.h' l='672' u='c'/>
+<use f='include/curses.h' l='698' u='c'/>
+<use f='include/curses.h' l='732' u='c'/>
+<use f='include/curses.h' l='766' u='c'/>
+<use f='include/curses.h' l='768' u='c'/>
+<use f='include/curses.h' l='807' u='c'/>
+<use f='include/curses.h' l='810' u='c'/>
+<use f='include/curses.h' l='814' u='c'/>
+<use f='include/curses.h' l='818' u='c'/>

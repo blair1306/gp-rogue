@@ -1,0 +1,8 @@
+<dec f='include/curses.h' l='817' type='int wclrtoeol(WINDOW * )'/>
+<doc f='include/curses.h' l='817'>/* implemented */</doc>
+<use f='codebrowser/inventory.c' l='258' macro='1' u='c'/>
+<use f='codebrowser/inventory.c' l='264' macro='1' u='c'/>
+<use f='codebrowser/inventory.c' l='303' macro='1' u='c'/>
+<use f='codebrowser/message.c' l='127' macro='1' u='c'/>
+<use f='codebrowser/message.c' l='302' macro='1' u='c'/>
+<use f='codebrowser/room.c' l='623' macro='1' u='c'/>

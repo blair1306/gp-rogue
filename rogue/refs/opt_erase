@@ -1,0 +1,3 @@
+<use f='codebrowser/room.c' l='566' u='c' c='edit_opts'/>
+<use f='codebrowser/room.c' l='607' u='c' c='opt_show'/>
+<def f='codebrowser/room.c' l='617' ll='624' type='int opt_erase(int i)'/>

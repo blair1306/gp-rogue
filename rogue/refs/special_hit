@@ -1,0 +1,2 @@
+<use f='codebrowser/hit.c' l='120' u='c' c='mon_hit'/>
+<def f='codebrowser/spec_hit.c' l='64' ll='93' type='int special_hit(object * monster)'/>

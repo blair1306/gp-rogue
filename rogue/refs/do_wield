@@ -1,0 +1,4 @@
+<use f='codebrowser/init.c' l='153' u='c' c='player_init'/>
+<use f='codebrowser/pack.c' l='412' u='c' c='wield'/>
+<def f='codebrowser/pack.c' l='417' ll='422' type='int do_wield(object * obj)'/>
+<use f='codebrowser/save.c' l='277' u='c' c='read_pack'/>

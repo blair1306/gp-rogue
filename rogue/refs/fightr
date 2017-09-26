@@ -1,0 +1,18 @@
+<def f='codebrowser/rogue.h' l='256' ll='271'/>
+<size>144</size>
+<mbr r='fightr::armor' o='0' t='object *'/>
+<mbr r='fightr::weapon' o='64' t='object *'/>
+<mbr r='fightr::left_ring' o='128' t='object *'/>
+<mbr r='fightr::right_ring' o='192' t='object *'/>
+<mbr r='fightr::hp_current' o='256' t='short'/>
+<mbr r='fightr::hp_max' o='272' t='short'/>
+<mbr r='fightr::str_current' o='288' t='short'/>
+<mbr r='fightr::str_max' o='304' t='short'/>
+<mbr r='fightr::pack' o='320' t='object'/>
+<mbr r='fightr::gold' o='896' t='long'/>
+<mbr r='fightr::exp' o='960' t='short'/>
+<mbr r='fightr::exp_points' o='1024' t='long'/>
+<mbr r='fightr::row' o='1088' t='short'/>
+<mbr r='fightr::col' o='1104' t='short'/>
+<mbr r='fightr::fchar' o='1120' t='short'/>
+<mbr r='fightr::moves_left' o='1136' t='short'/>

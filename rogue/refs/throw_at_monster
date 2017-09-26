@@ -1,0 +1,2 @@
+<use f='codebrowser/throw.c' l='116' u='c' c='throw'/>
+<def f='codebrowser/throw.c' l='125' ll='158' type='int throw_at_monster(object * monster, object * weapon)'/>

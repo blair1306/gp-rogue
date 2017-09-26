@@ -1,0 +1,2 @@
+<use f='codebrowser/play.c' l='211' u='c' c='play_level'/>
+<def f='codebrowser/zap.c' l='61' ll='114' type='int zapp()'/>

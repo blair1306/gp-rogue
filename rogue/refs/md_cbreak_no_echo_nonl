@@ -1,0 +1,30 @@
+<def f='codebrowser/machdep.c' l='607' ll='641' type='int md_cbreak_no_echo_nonl(char on)'/>
+<doc f='codebrowser/machdep.c' l='577'>/* md_cbreak_no_echo_nonl:
+ *
+ * This routine sets up some terminal characteristics.  The tty-driver
+ * must be told to:
+ *   1.)  Not echo input.
+ *   2.)  Transmit input characters immediately upon typing. (cbreak mode)
+ *   3.)  Move the cursor down one line, without changing column, and
+ *        without generating a carriage-return, when it
+ *        sees a line-feed.  This is only necessary if line-feed is ever
+ *        used in the termcap &apos;do&apos; (cursor down) entry, in which case,
+ *        your system should must have a way of accomplishing this.
+ *
+ * When the parameter &apos;on&apos; is true, the terminal is set up as specified
+ * above.  When this parameter is false, the terminal is restored to the
+ * original state.
+ *
+ * Raw mode should not to be used.  Keyboard signals/events/interrupts should
+ * be sent, although they are not strictly necessary.  See notes in
+ * md_heed_signals().
+ *
+ * This function must be implemented for rogue to run properly if the
+ * program is compiled with CURSES defined to use the enclosed curses
+ * emulation package.  If you are not using this, then this routine is
+ * totally unnecessary.
+ *
+ * Notice that information is saved between calls.  This is used to
+ * restore the terminal to an initial saved state.
+ *
+ */</doc>

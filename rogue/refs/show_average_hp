@@ -1,0 +1,2 @@
+<def f='codebrowser/level.c' l='850' ll='867' type='int show_average_hp()'/>
+<use f='codebrowser/play.c' l='274' u='c' c='play_level'/>

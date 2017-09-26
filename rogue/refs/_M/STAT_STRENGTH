@@ -1,0 +1,7 @@
+<dec f='codebrowser/rogue.h' l='319'/>
+<use f='codebrowser/message.c' l='262' u='c'/>
+<use f='codebrowser/ring.c' l='333' u='c'/>
+<use f='codebrowser/spec_hit.c' l='406' u='c'/>
+<use f='codebrowser/spec_hit.c' l='454' u='c'/>
+<use f='codebrowser/trap.c' l='130' u='c'/>
+<use f='codebrowser/use.c' l='180' u='c'/>

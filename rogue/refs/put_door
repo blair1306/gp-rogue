@@ -1,0 +1,10 @@
+<use f='codebrowser/level.c' l='311' u='c' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='312' u='c' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='316' u='c' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='317' u='c' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='321' u='c' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='322' u='c' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='326' u='c' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='327' u='c' c='connect_rooms'/>
+<def f='codebrowser/level.c' l='373' ll='408' type='int put_door(room * rm, short dir, short * row, short * col)'/>
+<use f='codebrowser/level.c' l='554' u='c' c='fill_it'/>

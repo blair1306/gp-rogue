@@ -1,0 +1,6 @@
+<def f='codebrowser/rogue.h' l='193' ll='198'/>
+<size>84</size>
+<mbr r='id::value' o='0' t='short'/>
+<mbr r='id::title' o='16' t='char [40]'/>
+<mbr r='id::real' o='336' t='char [40]'/>
+<mbr r='id::id_status' o='656' t='unsigned short'/>

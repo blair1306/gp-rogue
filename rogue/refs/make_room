@@ -1,0 +1,3 @@
+<use f='codebrowser/level.c' l='145' u='c' c='make_level'/>
+<use f='codebrowser/level.c' l='148' u='c' c='make_level'/>
+<def f='codebrowser/level.c' l='191' ll='298' type='int make_room(short rn, short r1, short r2, short r3)'/>

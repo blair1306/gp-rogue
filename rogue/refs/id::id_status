@@ -1,0 +1,21 @@
+<dec f='codebrowser/rogue.h' l='197' type='unsigned short'/>
+<offset>656</offset>
+<use f='codebrowser/inventory.c' l='494' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='510' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='513' u='r' c='get_desc'/>
+<use f='codebrowser/pack.c' l='125' u='r' c='pick_up'/>
+<use f='codebrowser/pack.c' l='126' u='w' c='pick_up'/>
+<use f='codebrowser/pack.c' l='456' u='w' c='call_it'/>
+<use f='codebrowser/save.c' l='323' u='a' c='rw_id'/>
+<use f='codebrowser/save.c' l='328' u='a' c='rw_id'/>
+<use f='codebrowser/score.c' l='478' u='w' c='id_all'/>
+<use f='codebrowser/score.c' l='481' u='w' c='id_all'/>
+<use f='codebrowser/score.c' l='484' u='w' c='id_all'/>
+<use f='codebrowser/score.c' l='487' u='w' c='id_all'/>
+<use f='codebrowser/score.c' l='490' u='w' c='id_all'/>
+<use f='codebrowser/use.c' l='181' u='r' c='quaff'/>
+<use f='codebrowser/use.c' l='182' u='w' c='quaff'/>
+<use f='codebrowser/use.c' l='248' u='w' c='read_scroll'/>
+<use f='codebrowser/use.c' l='289' u='r' c='read_scroll'/>
+<use f='codebrowser/use.c' l='290' u='w' c='read_scroll'/>
+<use f='codebrowser/use.c' l='388' u='w' c='idntfy'/>

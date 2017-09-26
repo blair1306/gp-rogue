@@ -1,0 +1,7 @@
+<def f='codebrowser/level.c' l='64' ll='86' type='long [21]'/>
+<use f='codebrowser/level.c' l='808' u='r' c='add_exp'/>
+<use f='codebrowser/level.c' l='835' u='r' c='get_exp_level'/>
+<dec f='codebrowser/spec_hit.c' l='59' type='long []'/>
+<use f='codebrowser/spec_hit.c' l='417' u='r' c='drop_level'/>
+<dec f='codebrowser/use.c' l='69' type='long []'/>
+<use f='codebrowser/use.c' l='127' u='r' c='quaff'/>

@@ -1,0 +1,12 @@
+<use f='codebrowser/monster.c' l='471' u='c' c='move_mon_to'/>
+<use f='codebrowser/monster.c' l='482' u='c' c='move_mon_to'/>
+<use f='codebrowser/monster.c' l='644' u='c' c='wanderer'/>
+<def f='codebrowser/monster.c' l='741' ll='752' type='int rogue_can_see(int row, int col)'/>
+<use f='codebrowser/monster.c' l='846' u='c' c='aggravate'/>
+<use f='codebrowser/spec_hit.c' l='230' u='c' c='disappear'/>
+<use f='codebrowser/spec_hit.c' l='462' u='c' c='m_confuse'/>
+<use f='codebrowser/throw.c' l='109' u='c' c='throw'/>
+<use f='codebrowser/throw.c' l='184' u='c' c='get_thrown_at_monster'/>
+<use f='codebrowser/throw.c' l='187' u='c' c='get_thrown_at_monster'/>
+<use f='codebrowser/throw.c' l='236' u='c' c='flop_weapon'/>
+<use f='codebrowser/zap.c' l='222' u='c' c='tele_away'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/rogue.h' l='461' type='long lget_number()'/>
+<def f='codebrowser/hit.c' l='239' ll='251' type='long lget_number(char * s)'/>
+<use f='codebrowser/score.c' l='237' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='259' u='c' c='put_scores'/>

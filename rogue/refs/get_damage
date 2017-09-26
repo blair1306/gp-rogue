@@ -1,0 +1,5 @@
+<use f='codebrowser/hit.c' l='102' u='c' c='mon_hit'/>
+<def f='codebrowser/hit.c' l='179' ll='205' type='int get_damage(char * ds, char r)'/>
+<use f='codebrowser/hit.c' l='223' u='c' c='get_w_damage'/>
+<use f='codebrowser/hit.c' l='359' u='c' c='fight'/>
+<use f='codebrowser/trap.c' l='122' u='c' c='trap_player'/>

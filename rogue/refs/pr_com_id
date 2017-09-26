@@ -1,0 +1,2 @@
+<use f='codebrowser/inventory.c' l='334' u='c' c='id_com'/>
+<def f='codebrowser/inventory.c' l='346' ll='357' type='int pr_com_id(int ch)'/>

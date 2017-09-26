@@ -1,0 +1,2 @@
+<use f='codebrowser/move.c' l='204' u='c' c='multiple_move_rogue'/>
+<def f='codebrowser/move.c' l='241' ll='300' type='int next_to_something(int drow, int dcol)'/>

@@ -1,0 +1,14 @@
+<def f='codebrowser/machdep.c' l='526' ll='545' type='int md_lock(char l)'/>
+<doc f='codebrowser/machdep.c' l='515'>/* md_lock():
+ *
+ * This function is intended to give the user exclusive access to the score
+ * file.  It does so by flock&apos;ing the score file.  The full path name of the
+ * score file should be defined for any particular site in rogue.h.  The
+ * constants _PATH_SCOREFILE defines this file name.
+ *
+ * When the parameter &apos;l&apos; is non-zero (true), a lock is requested.  Otherwise
+ * the lock is released.
+ */</doc>
+<use f='codebrowser/score.c' l='208' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='312' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='580' u='c' c='sf_error'/>

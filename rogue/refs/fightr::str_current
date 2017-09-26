@@ -1,0 +1,20 @@
+<dec f='codebrowser/rogue.h' l='262' type='short'/>
+<use f='codebrowser/hit.c' l='266' u='r' c='damage_for_strength'/>
+<offset>288</offset>
+<use f='codebrowser/message.c' l='267' u='w' c='print_stats'/>
+<use f='codebrowser/message.c' l='270' u='r' c='print_stats'/>
+<use f='codebrowser/spec_hit.c' l='123' u='r' c='freeze'/>
+<use f='codebrowser/spec_hit.c' l='123' u='r' c='freeze'/>
+<use f='codebrowser/spec_hit.c' l='393' u='r' c='sting'/>
+<use f='codebrowser/spec_hit.c' l='405' u='w' c='sting'/>
+<use f='codebrowser/spec_hit.c' l='447' u='r' c='drain_life'/>
+<use f='codebrowser/spec_hit.c' l='448' u='w' c='drain_life'/>
+<use f='codebrowser/trap.c' l='127' u='r' c='trap_player'/>
+<use f='codebrowser/trap.c' l='128' u='w' c='trap_player'/>
+<use f='codebrowser/use.c' l='97' u='w' c='quaff'/>
+<use f='codebrowser/use.c' l='98' u='r' c='quaff'/>
+<use f='codebrowser/use.c' l='99' u='r' c='quaff'/>
+<use f='codebrowser/use.c' l='103' u='w' c='quaff'/>
+<use f='codebrowser/use.c' l='116' u='w' c='quaff'/>
+<use f='codebrowser/use.c' l='117' u='r' c='quaff'/>
+<use f='codebrowser/use.c' l='118' u='w' c='quaff'/>

@@ -1,0 +1,4 @@
+<use f='codebrowser/save.c' l='194' u='c' c='restore'/>
+<use f='codebrowser/save.c' l='195' u='c' c='restore'/>
+<use f='codebrowser/save.c' l='203' u='c' c='restore'/>
+<def f='codebrowser/save.c' l='258' ll='286' type='int read_pack(object * pack, FILE * fp, char is_rogue)'/>

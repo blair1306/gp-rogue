@@ -1,0 +1,5 @@
+<dec f='codebrowser/rogue.h' l='455' type='object * gr_object()'/>
+<use f='codebrowser/object.c' l='177' u='c' c='put_objects'/>
+<def f='codebrowser/object.c' l='342' ll='379' type='object * gr_object()'/>
+<use f='codebrowser/room.c' l='302' u='c' c='party_objects'/>
+<use f='codebrowser/spec_hit.c' l='256' u='c' c='cough_up'/>

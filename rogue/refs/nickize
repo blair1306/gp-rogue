@@ -1,0 +1,2 @@
+<use f='codebrowser/score.c' l='300' u='c' c='put_scores'/>
+<def f='codebrowser/score.c' l='543' ll='566' type='int nickize(char * buf, char * score, char * n_name)'/>

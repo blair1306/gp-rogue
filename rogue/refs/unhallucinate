@@ -1,0 +1,4 @@
+<use f='codebrowser/move.c' l='462' u='c' c='reg_move'/>
+<use f='codebrowser/use.c' l='123' u='c' c='quaff'/>
+<use f='codebrowser/use.c' l='361' u='c' c='potion_heal'/>
+<def f='codebrowser/use.c' l='510' ll='515' type='int unhallucinate()'/>

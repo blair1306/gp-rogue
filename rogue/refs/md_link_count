@@ -1,0 +1,9 @@
+<def f='codebrowser/machdep.c' l='282' ll='290' type='int md_link_count(char * fname)'/>
+<doc f='codebrowser/machdep.c' l='274'>/* md_link_count():
+ *
+ * This routine returns the number of hard links to the specified file.
+ *
+ * This function is not strictly necessary.  On systems without hard links
+ * this routine can be stubbed by just returning 1.
+ */</doc>
+<use f='codebrowser/save.c' l='178' u='c' c='restore'/>

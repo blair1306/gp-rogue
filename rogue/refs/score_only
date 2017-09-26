@@ -1,0 +1,16 @@
+<def f='codebrowser/init.c' l='62' macro='1' type='char'/>
+<use f='codebrowser/init.c' l='92' u='r' c='init'/>
+<use f='codebrowser/init.c' l='107' u='r' c='init'/>
+<use f='codebrowser/init.c' l='249' u='w' c='do_args'/>
+<dec f='codebrowser/save.c' l='78' type='char'/>
+<use f='codebrowser/save.c' l='151' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='151' c='save_into_file'/>
+<use f='codebrowser/save.c' l='222' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='222' c='restore'/>
+<dec f='codebrowser/score.c' l='61' type='char'/>
+<use f='codebrowser/score.c' l='206' u='r' c='put_scores'/>
+<use f='codebrowser/score.c' l='231' u='r' c='put_scores'/>
+<use f='codebrowser/score.c' l='239' u='w' c='put_scores'/>
+<use f='codebrowser/score.c' l='253' u='r' c='put_scores'/>
+<dec f='codebrowser/zap.c' l='58' type='char'/>
+<use f='codebrowser/zap.c' l='240' u='w' c='wizardize'/>

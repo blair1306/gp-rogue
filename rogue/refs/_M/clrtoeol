@@ -1,0 +1,7 @@
+<dec f='include/curses.h' l='1219'/>
+<use f='codebrowser/inventory.c' l='258' u='c'/>
+<use f='codebrowser/inventory.c' l='264' u='c'/>
+<use f='codebrowser/inventory.c' l='303' u='c'/>
+<use f='codebrowser/message.c' l='127' u='c'/>
+<use f='codebrowser/message.c' l='302' u='c'/>
+<use f='codebrowser/room.c' l='623' u='c'/>

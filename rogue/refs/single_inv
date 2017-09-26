@@ -1,0 +1,4 @@
+<def f='codebrowser/inventory.c' l='638' ll='660' type='int single_inv(short ichar)'/>
+<use f='codebrowser/inventory.c' l='688' u='c' c='inv_armor_weapon'/>
+<use f='codebrowser/inventory.c' l='694' u='c' c='inv_armor_weapon'/>
+<use f='codebrowser/play.c' l='196' u='c' c='play_level'/>

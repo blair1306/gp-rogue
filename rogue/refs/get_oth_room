@@ -1,0 +1,2 @@
+<use f='codebrowser/room.c' l='472' u='c' c='dr_course'/>
+<def f='codebrowser/room.c' l='481' ll='501' type='int get_oth_room(short rn, short * row, short * col)'/>

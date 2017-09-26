@@ -1,0 +1,5 @@
+<dec f='codebrowser/level.c' l='92' type='short'/>
+<use f='codebrowser/level.c' l='860' u='r' c='show_average_hp'/>
+<use f='codebrowser/level.c' l='865' u='r' c='show_average_hp'/>
+<def f='codebrowser/spec_hit.c' l='55' type='short'/>
+<use f='codebrowser/spec_hit.c' l='444' u='w' c='drain_life'/>

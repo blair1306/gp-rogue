@@ -1,0 +1,5 @@
+<use f='codebrowser/room.c' l='519' u='c' c='edit_opts'/>
+<use f='codebrowser/room.c' l='539' u='c' c='edit_opts'/>
+<use f='codebrowser/room.c' l='544' u='c' c='edit_opts'/>
+<use f='codebrowser/room.c' l='556' u='c' c='edit_opts'/>
+<def f='codebrowser/room.c' l='626' ll='630' type='int opt_go(int i)'/>

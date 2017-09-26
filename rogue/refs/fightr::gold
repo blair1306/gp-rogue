@@ -1,0 +1,19 @@
+<dec f='codebrowser/rogue.h' l='265' type='long'/>
+<offset>896</offset>
+<use f='codebrowser/message.c' l='243' u='r' c='print_stats'/>
+<use f='codebrowser/message.c' l='244' u='w' c='print_stats'/>
+<use f='codebrowser/message.c' l='246' u='r' c='print_stats'/>
+<use f='codebrowser/pack.c' l='131' u='w' c='pick_up'/>
+<use f='codebrowser/score.c' l='73' u='w' c='killed_by'/>
+<use f='codebrowser/score.c' l='73' u='r' c='killed_by'/>
+<use f='codebrowser/score.c' l='104' u='r' c='killed_by'/>
+<use f='codebrowser/score.c' l='238' u='r' c='put_scores'/>
+<use f='codebrowser/score.c' l='261' u='r' c='put_scores'/>
+<use f='codebrowser/score.c' l='340' u='r' c='insert_score'/>
+<use f='codebrowser/score.c' l='409' u='w' c='sell_pack'/>
+<use f='codebrowser/score.c' l='420' u='r' c='sell_pack'/>
+<use f='codebrowser/score.c' l='421' u='w' c='sell_pack'/>
+<use f='codebrowser/spec_hit.c' l='152' u='r' c='steal_gold'/>
+<use f='codebrowser/spec_hit.c' l='158' u='r' c='steal_gold'/>
+<use f='codebrowser/spec_hit.c' l='159' u='r' c='steal_gold'/>
+<use f='codebrowser/spec_hit.c' l='161' u='w' c='steal_gold'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/rogue.h' l='467' type='short'/>
+<offset>16</offset>
+<doc f='codebrowser/rogue.h' l='467'>/* 1 - 12 */</doc>
+<use f='codebrowser/machdep.c' l='316' u='w' c='md_gct'/>
+<use f='codebrowser/machdep.c' l='352' u='w' c='md_gfmt'/>
+<use f='codebrowser/save.c' l='403' u='r' c='has_been_touched'/>
+<use f='codebrowser/save.c' l='403' u='r' c='has_been_touched'/>
+<use f='codebrowser/save.c' l='405' u='r' c='has_been_touched'/>
+<use f='codebrowser/save.c' l='405' u='r' c='has_been_touched'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/rogue.h' l='196' type='char [40]'/>
+<offset>336</offset>
+<use f='codebrowser/inventory.c' l='552' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='564' u='r' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='568' u='r' c='get_desc'/>

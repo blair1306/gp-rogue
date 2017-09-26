@@ -1,0 +1,2 @@
+<use f='codebrowser/pack.c' l='288' u='c' c='pack_letter'/>
+<def f='codebrowser/pack.c' l='502' ll='538' type='int is_pack_letter(short * c, unsigned short * mask)'/>

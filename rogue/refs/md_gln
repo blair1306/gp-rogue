@@ -1,0 +1,11 @@
+<dec f='codebrowser/rogue.h' l='436' type='char * md_gln()'/>
+<use f='codebrowser/init.c' l='83' u='c' c='init'/>
+<def f='codebrowser/machdep.c' l='389' ll='398' type='char * md_gln()'/>
+<doc f='codebrowser/machdep.c' l='380'>/* md_gln: (Get login name)
+ *
+ * This routine returns the login name of the user.  This string is
+ * used mainly for identifying users in score files.
+ *
+ * A dummy string may be returned if you are unable to implement this
+ * function, but then the score file would only have one name in it.
+ */</doc>

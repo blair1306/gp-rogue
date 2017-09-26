@@ -1,0 +1,4 @@
+<use f='codebrowser/spec_hit.c' l='500' u='c' c='flame_broil'/>
+<use f='codebrowser/zap.c' l='100' u='c' c='zapp'/>
+<def f='codebrowser/zap.c' l='278' ll='410' type='int bounce(short ball, short dir, short row, short col, short r)'/>
+<use f='codebrowser/zap.c' l='407' u='c' c='bounce'/>

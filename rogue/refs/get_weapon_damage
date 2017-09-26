@@ -1,0 +1,4 @@
+<use f='codebrowser/hit.c' l='145' u='c' c='rogue_hit'/>
+<def f='codebrowser/hit.c' l='441' ll='450' type='int get_weapon_damage(object * weapon)'/>
+<use f='codebrowser/throw.c' l='132' u='c' c='throw_at_monster'/>
+<use f='codebrowser/throw.c' l='135' u='c' c='throw_at_monster'/>

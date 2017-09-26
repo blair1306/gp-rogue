@@ -1,0 +1,2 @@
+<def f='codebrowser/message.c' l='359' ll='380' type='int r_index(char * str, int ch, char last)'/>
+<use f='codebrowser/object.c' l='721' u='c' c='c_object_for_wizard'/>

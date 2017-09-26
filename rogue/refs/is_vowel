@@ -1,0 +1,4 @@
+<use f='codebrowser/inventory.c' l='592' u='c' c='get_desc'/>
+<use f='codebrowser/score.c' l='96' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='365' u='c' c='insert_score'/>
+<def f='codebrowser/score.c' l='384' ll='392' type='int is_vowel(short ch)'/>

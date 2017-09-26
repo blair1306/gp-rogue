@@ -1,0 +1,9 @@
+<dec f='codebrowser/rogue.h' l='72'/>
+<use f='codebrowser/inventory.c' l='454' u='c'/>
+<use f='codebrowser/object.c' l='332' u='c'/>
+<use f='codebrowser/object.c' l='696' u='c'/>
+<use f='codebrowser/object.c' l='741' u='c'/>
+<use f='codebrowser/pack.c' l='531' u='c'/>
+<use f='codebrowser/pack.c' l='542' u='c'/>
+<use f='codebrowser/room.c' l='239' u='c'/>
+<use f='codebrowser/score.c' l='460' u='c'/>

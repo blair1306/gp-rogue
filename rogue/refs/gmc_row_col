@@ -1,0 +1,2 @@
+<def f='codebrowser/monster.c' l='266' ll='283' type='int gmc_row_col(int row, int col)'/>
+<use f='codebrowser/room.c' l='177' u='c' c='get_dungeon_char'/>

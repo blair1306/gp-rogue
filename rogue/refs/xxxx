@@ -1,0 +1,8 @@
+<use f='codebrowser/save.c' l='342' u='c' c='write_string'/>
+<use f='codebrowser/save.c' l='355' u='c' c='read_string'/>
+<use f='codebrowser/score.c' l='222' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='226' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='303' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='305' u='c' c='put_scores'/>
+<def f='codebrowser/score.c' l='509' ll='523' type='int xxxx(char * buf, short n)'/>
+<use f='codebrowser/zap.c' l='237' u='c' c='wizardize'/>

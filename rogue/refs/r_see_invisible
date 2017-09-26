@@ -1,0 +1,9 @@
+<dec f='codebrowser/monster.c' l='131' type='char'/>
+<use f='codebrowser/monster.c' l='272' u='r' c='gmc_row_col'/>
+<use f='codebrowser/monster.c' l='288' u='r' c='gmc'/>
+<use f='codebrowser/monster.c' l='484' u='r' c='move_mon_to'/>
+<use f='codebrowser/monster.c' l='602' u='r' c='mon_name'/>
+<def f='codebrowser/ring.c' l='65' macro='1' type='char'/>
+<use f='codebrowser/ring.c' l='267' u='r' c='inv_rings'/>
+<use f='codebrowser/ring.c' l='287' u='w' c='ring_stats'/>
+<use f='codebrowser/ring.c' l='322' u='w' c='ring_stats'/>

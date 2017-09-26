@@ -1,0 +1,3 @@
+<use f='codebrowser/use.c' l='108' u='c' c='quaff'/>
+<use f='codebrowser/use.c' l='112' u='c' c='quaff'/>
+<def f='codebrowser/use.c' l='322' ll='365' type='int potion_heal(int extra)'/>

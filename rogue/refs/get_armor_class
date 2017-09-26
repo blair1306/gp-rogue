@@ -1,0 +1,9 @@
+<use f='codebrowser/hit.c' l='106' u='c' c='mon_hit'/>
+<use f='codebrowser/inventory.c' l='578' u='c' c='get_desc'/>
+<use f='codebrowser/message.c' l='282' u='c' c='print_stats'/>
+<def f='codebrowser/object.c' l='605' ll='612' type='int get_armor_class(object * obj)'/>
+<use f='codebrowser/spec_hit.c' l='98' u='c' c='rust'/>
+<use f='codebrowser/spec_hit.c' l='125' u='c' c='freeze'/>
+<use f='codebrowser/spec_hit.c' l='396' u='c' c='sting'/>
+<use f='codebrowser/zap.c' l='375' u='c' c='bounce'/>
+<use f='codebrowser/zap.c' l='383' u='c' c='bounce'/>

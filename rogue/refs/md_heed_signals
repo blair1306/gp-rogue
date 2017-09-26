@@ -1,0 +1,21 @@
+<use f='codebrowser/init.c' l='105' u='c' c='init'/>
+<use f='codebrowser/init.c' l='214' u='c' c='byebye'/>
+<use f='codebrowser/init.c' l='227' u='c' c='onintr'/>
+<def f='codebrowser/machdep.c' l='227' ll='232' type='int md_heed_signals()'/>
+<doc f='codebrowser/machdep.c' l='211'>/* md_heed_signals():
+ *
+ * This routine tells the program to call particular routines when
+ * certain interrupts/events occur:
+ *
+ *      SIGINT: call onintr() to interrupt fight with monster or long rest.
+ *      SIGQUIT: call byebye() to check for game termination.
+ *      SIGHUP: call error_save() to save game when terminal hangs up.
+ *
+ *		On VMS, SIGINT and SIGQUIT correspond to ^C and ^Y.
+ *
+ * This routine is not strictly necessary and can be stubbed.  This will
+ * mean that the game cannot be interrupted properly with keyboard
+ * input, this is not usually critical.
+ */</doc>
+<use f='codebrowser/room.c' l='648' u='c' c='do_shell'/>
+<use f='codebrowser/score.c' l='177' u='c' c='quit'/>

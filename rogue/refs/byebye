@@ -1,0 +1,3 @@
+<dec f='codebrowser/rogue.h' l='463' type='void byebye()'/>
+<def f='codebrowser/init.c' l='205' ll='215' type='void byebye()'/>
+<use f='codebrowser/machdep.c' l='230' u='r' c='md_heed_signals'/>

@@ -1,0 +1,26 @@
+<dec f='codebrowser/rogue.h' l='287' type='door [4]'/>
+<offset>64</offset>
+<use f='codebrowser/level.c' l='337' u='m' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='338' u='m' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='339' u='m' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='341' u='m' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='342' u='m' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='343' u='m' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='354' u='m' c='clear_level'/>
+<use f='codebrowser/level.c' l='406' u='m' c='put_door'/>
+<use f='codebrowser/level.c' l='407' u='m' c='put_door'/>
+<use f='codebrowser/level.c' l='546' u='m' c='fill_it'/>
+<use f='codebrowser/monster.c' l='733' u='m' c='aim_monster'/>
+<use f='codebrowser/monster.c' l='734' u='m' c='aim_monster'/>
+<use f='codebrowser/monster.c' l='735' u='m' c='aim_monster'/>
+<use f='codebrowser/room.c' l='354' u='m' c='visit_rooms'/>
+<use f='codebrowser/room.c' l='433' u='m' c='dr_course'/>
+<use f='codebrowser/room.c' l='434' u='m' c='dr_course'/>
+<use f='codebrowser/room.c' l='435' u='m' c='dr_course'/>
+<use f='codebrowser/room.c' l='458' u='m' c='dr_course'/>
+<use f='codebrowser/room.c' l='460' u='m' c='dr_course'/>
+<use f='codebrowser/room.c' l='461' u='m' c='dr_course'/>
+<use f='codebrowser/room.c' l='462' u='m' c='dr_course'/>
+<use f='codebrowser/room.c' l='495' u='m' c='get_oth_room'/>
+<use f='codebrowser/room.c' l='496' u='m' c='get_oth_room'/>
+<use f='codebrowser/room.c' l='497' u='m' c='get_oth_room'/>

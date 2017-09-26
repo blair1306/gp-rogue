@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='693' type='int mvwaddch(WINDOW * , int , int , const chtype )'/>
+<doc f='include/curses.h' l='693'>/* generated */</doc>

@@ -1,0 +1,31 @@
+<dec f='codebrowser/rogue.h' l='264' type='object'/>
+<offset>320</offset>
+<use f='codebrowser/init.c' l='131' u='m' c='player_init'/>
+<use f='codebrowser/init.c' l='135' u='a' c='player_init'/>
+<use f='codebrowser/init.c' l='143' u='a' c='player_init'/>
+<use f='codebrowser/init.c' l='152' u='a' c='player_init'/>
+<use f='codebrowser/init.c' l='162' u='a' c='player_init'/>
+<use f='codebrowser/init.c' l='172' u='a' c='player_init'/>
+<use f='codebrowser/object.c' l='264' u='m' c='get_letter_object'/>
+<use f='codebrowser/object.c' l='783' u='a' c='c_object_for_wizard'/>
+<use f='codebrowser/pack.c' l='143' u='a' c='pick_up'/>
+<use f='codebrowser/pack.c' l='158' u='m' c='drop'/>
+<use f='codebrowser/pack.c' l='201' u='a' c='drop'/>
+<use f='codebrowser/pack.c' l='253' u='m' c='next_avail_ichar'/>
+<use f='codebrowser/pack.c' l='278' u='a' c='pack_letter'/>
+<use f='codebrowser/pack.c' l='298' u='a' c='pack_letter'/>
+<use f='codebrowser/pack.c' l='467' u='m' c='pack_count'/>
+<use f='codebrowser/pack.c' l='542' u='a' c='has_amulet'/>
+<use f='codebrowser/play.c' l='93' u='a' c='play_level'/>
+<use f='codebrowser/save.c' l='132' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='203' u='a' c='restore'/>
+<use f='codebrowser/score.c' l='400' u='m' c='sell_pack'/>
+<use f='codebrowser/spec_hit.c' l='178' u='m' c='steal_item'/>
+<use f='codebrowser/spec_hit.c' l='194' u='m' c='steal_item'/>
+<use f='codebrowser/spec_hit.c' l='200' u='m' c='steal_item'/>
+<use f='codebrowser/spec_hit.c' l='216' u='a' c='steal_item'/>
+<use f='codebrowser/throw.c' l='122' u='a' c='throw'/>
+<use f='codebrowser/use.c' l='184' u='a' c='quaff'/>
+<use f='codebrowser/use.c' l='292' u='a' c='read_scroll'/>
+<use f='codebrowser/use.c' l='432' u='a' c='eat'/>
+<use f='codebrowser/use.c' l='614' u='m' c='uncurse_all'/>

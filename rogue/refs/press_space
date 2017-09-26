@@ -1,0 +1,5 @@
+<def f='codebrowser/inventory.c' l='57' type='char *'/>
+<use f='codebrowser/inventory.c' l='244' u='r' c='inventory'/>
+<use f='codebrowser/inventory.c' l='316' u='r' c='id_com'/>
+<dec f='codebrowser/room.c' l='61' type='char *'/>
+<use f='codebrowser/room.c' l='533' u='r' c='edit_opts'/>

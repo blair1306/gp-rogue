@@ -1,0 +1,5 @@
+<def f='codebrowser/init.c' l='64' macro='1' type='char'/>
+<use f='codebrowser/init.c' l='178' u='r' c='clean_up'/>
+<use f='codebrowser/init.c' l='233' u='w' c='error_save'/>
+<dec f='codebrowser/message.c' l='63' type='char'/>
+<use f='codebrowser/message.c' l='73' u='r' c='message'/>

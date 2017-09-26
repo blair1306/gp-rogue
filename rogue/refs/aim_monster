@@ -1,0 +1,2 @@
+<use f='codebrowser/monster.c' l='720' u='c' c='put_m_at'/>
+<def f='codebrowser/monster.c' l='723' ll='739' type='int aim_monster(object * monster)'/>

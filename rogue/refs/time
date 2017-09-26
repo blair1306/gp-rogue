@@ -1,0 +1,2 @@
+<dec f='include/time.h' l='192' type='time_t time(time_t * __timer)'/>
+<use f='codebrowser/machdep.c' l='312' u='c' c='md_gct'/>

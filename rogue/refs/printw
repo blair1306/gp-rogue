@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='737' type='int printw(const char * )'/>
+<doc f='include/curses.h' l='737'>/* implemented */</doc>

@@ -1,0 +1,23 @@
+<dec f='codebrowser/rogue.h' l='236' type='short'/>
+<use f='codebrowser/hit.c' l='73' u='w' c='mon_hit'/>
+<offset>368</offset>
+<use f='codebrowser/monster.c' l='176' u='w' c='gr_monster'/>
+<use f='codebrowser/monster.c' l='348' u='r' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='350' u='w' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='351' u='r' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='352' u='r' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='425' u='r' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='427' u='w' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='430' u='w' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='528' u='r' c='mon_can_go'/>
+<use f='codebrowser/monster.c' l='579' u='w' c='wake_room'/>
+<use f='codebrowser/monster.c' l='581' u='w' c='wake_room'/>
+<use f='codebrowser/monster.c' l='734' u='w' c='aim_monster'/>
+<use f='codebrowser/room.c' l='419' u='w' c='dr_course'/>
+<use f='codebrowser/room.c' l='434' u='w' c='dr_course'/>
+<use f='codebrowser/room.c' l='436' u='r' c='dr_course'/>
+<use f='codebrowser/room.c' l='449' u='w' c='dr_course'/>
+<use f='codebrowser/room.c' l='461' u='w' c='dr_course'/>
+<use f='codebrowser/room.c' l='470' u='w' c='dr_course'/>
+<use f='codebrowser/room.c' l='473' u='w' c='dr_course'/>
+<use f='codebrowser/room.c' l='475' u='w' c='dr_course'/>

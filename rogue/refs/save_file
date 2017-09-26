@@ -1,0 +1,10 @@
+<dec f='codebrowser/init.c' l='72' type='char *'/>
+<use f='codebrowser/init.c' l='276' u='a' c='do_opts'/>
+<use f='codebrowser/init.c' l='302' u='a' c='do_opts'/>
+<dec f='codebrowser/room.c' l='61' type='char *'/>
+<use f='codebrowser/room.c' l='97' u='a'/>
+<use f='codebrowser/room.c' l='97' u='a'/>
+<use f='codebrowser/room.c' l='97' u='a'/>
+<use f='codebrowser/room.c' l='97' u='a'/>
+<def f='codebrowser/save.c' l='58' type='char *'/>
+<use f='codebrowser/save.c' l='87' u='r' c='save_game'/>

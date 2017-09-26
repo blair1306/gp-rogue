@@ -1,0 +1,10 @@
+<dec f='include/stdio.h' l='272' type='FILE * fopen(const char *restrict __filename, const char *restrict __modes)'/>
+<doc f='include/stdio.h' l='268'>/* Open a file and create a new stream for it.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/message.c' l='325' u='c' c='save_screen'/>
+<use f='codebrowser/save.c' l='112' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='175' u='c' c='restore'/>
+<use f='codebrowser/score.c' l='210' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='211' u='c' c='put_scores'/>

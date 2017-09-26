@@ -1,0 +1,4 @@
+<use f='codebrowser/level.c' l='752' u='c' c='put_player'/>
+<def f='codebrowser/monster.c' l='559' ll='593' type='int wake_room(short rn, char entering, short row, short col)'/>
+<use f='codebrowser/move.c' l='113' u='c' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='120' u='c' c='one_move_rogue'/>

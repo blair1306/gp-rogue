@@ -1,0 +1,10 @@
+<dec f='codebrowser/rogue.h' l='433' type='char * mon_name()'/>
+<use f='codebrowser/hit.c' l='86' u='c' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='309' u='c' c='mon_damage'/>
+<def f='codebrowser/monster.c' l='595' ll='611' type='char * mon_name(object * monster)'/>
+<use f='codebrowser/spec_hit.c' l='364' u='c' c='check_imitator'/>
+<use f='codebrowser/spec_hit.c' l='403' u='c' c='sting'/>
+<use f='codebrowser/spec_hit.c' l='471' u='c' c='m_confuse'/>
+<use f='codebrowser/zap.c' l='336' u='c' c='bounce'/>
+<use f='codebrowser/zap.c' l='352' u='c' c='bounce'/>
+<use f='codebrowser/zap.c' l='369' u='c' c='bounce'/>

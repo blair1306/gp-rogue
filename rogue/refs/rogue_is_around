@@ -1,0 +1,3 @@
+<use f='codebrowser/monster.c' l='314' u='c' c='mv_1_monster'/>
+<def f='codebrowser/monster.c' l='613' ll='623' type='int rogue_is_around(int row, int col)'/>
+<use f='codebrowser/monster.c' l='749' u='c' c='rogue_can_see'/>

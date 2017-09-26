@@ -1,0 +1,6 @@
+is_digit|is_digit
+is_direction|is_direction
+is_passable|is_passable
+is_pack_letter|is_pack_letter
+is_all_connected|is_all_connected
+is_vowel|is_vowel

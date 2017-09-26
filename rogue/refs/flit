@@ -1,0 +1,2 @@
+<use f='codebrowser/monster.c' l='325' u='c' c='mv_1_monster'/>
+<def f='codebrowser/monster.c' l='784' ll='808' type='int flit(object * monster)'/>

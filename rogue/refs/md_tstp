@@ -1,0 +1,9 @@
+<def f='codebrowser/machdep.c' l='672' ll='677' type='int md_tstp()'/>
+<doc f='codebrowser/machdep.c' l='663'>/* md_tstp():
+ *
+ * This function puts the game to sleep and returns to the shell.  This
+ * only applies to UNIX 4.2 and 4.3.  For other systems, the routine should
+ * be provided as a do-nothing routine.  md_tstp() will only be referenced
+ * in the code when compiled with CURSES defined.
+ *
+ */</doc>

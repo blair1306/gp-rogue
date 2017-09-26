@@ -1,0 +1,3 @@
+<use f='codebrowser/trap.c' l='137' u='c' c='trap_player'/>
+<use f='codebrowser/use.c' l='256' u='c' c='read_scroll'/>
+<def f='codebrowser/use.c' l='540' ll='552' type='int take_a_nap()'/>

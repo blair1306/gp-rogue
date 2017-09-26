@@ -1,0 +1,3 @@
+<dec f='include/curses.h' l='1644' type='int mcprint(char * , int )'/>
+<doc f='include/curses.h' l='1642'>/* other non-XSI functions */</doc>
+<doc f='include/curses.h' l='1644'>/* direct data to printer */</doc>

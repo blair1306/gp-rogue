@@ -1,0 +1,4 @@
+<use f='codebrowser/save.c' l='185' u='c' c='restore'/>
+<use f='codebrowser/save.c' l='188' u='c' c='restore'/>
+<use f='codebrowser/save.c' l='330' u='c' c='rw_id'/>
+<def f='codebrowser/save.c' l='347' ll='356' type='int read_string(char * s, FILE * fp)'/>

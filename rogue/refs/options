@@ -1,0 +1,10 @@
+<def f='codebrowser/room.c' l='65' ll='99' type='struct option [7]'/>
+<use f='codebrowser/room.c' l='553' u='m' c='edit_opts'/>
+<use f='codebrowser/room.c' l='554' u='m' c='edit_opts'/>
+<use f='codebrowser/room.c' l='560' u='m' c='edit_opts'/>
+<use f='codebrowser/room.c' l='574' u='m' c='edit_opts'/>
+<use f='codebrowser/room.c' l='576' u='m' c='edit_opts'/>
+<use f='codebrowser/room.c' l='582' u='m' c='edit_opts'/>
+<use f='codebrowser/room.c' l='605' u='a' c='opt_show'/>
+<use f='codebrowser/room.c' l='620' u='a' c='opt_erase'/>
+<use f='codebrowser/room.c' l='629' u='m' c='opt_go'/>

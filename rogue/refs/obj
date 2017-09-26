@@ -1,0 +1,27 @@
+<def f='codebrowser/rogue.h' l='221' ll='242'/>
+<size>72</size>
+<doc f='codebrowser/rogue.h' l='221'>/* comment is monster meaning */</doc>
+<mbr r='obj::m_flags' o='0' t='unsigned long'/>
+<mbr r='obj::damage' o='64' t='char *'/>
+<mbr r='obj::quantity' o='128' t='short'/>
+<mbr r='obj::ichar' o='144' t='short'/>
+<mbr r='obj::kill_exp' o='160' t='short'/>
+<mbr r='obj::is_protected' o='176' t='short'/>
+<mbr r='obj::is_cursed' o='192' t='short'/>
+<mbr r='obj::class' o='208' t='short'/>
+<mbr r='obj::identified' o='224' t='short'/>
+<mbr r='obj::which_kind' o='240' t='unsigned short'/>
+<mbr r='obj::o_row' o='256' t='short'/>
+<mbr r='obj::o_col' o='272' t='short'/>
+<mbr r='obj::o' o='288' t='short'/>
+<mbr r='obj::row' o='304' t='short'/>
+<mbr r='obj::col' o='320' t='short'/>
+<mbr r='obj::d_enchant' o='336' t='short'/>
+<mbr r='obj::quiver' o='352' t='short'/>
+<mbr r='obj::trow' o='368' t='short'/>
+<mbr r='obj::tcol' o='384' t='short'/>
+<mbr r='obj::hit_enchant' o='400' t='short'/>
+<mbr r='obj::what_is' o='416' t='unsigned short'/>
+<mbr r='obj::picked_up' o='432' t='short'/>
+<mbr r='obj::in_use_flags' o='448' t='unsigned short'/>
+<mbr r='obj::next_object' o='512' t='struct obj *'/>

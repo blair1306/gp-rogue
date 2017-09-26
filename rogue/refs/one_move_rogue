@@ -1,0 +1,6 @@
+<use f='codebrowser/hit.c' l='364' u='c' c='fight'/>
+<def f='codebrowser/move.c' l='67' ll='179' type='int one_move_rogue(short dirch, short pickup)'/>
+<use f='codebrowser/move.c' l='199' u='c' c='multiple_move_rogue'/>
+<use f='codebrowser/move.c' l='218' u='c' c='multiple_move_rogue'/>
+<use f='codebrowser/move.c' l='332' u='c' c='move_onto'/>
+<use f='codebrowser/play.c' l='109' u='c' c='play_level'/>

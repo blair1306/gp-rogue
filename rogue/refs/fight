@@ -1,0 +1,3 @@
+<def f='codebrowser/hit.c' l='325' ll='375' type='int fight(char to_the_death)'/>
+<use f='codebrowser/play.c' l='96' u='c' c='play_level'/>
+<use f='codebrowser/play.c' l='99' u='c' c='play_level'/>

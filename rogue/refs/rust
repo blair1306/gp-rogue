@@ -1,0 +1,3 @@
+<use f='codebrowser/spec_hit.c' l='71' u='c' c='special_hit'/>
+<def f='codebrowser/spec_hit.c' l='95' ll='112' type='int rust(object * monster)'/>
+<use f='codebrowser/trap.c' l='141' u='c' c='trap_player'/>

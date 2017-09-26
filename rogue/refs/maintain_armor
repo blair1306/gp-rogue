@@ -1,0 +1,6 @@
+<def f='codebrowser/ring.c' l='67' macro='1' type='char'/>
+<use f='codebrowser/ring.c' l='268' u='r' c='inv_rings'/>
+<use f='codebrowser/ring.c' l='288' u='w' c='ring_stats'/>
+<use f='codebrowser/ring.c' l='325' u='w' c='ring_stats'/>
+<dec f='codebrowser/spec_hit.c' l='61' type='char'/>
+<use f='codebrowser/spec_hit.c' l='102' u='r' c='rust'/>

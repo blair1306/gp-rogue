@@ -1,0 +1,20 @@
+<use f='codebrowser/init.c' l='196' u='c' c='start_window'/>
+<use f='codebrowser/init.c' l='202' u='c' c='stop_window'/>
+<def f='codebrowser/machdep.c' l='158' ll='209' type='int md_control_keybord(char mode)'/>
+<doc f='codebrowser/machdep.c' l='140'>/* md_control_keyboard():
+ *
+ * This routine is much like md_cbreak_no_echo_nonl() below.  It sets up the
+ * keyboard for appropriate input.  Specifically, it prevents the tty driver
+ * from stealing characters.  For example, ^Y is needed as a command
+ * character, but the tty driver intercepts it for another purpose.  Any
+ * such behavior should be stopped.  This routine could be avoided if
+ * we used RAW mode instead of CBREAK.  But RAW mode does not allow the
+ * generation of keyboard signals, which the program uses.
+ *
+ * The parameter &apos;mode&apos; when true, indicates that the keyboard should
+ * be set up to play rogue.  When false, it should be restored if
+ * necessary.
+ *
+ * This routine is not strictly necessary and may be stubbed.  This may
+ * cause certain command characters to be unavailable.
+ */</doc>

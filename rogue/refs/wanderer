@@ -1,0 +1,2 @@
+<def f='codebrowser/monster.c' l='625' ll='653' type='int wanderer()'/>
+<use f='codebrowser/move.c' l='458' u='c' c='reg_move'/>

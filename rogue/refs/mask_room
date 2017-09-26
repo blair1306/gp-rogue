@@ -1,0 +1,3 @@
+<dec f='codebrowser/rogue.h' l='442' type='char mask_room()'/>
+<use f='codebrowser/level.c' l='550' u='c' c='fill_it'/>
+<def f='codebrowser/level.c' l='608' ll='626' macro='1' type='char mask_room(short rn, short * row, short * col, unsigned short mask)'/>

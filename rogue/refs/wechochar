@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='822' type='int wechochar(WINDOW * , const chtype )'/>
+<doc f='include/curses.h' l='822'>/* implemented */</doc>

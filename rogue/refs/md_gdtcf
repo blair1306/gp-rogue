@@ -1,0 +1,14 @@
+<def f='codebrowser/machdep.c' l='657' ll='661' type='char * md_gdtcf()'/>
+<doc f='codebrowser/machdep.c' l='643'>/* md_gdtcf(): (Get Default Termcap File)
+ *
+ * This function is called ONLY when the program is compiled with CURSES
+ * defined.  If you use your system&apos;s curses/termlib library, this function
+ * won&apos;t be called.  On most UNIX systems, &quot;/etc/termcap&quot; suffices.
+ *
+ * If their is no such termcap file, then return 0, but in that case, you
+ * must have a TERMCAP file returned from md_getenv(&quot;TERMCAP&quot;).  The latter
+ * will override the value returned from md_gdtcf().  If the program is
+ * compiled with CURSES defined, and md_gdtcf() returns 0, and
+ * md_getenv(&quot;TERMCAP&quot;) returns 0, the program will have no terminal
+ * capability information and will quit.
+ */</doc>

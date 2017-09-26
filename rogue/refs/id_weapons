@@ -1,0 +1,6 @@
+<dec f='codebrowser/rogue.h' l='349' type='struct id []'/>
+<use f='codebrowser/inventory.c' l='676' u='r' c='get_id_table'/>
+<def f='codebrowser/object.c' l='107' ll='116' type='struct id [8]'/>
+<use f='codebrowser/object.c' l='323' u='m' c='name_of'/>
+<use f='codebrowser/score.c' l='436' u='m' c='get_value'/>
+<use f='codebrowser/score.c' l='481' u='m' c='id_all'/>

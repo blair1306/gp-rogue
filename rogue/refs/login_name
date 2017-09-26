@@ -1,0 +1,11 @@
+<def f='codebrowser/init.c' l='57' type='char [40]'/>
+<use f='codebrowser/init.c' l='87' u='r' c='init'/>
+<use f='codebrowser/init.c' l='301' c='do_opts'/>
+<dec f='codebrowser/save.c' l='63' type='char []'/>
+<use f='codebrowser/save.c' l='124' c='save_into_file'/>
+<use f='codebrowser/save.c' l='187' u='r' c='restore'/>
+<use f='codebrowser/save.c' l='188' c='restore'/>
+<use f='codebrowser/save.c' l='189' u='r' c='restore'/>
+<dec f='codebrowser/score.c' l='58' type='char []'/>
+<use f='codebrowser/score.c' l='232' c='put_scores'/>
+<use f='codebrowser/score.c' l='340' c='insert_score'/>

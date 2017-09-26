@@ -1,0 +1,12 @@
+<dec f='codebrowser/rogue.h' l='236' type='short'/>
+<offset>384</offset>
+<use f='codebrowser/monster.c' l='349' u='r' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='353' u='r' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='428' u='w' c='mv_1_monster'/>
+<use f='codebrowser/monster.c' l='582' u='w' c='wake_room'/>
+<use f='codebrowser/monster.c' l='735' u='w' c='aim_monster'/>
+<use f='codebrowser/room.c' l='435' u='w' c='dr_course'/>
+<use f='codebrowser/room.c' l='437' u='r' c='dr_course'/>
+<use f='codebrowser/room.c' l='450' u='w' c='dr_course'/>
+<use f='codebrowser/room.c' l='462' u='w' c='dr_course'/>
+<use f='codebrowser/room.c' l='476' u='w' c='dr_course'/>

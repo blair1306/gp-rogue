@@ -1,0 +1,54 @@
+<dec f='include/string.h' l='125' type='char * strcpy(char *restrict __dest, const char *restrict __src)'/>
+<dec f='codebrowser/rogue.h' l='429' type='char * strcpy(char * , const char * )'/>
+<use f='codebrowser/hit.c' l='141' u='c' c='rogue_hit'/>
+<use f='codebrowser/hit.c' l='154' u='c' c='rogue_hit'/>
+<doc f='include/string.h' l='124'>/* Copy SRC to DEST.  */</doc>
+<doc f='codebrowser/rogue.h' l='427'>/* external routine declarations.
+ */</doc>
+<use f='codebrowser/init.c' l='87' u='c' c='init'/>
+<use f='codebrowser/init.c' l='337' u='c' c='init_str'/>
+<use f='codebrowser/inventory.c' l='244' u='c' c='inventory'/>
+<use f='codebrowser/inventory.c' l='398' u='c' c='pr_motion_char'/>
+<use f='codebrowser/inventory.c' l='421' u='c' c='mix_colors'/>
+<use f='codebrowser/inventory.c' l='422' u='c' c='mix_colors'/>
+<use f='codebrowser/inventory.c' l='423' u='c' c='mix_colors'/>
+<use f='codebrowser/inventory.c' l='434' u='c' c='make_scroll_titles'/>
+<use f='codebrowser/inventory.c' l='441' u='c' c='make_scroll_titles'/>
+<use f='codebrowser/inventory.c' l='455' u='c' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='467' u='c' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='477' u='c' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='480' u='c' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='523' u='c' c='get_desc'/>
+<use f='codebrowser/inventory.c' l='623' u='c' c='get_wand_and_ring_materials'/>
+<use f='codebrowser/inventory.c' l='634' u='c' c='get_wand_and_ring_materials'/>
+<use f='codebrowser/message.c' l='89' u='c' c='message'/>
+<use f='codebrowser/message.c' l='146' u='c' c='get_input_line'/>
+<use f='codebrowser/move.c' l='153' u='c' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='382' u='c' c='check_hunger'/>
+<use f='codebrowser/move.c' l='387' u='c' c='check_hunger'/>
+<use f='codebrowser/move.c' l='393' u='c' c='check_hunger'/>
+<use f='codebrowser/pack.c' l='204' u='c' c='drop'/>
+<use f='codebrowser/pack.c' l='320' u='c' c='take_off'/>
+<use f='codebrowser/pack.c' l='355' u='c' c='wear'/>
+<use f='codebrowser/pack.c' l='409' u='c' c='wield'/>
+<use f='codebrowser/pack.c' l='457' u='c' c='call_it'/>
+<use f='codebrowser/ring.c' l='186' u='c' c='remove_ring'/>
+<use f='codebrowser/room.c' l='582' u='c' c='edit_opts'/>
+<use f='codebrowser/save.c' l='107' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='187' u='c' c='restore'/>
+<use f='codebrowser/score.c' l='79' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='82' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='85' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='88' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='91' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='95' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='249' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='250' u='c' c='put_scores'/>
+<use f='codebrowser/score.c' l='335' u='c' c='insert_score'/>
+<use f='codebrowser/score.c' l='336' u='c' c='insert_score'/>
+<use f='codebrowser/score.c' l='360' u='c' c='insert_score'/>
+<use f='codebrowser/score.c' l='380' u='c' c='insert_score'/>
+<use f='codebrowser/score.c' l='381' u='c' c='insert_score'/>
+<use f='codebrowser/score.c' l='549' u='c' c='nickize'/>
+<use f='codebrowser/score.c' l='557' u='c' c='nickize'/>
+<use f='codebrowser/spec_hit.c' l='206' u='c' c='steal_item'/>

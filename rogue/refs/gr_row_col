@@ -1,0 +1,9 @@
+<use f='codebrowser/level.c' l='735' u='c' c='put_player'/>
+<use f='codebrowser/monster.c' l='148' u='c' c='put_mons'/>
+<use f='codebrowser/monster.c' l='643' u='c' c='wanderer'/>
+<use f='codebrowser/object.c' l='601' u='c' c='put_stairs'/>
+<use f='codebrowser/object.c' l='705' u='c' c='rand_place'/>
+<def f='codebrowser/room.c' l='246' ll='265' type='int gr_row_col(short * row, short * col, unsigned short mask)'/>
+<use f='codebrowser/trap.c' l='179' u='c' c='add_traps'/>
+<use f='codebrowser/trap.c' l='182' u='c' c='add_traps'/>
+<use f='codebrowser/zap.c' l='215' u='c' c='tele_away'/>

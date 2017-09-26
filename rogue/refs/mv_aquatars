@@ -1,0 +1,4 @@
+<def f='codebrowser/monster.c' l='873' ll='887' type='int mv_aquatars()'/>
+<use f='codebrowser/pack.c' l='180' u='c' c='drop'/>
+<use f='codebrowser/pack.c' l='317' u='c' c='take_off'/>
+<use f='codebrowser/throw.c' l='99' u='c' c='throw'/>

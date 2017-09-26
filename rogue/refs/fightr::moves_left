@@ -1,0 +1,20 @@
+<dec f='codebrowser/rogue.h' l='270' type='short'/>
+<offset>1136</offset>
+<use f='codebrowser/move.c' l='381' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='386' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='391' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='392' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='397' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='401' u='w' c='check_hunger'/>
+<use f='codebrowser/move.c' l='415' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='424' u='w' c='check_hunger'/>
+<use f='codebrowser/move.c' l='424' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='427' u='w' c='check_hunger'/>
+<use f='codebrowser/move.c' l='430' u='w' c='check_hunger'/>
+<use f='codebrowser/move.c' l='432' u='w' c='check_hunger'/>
+<use f='codebrowser/move.c' l='432' u='r' c='check_hunger'/>
+<use f='codebrowser/move.c' l='435' u='w' c='check_hunger'/>
+<use f='codebrowser/move.c' l='437' u='w' c='check_hunger'/>
+<use f='codebrowser/move.c' l='448' u='r' c='reg_move'/>
+<use f='codebrowser/use.c' l='427' u='w' c='eat'/>
+<use f='codebrowser/use.c' l='428' u='w' c='eat'/>

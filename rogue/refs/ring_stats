@@ -1,0 +1,5 @@
+<use f='codebrowser/init.c' l='123' u='c' c='init'/>
+<use f='codebrowser/ring.c' l='120' u='c' c='put_on_ring'/>
+<use f='codebrowser/ring.c' l='204' u='c' c='un_put_on'/>
+<def f='codebrowser/ring.c' l='273' ll='336' type='int ring_stats(char pr)'/>
+<use f='codebrowser/save.c' l='241' u='c' c='restore'/>

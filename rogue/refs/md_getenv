@@ -1,0 +1,41 @@
+<dec f='codebrowser/rogue.h' l='437' type='char * md_getenv()'/>
+<use f='codebrowser/init.c' l='263' u='c' c='do_opts'/>
+<def f='codebrowser/machdep.c' l='452' ll='462' type='char * md_getenv(char * name)'/>
+<doc f='codebrowser/machdep.c' l='415'>/* md_getenv()
+ *
+ * This routine gets certain values from the user&apos;s environment.  These
+ * values are strings, and each string is identified by a name.  The names
+ * of the values needed, and their use, is as follows:
+ *
+ *   TERMCAP
+ *     The name of the users&apos;s termcap file, NOT the termcap entries
+ *     themselves.  This is used ONLY if the program is compiled with
+ *     CURSES defined (-DCURSES).  Even in this case, the program need
+ *     not find a string for TERMCAP.  If it does not, it will use the
+ *     default termcap file as returned by md_gdtcf();
+ *   TERM
+ *     The name of the users&apos;s terminal.  This is used ONLY if the program
+ *     is compiled with CURSES defined (-DCURSES).  In this case, the string
+ *     value for TERM must be found, or the routines in curses.c cannot
+ *     function, and the program will quit.
+ *   ROGUEOPTS
+ *     A string containing the various game options.  This need not be
+ *     defined.
+ *   HOME
+ *     The user&apos;s home directory.  This is only used when the user specifies
+ *     &apos;~&apos; as the first character of a saved-game file.  This string need
+ *     not be defined.
+ *   SHELL
+ *     The user&apos;s favorite shell.  If not found, &quot;/bin/sh&quot; is assumed.
+ *
+ * If your system does not provide a means of searching for these values,
+ * you will have to do it yourself.  None of the values above really need
+ * to be defined except TERM when the program is compiled with CURSES
+ * defined.  In this case, as a bare minimum, you can check the &apos;name&apos;
+ * parameter, and if it is &quot;TERM&quot; find the terminal name and return that,
+ * else return zero.  If the program is not compiled with CURSES, you can
+ * get by with simply always returning zero.  Returning zero indicates
+ * that their is no defined value for the given string.
+ */</doc>
+<use f='codebrowser/room.c' l='638' u='c' c='do_shell'/>
+<use f='codebrowser/save.c' l='106' u='c' c='save_into_file'/>

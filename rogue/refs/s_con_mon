@@ -1,0 +1,4 @@
+<use f='codebrowser/hit.c' l='150' u='c' c='rogue_hit'/>
+<def f='codebrowser/hit.c' l='452' ll='461' type='int s_con_mon(object * monster)'/>
+<use f='codebrowser/throw.c' l='154' u='c' c='throw_at_monster'/>
+<use f='codebrowser/zap.c' l='107' u='c' c='zapp'/>

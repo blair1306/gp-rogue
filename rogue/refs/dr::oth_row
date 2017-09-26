@@ -1,0 +1,7 @@
+<dec f='codebrowser/rogue.h' l='277' type='short'/>
+<offset>16</offset>
+<use f='codebrowser/level.c' l='338' u='w' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='342' u='w' c='connect_rooms'/>
+<use f='codebrowser/room.c' l='434' u='r' c='dr_course'/>
+<use f='codebrowser/room.c' l='461' u='r' c='dr_course'/>
+<use f='codebrowser/room.c' l='496' u='r' c='get_oth_room'/>

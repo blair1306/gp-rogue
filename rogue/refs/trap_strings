@@ -1,0 +1,8 @@
+<def f='codebrowser/trap.c' l='59' ll='72' type='char *[12]'/>
+<use f='codebrowser/trap.c' l='110' u='r' c='trap_player'/>
+<use f='codebrowser/trap.c' l='113' u='r' c='trap_player'/>
+<use f='codebrowser/trap.c' l='121' u='r' c='trap_player'/>
+<use f='codebrowser/trap.c' l='136' u='r' c='trap_player'/>
+<use f='codebrowser/trap.c' l='140' u='r' c='trap_player'/>
+<use f='codebrowser/trap.c' l='211' u='r' c='id_trap'/>
+<use f='codebrowser/trap.c' l='270' u='r' c='search'/>

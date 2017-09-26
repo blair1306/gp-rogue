@@ -1,0 +1,12 @@
+<use f='codebrowser/hit.c' l='319' u='c' c='mon_damage'/>
+<use f='codebrowser/monster.c' l='634' u='c' c='wanderer'/>
+<use f='codebrowser/monster.c' l='650' u='c' c='wanderer'/>
+<use f='codebrowser/move.c' l='142' u='c' c='one_move_rogue'/>
+<use f='codebrowser/object.c' l='281' u='c' c='free_stuff'/>
+<def f='codebrowser/object.c' l='635' ll='640' type='int free_object(object * obj)'/>
+<use f='codebrowser/object.c' l='777' u='c' c='c_object_for_wizard'/>
+<use f='codebrowser/pack.c' l='68' u='c' c='add_to_pack'/>
+<use f='codebrowser/pack.c' l='558' u='c' c='kick_into_pack'/>
+<use f='codebrowser/spec_hit.c' l='234' u='c' c='disappear'/>
+<use f='codebrowser/spec_hit.c' l='279' u='c' c='cough_up'/>
+<use f='codebrowser/use.c' l='315' u='c' c='vanish'/>

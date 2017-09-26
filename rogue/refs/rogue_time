@@ -1,0 +1,8 @@
+<def f='codebrowser/rogue.h' l='465' ll='472'/>
+<size>12</size>
+<mbr r='rogue_time::year' o='0' t='short'/>
+<mbr r='rogue_time::month' o='16' t='short'/>
+<mbr r='rogue_time::day' o='32' t='short'/>
+<mbr r='rogue_time::hour' o='48' t='short'/>
+<mbr r='rogue_time::minute' o='64' t='short'/>
+<mbr r='rogue_time::second' o='80' t='short'/>

@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='788' type='int ungetch(int )'/>
+<doc f='include/curses.h' l='788'>/* implemented */</doc>

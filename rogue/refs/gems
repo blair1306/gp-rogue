@@ -1,0 +1,2 @@
+<def f='codebrowser/inventory.c' l='93' ll='108' type='char *[14]'/>
+<use f='codebrowser/inventory.c' l='634' u='r' c='get_wand_and_ring_materials'/>

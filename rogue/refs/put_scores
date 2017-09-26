@@ -1,0 +1,4 @@
+<use f='codebrowser/init.c' l='108' u='c' c='init'/>
+<use f='codebrowser/score.c' l='129' u='c' c='killed_by'/>
+<use f='codebrowser/score.c' l='152' u='c' c='win'/>
+<def f='codebrowser/score.c' l='196' ll='320' type='int put_scores(object * monster, short other)'/>

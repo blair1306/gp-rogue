@@ -1,0 +1,27 @@
+<dec f='codebrowser/rogue.h' l='266' type='short'/>
+<use f='codebrowser/hit.c' l='78' u='r' c='mon_hit'/>
+<use f='codebrowser/hit.c' l='437' u='r' c='get_hit_chance'/>
+<use f='codebrowser/hit.c' l='448' u='r' c='get_weapon_damage'/>
+<offset>960</offset>
+<use f='codebrowser/level.c' l='808' u='r' c='add_exp'/>
+<use f='codebrowser/level.c' l='813' u='r' c='add_exp'/>
+<use f='codebrowser/level.c' l='821' u='w' c='add_exp'/>
+<use f='codebrowser/level.c' l='856' u='r' c='show_average_hp'/>
+<use f='codebrowser/level.c' l='860' u='r' c='show_average_hp'/>
+<use f='codebrowser/level.c' l='861' u='r' c='show_average_hp'/>
+<use f='codebrowser/message.c' l='293' u='r' c='print_stats'/>
+<use f='codebrowser/message.c' l='294' u='w' c='print_stats'/>
+<use f='codebrowser/message.c' l='296' u='r' c='print_stats'/>
+<use f='codebrowser/move.c' l='558' u='r' c='heal'/>
+<use f='codebrowser/move.c' l='559' u='r' c='heal'/>
+<use f='codebrowser/spec_hit.c' l='124' u='r' c='freeze'/>
+<use f='codebrowser/spec_hit.c' l='398' u='r' c='sting'/>
+<use f='codebrowser/spec_hit.c' l='399' u='r' c='sting'/>
+<use f='codebrowser/spec_hit.c' l='414' u='r' c='drop_level'/>
+<use f='codebrowser/spec_hit.c' l='417' u='r' c='drop_level'/>
+<use f='codebrowser/spec_hit.c' l='418' u='w' c='drop_level'/>
+<use f='codebrowser/trap.c' l='103' u='r' c='trap_player'/>
+<use f='codebrowser/trap.c' l='261' u='r' c='search'/>
+<use f='codebrowser/use.c' l='127' u='r' c='quaff'/>
+<use f='codebrowser/use.c' l='327' u='r' c='potion_heal'/>
+<use f='codebrowser/zap.c' l='380' u='r' c='bounce'/>

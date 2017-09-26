@@ -1,0 +1,6 @@
+<dec f='codebrowser/rogue.h' l='322'/>
+<use f='codebrowser/message.c' l='300' u='c'/>
+<use f='codebrowser/move.c' l='384' u='c'/>
+<use f='codebrowser/move.c' l='389' u='c'/>
+<use f='codebrowser/move.c' l='395' u='c'/>
+<use f='codebrowser/use.c' l='430' u='c'/>

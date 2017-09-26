@@ -1,0 +1,3 @@
+<use f='codebrowser/monster.c' l='446' u='c' c='mtry'/>
+<def f='codebrowser/monster.c' l='452' ll='500' type='int move_mon_to(object * monster, short row, short col)'/>
+<use f='codebrowser/spec_hit.c' l='316' u='c' c='seek_gold'/>

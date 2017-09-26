@@ -1,0 +1,2 @@
+<dec f='include/curses.h' l='791' type='void use_tioctl(_Bool )'/>
+<doc f='include/curses.h' l='791'>/* implemented */</doc>

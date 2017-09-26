@@ -1,0 +1,2 @@
+<use f='codebrowser/use.c' l='271' u='c' c='read_scroll'/>
+<def f='codebrowser/use.c' l='610' ll='620' type='int uncurse_all()'/>

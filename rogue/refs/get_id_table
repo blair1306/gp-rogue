@@ -1,0 +1,5 @@
+<dec f='codebrowser/rogue.h' l='458' type='struct id * get_id_table()'/>
+<use f='codebrowser/inventory.c' l='485' u='c' c='get_desc'/>
+<def f='codebrowser/inventory.c' l='662' ll='681' type='struct id * get_id_table(object * obj)'/>
+<use f='codebrowser/pack.c' l='453' u='c' c='call_it'/>
+<use f='codebrowser/use.c' l='387' u='c' c='idntfy'/>

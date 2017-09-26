@@ -1,0 +1,4 @@
+<use f='codebrowser/save.c' l='123' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='124' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='325' u='c' c='rw_id'/>
+<def f='codebrowser/save.c' l='335' ll='345' type='int write_string(char * s, FILE * fp)'/>

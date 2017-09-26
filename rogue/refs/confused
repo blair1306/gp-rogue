@@ -1,0 +1,18 @@
+<dec f='codebrowser/move.c' l='62' type='short'/>
+<use f='codebrowser/move.c' l='78' u='r' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='178' u='r' c='one_move_rogue'/>
+<use f='codebrowser/move.c' l='248' u='r' c='next_to_something'/>
+<use f='codebrowser/move.c' l='472' u='r' c='reg_move'/>
+<use f='codebrowser/move.c' l='473' u='w' c='reg_move'/>
+<dec f='codebrowser/save.c' l='72' type='short'/>
+<use f='codebrowser/save.c' l='145' u='a' c='save_into_file'/>
+<use f='codebrowser/save.c' l='145' c='save_into_file'/>
+<use f='codebrowser/save.c' l='216' u='a' c='restore'/>
+<use f='codebrowser/save.c' l='216' c='restore'/>
+<def f='codebrowser/use.c' l='57' type='short'/>
+<use f='codebrowser/use.c' l='355' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='357' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='358' u='w' c='potion_heal'/>
+<use f='codebrowser/use.c' l='358' u='r' c='potion_heal'/>
+<use f='codebrowser/use.c' l='598' u='w' c='cnfs'/>
+<use f='codebrowser/use.c' l='605' u='w' c='unconfuse'/>

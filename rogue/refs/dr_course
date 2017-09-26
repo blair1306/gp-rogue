@@ -1,0 +1,2 @@
+<use f='codebrowser/monster.c' l='494' u='c' c='move_mon_to'/>
+<def f='codebrowser/room.c' l='407' ll='479' type='int dr_course(object * monster, char entering, short row, short col)'/>

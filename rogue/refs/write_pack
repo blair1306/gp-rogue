@@ -1,0 +1,4 @@
+<use f='codebrowser/save.c' l='126' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='127' u='c' c='save_into_file'/>
+<use f='codebrowser/save.c' l='132' u='c' c='save_into_file'/>
+<def f='codebrowser/save.c' l='245' ll='256' type='int write_pack(object * pack, FILE * fp)'/>

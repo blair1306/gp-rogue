@@ -1,0 +1,8 @@
+<dec f='codebrowser/rogue.h' l='85'/>
+<use f='codebrowser/object.c' l='310' u='c'/>
+<use f='codebrowser/object.c' l='498' u='c'/>
+<use f='codebrowser/object.c' l='526' u='c'/>
+<use f='codebrowser/pack.c' l='232' u='c'/>
+<use f='codebrowser/pack.c' l='477' u='c'/>
+<use f='codebrowser/score.c' l='438' u='c'/>
+<use f='codebrowser/throw.c' l='141' u='c'/>

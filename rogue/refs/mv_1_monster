@@ -1,0 +1,6 @@
+<use f='codebrowser/monster.c' l='195' u='c' c='mv_mons'/>
+<use f='codebrowser/monster.c' l='213' u='c' c='mv_mons'/>
+<use f='codebrowser/monster.c' l='219' u='c' c='mv_mons'/>
+<def f='codebrowser/monster.c' l='299' ll='439' type='int mv_1_monster(object * monster, short row, short col)'/>
+<use f='codebrowser/monster.c' l='882' u='c' c='mv_aquatars'/>
+<use f='codebrowser/spec_hit.c' l='323' u='c' c='seek_gold'/>

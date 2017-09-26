@@ -1,0 +1,6 @@
+<dec f='codebrowser/level.c' l='92' type='short'/>
+<use f='codebrowser/level.c' l='860' u='r' c='show_average_hp'/>
+<use f='codebrowser/level.c' l='865' u='r' c='show_average_hp'/>
+<def f='codebrowser/use.c' l='61' type='short'/>
+<use f='codebrowser/use.c' l='333' u='w' c='potion_heal'/>
+<use f='codebrowser/use.c' l='337' u='w' c='potion_heal'/>

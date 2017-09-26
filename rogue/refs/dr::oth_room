@@ -1,0 +1,12 @@
+<dec f='codebrowser/rogue.h' l='276' type='short'/>
+<offset>0</offset>
+<use f='codebrowser/level.c' l='337' u='w' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='341' u='w' c='connect_rooms'/>
+<use f='codebrowser/level.c' l='354' u='w' c='clear_level'/>
+<use f='codebrowser/level.c' l='546' u='r' c='fill_it'/>
+<use f='codebrowser/monster.c' l='733' u='r' c='aim_monster'/>
+<use f='codebrowser/room.c' l='354' u='r' c='visit_rooms'/>
+<use f='codebrowser/room.c' l='433' u='r' c='dr_course'/>
+<use f='codebrowser/room.c' l='458' u='r' c='dr_course'/>
+<use f='codebrowser/room.c' l='460' u='r' c='dr_course'/>
+<use f='codebrowser/room.c' l='495' u='r' c='get_oth_room'/>
